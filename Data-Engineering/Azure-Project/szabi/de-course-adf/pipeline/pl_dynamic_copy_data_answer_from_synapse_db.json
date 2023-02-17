@@ -1,0 +1,87 @@
+{
+	"name": "pl_dynamic_copy_data_answer_from_synapse_db",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data answer from synapse to adls",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "SqlDWSource",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "dynamic_Source_StackoverflowPostAnswers",
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": {
+								"value": "@variables('SourceFilename')",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "dynamic_Landing_StackoverflowPostAnswers",
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": {
+								"value": "@variables('LandingFilename')",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"variables": {
+			"SourceFilename": {
+				"type": "String",
+				"defaultValue": "stackoverflow_post_answers"
+			},
+			"LandingFilename": {
+				"type": "String",
+				"defaultValue": "stackoverflow_post_answers"
+			}
+		},
+		"folder": {
+			"name": "project_phase/dynamic"
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-04T21:44:41Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

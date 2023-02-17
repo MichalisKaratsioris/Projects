@@ -1,0 +1,170 @@
+version: 2
+
+models:
+  - name: mart_github_daily
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: event_count
+        description: Count of the users derived from event_id.
+      - name: user_count
+        description: Count of the users derived from user_id.
+      - name: issues_count
+        description: Count of the issues events derived from type field.
+      - name: watch_count
+        description: Count of the watch events derived from type field.
+      - name: fork_count
+        description: Count of the fork events derived from type field.
+      - name: push_count
+        description: Count of the push events derived from type field.
+      - name: pr_count
+        description: Count of the push/request events derived from type field.
+      - name: delete_count
+        description: Count of the delete events derived from type field.
+      - name: public_count
+        description: Count of the public events derived from type field.
+      - name: create_count
+        description: Count of the create events derived from type field.
+      - name: gollum_count
+        description: Count of the gollum events derived from type field.
+      - name: member_count
+        description: Count of the member events derived from type field.
+      - name: commit_comment_count
+        description: Count of the commit comment  events derived from type field.
+      - name: total_event_count
+        description: Count of all the events.
+        
+  - name: mart_github_month
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: event_count
+        description: Count of the users derived from event_id.
+      - name: user_count
+        description: Count of the users derived from user_id.
+      - name: issues_count
+        description: Count of the issues events derived from type field.
+      - name: watch_count
+        description: Count of the watch events derived from type field.
+      - name: fork_count
+        description: Count of the fork events derived from type field.
+      - name: push_count
+        description: Count of the push events derived from type field.
+      - name: pr_count
+        description: Count of the push/request events derived from type field.
+      - name: delete_count
+        description: Count of the delete events derived from type field.
+      - name: public_count
+        description: Count of the public events derived from type field.
+      - name: create_count
+        description: Count of the create events derived from type field.
+      - name: gollum_count
+        description: Count of the gollum events derived from type field.
+      - name: member_count
+        description: Count of the member events derived from type field.
+      - name: commit_comment_count
+        description: Count of the commit comment  events derived from type field.
+      - name: total_event_count
+        description: Count of all the events.
+        
+  - name: mart_github_quarter
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: event_count
+        description: Count of the users derived from event_id.
+      - name: user_count
+        description: Count of the users derived from user_id.
+      - name: issues_count
+        description: Count of the issues events derived from type field.
+      - name: watch_count
+        description: Count of the watch events derived from type field.
+      - name: fork_count
+        description: Count of the fork events derived from type field.
+      - name: push_count
+        description: Count of the push events derived from type field.
+      - name: pr_count
+        description: Count of the push/request events derived from type field.
+      - name: delete_count
+        description: Count of the delete events derived from type field.
+      - name: public_count
+        description: Count of the public events derived from type field.
+      - name: create_count
+        description: Count of the create events derived from type field.
+      - name: gollum_count
+        description: Count of the gollum events derived from type field.
+      - name: member_count
+        description: Count of the member events derived from type field.
+      - name: commit_comment_count
+        description: Count of the commit comment  events derived from type field.
+      - name: total_event_count
+        description: Count of all the events.

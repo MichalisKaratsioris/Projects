@@ -1,0 +1,11 @@
+{
+	"name": "My_storage_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azuregfaproject.dfs.core.windows.net/"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "sink_StackOverflow_answers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "My_storage_LS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "stackoverflow"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "stackoverflow_post_answers.csv",
+				"folderPath": "stackoverflow",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

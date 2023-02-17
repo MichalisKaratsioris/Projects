@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: int_google_sheet
+    database: gcp-project-2023
+    schema: dbt_mk_local
+    tables:
+      - name: int_google_sheet_tb
+        identifier: "int_google_sheet"
+
+  - name: stg_github
+    database: gcp-project-2023
+    schema: dbt_mk_local
+    tables:
+      - name: stg_github_tb
+        identifier: "stg_github"

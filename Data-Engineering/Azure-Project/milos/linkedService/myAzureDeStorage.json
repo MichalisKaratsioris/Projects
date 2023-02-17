@@ -1,0 +1,11 @@
+{
+	"name": "myAzureDeStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://courseformula1forudemy.dfs.core.windows.net/"
+		}
+	}
+}

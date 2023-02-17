@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_sheet_snapshot
+    database: gcp-project-2023
+    schema: snapshots
+    tables:
+      - name: google_snapshot
+        identifier: "google_sheet_snapshot_timestamp_local"

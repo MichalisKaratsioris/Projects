@@ -1,0 +1,34 @@
+{
+	"name": "Landing_CompanyDetail_Optional",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_decoursesa",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Ingestion/CompanyDetail/Optional"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('company_detail_',dataset().p_load_date,'.json')",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat('company_detail/',substring(dataset().p_load_date,0,4),'/',substring(dataset().p_load_date,4,2),'/',substring(dataset().p_load_date,6,2))",
+					"type": "Expression"
+				},
+				"fileSystem": "landing"
+			}
+		},
+		"schema": {}
+	}
+}

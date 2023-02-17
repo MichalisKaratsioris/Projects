@@ -1,0 +1,78 @@
+{
+	"name": "StackoverflowPostQuestions",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy_Questions",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "stackoverflow.stackoverflow_post_questions"
+					},
+					{
+						"name": "Destination",
+						"value": "landing//stackoverflow.stackoverflow_post_questions"
+					}
+				],
+				"typeProperties": {
+					"source": {
+						"type": "SqlDWSource",
+						"partitionOption": "None"
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"enableSkipIncompatibleRow": true,
+					"validateDataConsistency": false,
+					"logSettings": {
+						"enableCopyActivityLog": true,
+						"copyActivityLogSettings": {
+							"logLevel": "Info",
+							"enableReliableLogging": false
+						},
+						"logLocationSettings": {
+							"linkedServiceName": {
+								"referenceName": "AzureDataLake",
+								"type": "LinkedServiceReference"
+							},
+							"path": "infolog/info"
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "Source_StackoverflowPostQuestions",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Landing_StackoverflowPostQuestions",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-01-02T11:57:53Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

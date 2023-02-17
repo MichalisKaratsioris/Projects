@@ -1,0 +1,27 @@
+{
+	"name": "Source_CompanyDetail",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService_company",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "project_phase/rest_api/original"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@concat('get_company_data_api?p_load_date=',dataset().p_load_date)\n",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

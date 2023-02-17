@@ -1,0 +1,40 @@
+{
+	"name": "copyColorsParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_szvargadatalake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "practise"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "copied-lego"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "Numbers",
+				"type": "UTF8"
+			},
+			{
+				"name": "Colors",
+				"type": "UTF8"
+			},
+			{
+				"name": "Color_codes",
+				"type": "UTF8"
+			},
+			{
+				"name": "Column_f",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

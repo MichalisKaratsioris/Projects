@@ -1,0 +1,77 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "Azure-gfa-DF"
+		},
+		"GitHub_LS_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'GitHub_LS'"
+		},
+		"StackOverflow_LS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'StackOverflow_LS'"
+		},
+		"GitHub_LS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://decoursesacc.dfs.core.windows.net"
+		},
+		"My_storage_LS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://azuregfaproject.dfs.core.windows.net/"
+		},
+		"REST_LS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": " https://de-course-ingest-api.azurewebsites.net/api/"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI to storage account containing linked ARM templates"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Sas token to storage account containing linked ARM templates"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "Azure-gfa-DF_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"GitHub_LS_accountKey": {
+						"value": "[parameters('GitHub_LS_accountKey')]"
+					},
+					"StackOverflow_LS_connectionString": {
+						"value": "[parameters('StackOverflow_LS_connectionString')]"
+					},
+					"GitHub_LS_properties_typeProperties_url": {
+						"value": "[parameters('GitHub_LS_properties_typeProperties_url')]"
+					},
+					"My_storage_LS_properties_typeProperties_url": {
+						"value": "[parameters('My_storage_LS_properties_typeProperties_url')]"
+					},
+					"REST_LS_properties_typeProperties_url": {
+						"value": "[parameters('REST_LS_properties_typeProperties_url')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

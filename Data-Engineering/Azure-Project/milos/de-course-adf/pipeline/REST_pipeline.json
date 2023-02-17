@@ -1,0 +1,98 @@
+{
+	"name": "REST_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "company_data_copy",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "p_load_date",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "RestSource",
+						"httpRequestTimeout": "00:01:40",
+						"requestInterval": "00.00:00:00.010",
+						"requestMethod": "GET",
+						"paginationRules": {
+							"supportRFC5988": "true"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "REST_source",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "REST_json_sink",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "p_load_date",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "p_load_date",
+					"value": {
+						"value": "@pipeline().parameters.p_load_date",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"p_load_date": {
+				"type": "Array"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-10T22:32:23Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

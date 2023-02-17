@@ -1,0 +1,106 @@
+{
+	"name": "source_StackOveflow_questions",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StackOverflow_LS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "stackoverflow"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "accepted_answer_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "answer_count",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "comment_count",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "community_owned_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "creation_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "favorite_count",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "last_activity_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_edit_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_editor_display_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_editor_user_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "owner_display_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owner_user_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "parent_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "post_type_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "score",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "tags",
+				"type": "nvarchar"
+			},
+			{
+				"name": "view_count",
+				"type": "bigint",
+				"precision": 19
+			}
+		],
+		"typeProperties": {
+			"schema": "stackoverflow",
+			"table": "stackoverflow_post_questions"
+		}
+	}
+}

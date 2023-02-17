@@ -1,0 +1,13 @@
+{
+	"name": "AzureDatabricks_GFA_project",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-2257084965160605.5.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/7465ef73-51d2-4234-9317-7cd75f710bd9/resourceGroups/GFA/providers/Microsoft.Databricks/workspaces/DatabricksGFA",
+			"existingClusterId": "0109-193038-cmhjosgu"
+		}
+	}
+}

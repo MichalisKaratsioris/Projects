@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: stg_github
+    columns:
+      - name: _pk
+        description: Primary key. (BYTES)
+        tests:
+          - unique
+          - not_null
+      - name: type
+        description: Values in the range [FollowEvent, PushEvent, WatchEvent, CreateEvent, MemberEvent, ForkEvent, IssuesEvent]. (STRING)
+      - name: is_public
+        description: Boolean values - true or false. (BOOLEAN)
+      - name: repo_id
+        description: Repository ID. (INTEGER)
+      - name: repo_name
+        description: Repository name. (STRING)
+      - name: repo_url
+        description: Repository url. (STRING)
+      - name: actor_id
+        description: Actor ID. (INTEGER)
+      - name: actor_login
+        description: Actor login username. (STRING)
+      - name: actor_gravatar_id
+        description: Actor gravatar ID. (STRING)
+      - name: actor_avatar_url
+        description: Actor avatar url. (STRING)
+      - name: actor_url
+        description: Actor url. (STRING)
+      - name: org_id
+        description: Organization ID. (INTEGER)
+      - name: org_login
+        description: Organization login username. (STRING)
+      - name: org_gravatar_id
+        description: Organization gravatar ID. (STRING)
+      - name: org_avatar_url
+        description: Organization avatar url. (STRING)
+      - name: org_url
+        description: Organization url. (STRING)
+      - name: created_at_datetime_utc
+        description: Time of creation in UTL format. (DATETIME)
+      - name: id
+        description: Event ID. (STRING)
+      - name: other
+        description: Other relative data related to the event. (STRING)
+

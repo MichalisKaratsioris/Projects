@@ -1,0 +1,109 @@
+{
+	"name": "landing_to_bronze",
+	"properties": {
+		"description": "execute pipelines sequentially and then load to databricks\n(simplifying the pipelines required, add parameter)",
+		"activities": [
+			{
+				"name": "StackoverflowPostAnswers",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "StackoverflowPostAnswers",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "StackoverflowPostQuestions",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "StackoverflowPostAnswers",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "StackoverflowPostQuestions",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "GitHubArchiveDay",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "StackoverflowPostQuestions",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "GitHubArchiveDay",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "CompanyDetail",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "GitHubArchiveDay",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "CompanyDetail",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "execute_landing_to_bronze",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "CompanyDetail",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/margocsata@gmail.com/dusicyon-de-azure/de-course-dbx/landing_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "Databricks_abogarDB",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}

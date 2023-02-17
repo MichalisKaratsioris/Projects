@@ -1,0 +1,13 @@
+{
+	"name": "ls_databricks_project_phase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-6893466702922617.17.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/6163d33a-7f3d-4cfe-9182-89fc714e6a6a/resourceGroups/rg_varga/providers/Microsoft.Databricks/workspaces/adb_project_phase_varga",
+			"existingClusterId": "0108-105237-vwik8crt"
+		}
+	}
+}

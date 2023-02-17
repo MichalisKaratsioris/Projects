@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: int_google_sheet_stack
+    database: gcp-project-2023
+    schema: dbt_mk_local
+    tables:
+      - name: int_google_sheet_stack_tb
+        identifier: "int_google_sheet"
+
+  - name: stg_stackoverflow_questions
+    database: gcp-project-2023
+    schema: dbt_mk_local
+    tables:
+      - name: stackoverflow_questions_tb
+        identifier: "stg_stackoverflow_posts_questions"
+
+  - name: stg_stackoverflow_answers
+    database: gcp-project-2023
+    schema: dbt_mk_local
+    tables:
+      - name: stackoverflow_answers_tb
+        identifier: "stg_stackoverflow_posts_answers"

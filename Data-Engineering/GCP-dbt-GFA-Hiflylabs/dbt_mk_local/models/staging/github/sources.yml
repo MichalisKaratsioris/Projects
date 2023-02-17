@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: github
+    description: Github archives public data from 2022 - https://console.cloud.google.com/bigquery?project=githubarchive&page=project
+    database: githubarchive
+    schema: day
+    tables:
+      - name: daily_2022
+        identifier: "{{var('year_of_interest')}}*"

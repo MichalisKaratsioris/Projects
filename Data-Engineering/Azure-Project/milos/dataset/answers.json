@@ -1,0 +1,28 @@
+{
+	"name": "answers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "myAzureDeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "StackOverflow"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "stackoverflow_post_answers.csv",
+				"folderPath": "stackoverflow",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

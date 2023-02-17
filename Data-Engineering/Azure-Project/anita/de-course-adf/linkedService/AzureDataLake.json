@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connects to own storage account",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://abogar2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDMyMzNDMzQ1LTczNzMtNEFCQy04RkI1LUQ2QTQ4MDc2RDY5OF9hMmEwMmMzZS1kOTM3LTQ3NTEtOWQ1Zi04YjNlMTUzMDdhMGQiDQp9"
+		}
+	}
+}

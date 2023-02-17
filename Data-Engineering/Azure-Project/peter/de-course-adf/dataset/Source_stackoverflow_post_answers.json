@@ -1,0 +1,103 @@
+{
+	"name": "Source_stackoverflow_post_answers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1_stackoverflow",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Starting data/Source/Stackoverflow"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "accepted_answer_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "answer_count",
+				"type": "nvarchar"
+			},
+			{
+				"name": "comment_count",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "community_owned_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "creation_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "favorite_count",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_activity_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_edit_date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_editor_display_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_editor_user_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owner_display_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "owner_user_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "parent_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "post_type_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "score",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "tags",
+				"type": "nvarchar"
+			},
+			{
+				"name": "view_count",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "stackoverflow",
+			"table": "stackoverflow_post_answers"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

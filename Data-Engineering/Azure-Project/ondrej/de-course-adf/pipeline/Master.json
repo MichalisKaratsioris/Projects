@@ -1,0 +1,99 @@
+{
+	"name": "Master",
+	"properties": {
+		"activities": [
+			{
+				"name": "Landing to Bronze",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Ingestion to Landing zone",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/kaja.skerikova@email.cz/dusicyon-de-azure/de-course-dbx/etl/landing_to_bronze",
+					"baseParameters": {
+						"p_file_date": {
+							"value": "@pipeline().parameters.p_load_date",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "ADBX_oskerik_dbx",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Ingestion to Landing zone",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Ingestion_to_Landing_zone",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"p_load_date": {
+							"value": "@pipeline().parameters.p_load_date",
+							"type": "Expression"
+						}
+					}
+				}
+			},
+			{
+				"name": "Bronze to Silver",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Landing to Bronze",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/kaja.skerikova@email.cz/dusicyon-de-azure/de-course-dbx/etl/bronze_to_silver",
+					"baseParameters": {
+						"p_file_date": {
+							"value": "@pipeline().parameters.p_load_date",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "ADBX_oskerik_dbx",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"concurrency": 1,
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}

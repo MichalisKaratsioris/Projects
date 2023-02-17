@@ -1,0 +1,36 @@
+{
+	"name": "Landing_CompanyDetail",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_load_date": {
+				"type": "string",
+				"defaultValue": "yyyymmdd"
+			}
+		},
+		"folder": {
+			"name": "adf"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('company_detail_', dataset().p_load_date, '.json')",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat('company_detail/', substring(dataset().p_load_date,0,4),'/', \nsubstring(dataset().p_load_date,4,2),'/', substring(dataset().p_load_date,6,2))",
+					"type": "Expression"
+				},
+				"fileSystem": "landing"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

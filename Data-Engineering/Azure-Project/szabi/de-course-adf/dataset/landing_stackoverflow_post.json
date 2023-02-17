@@ -1,0 +1,27 @@
+{
+	"name": "landing_stackoverflow_post",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_szvargadatalake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "practise"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "stackoverflow_post_questions.csv",
+				"folderPath": "stackoverflow",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

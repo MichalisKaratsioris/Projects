@@ -1,0 +1,71 @@
+{
+	"name": "pl_dynamic_copy_github_data_from_adls",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy github data from adls to adls",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "dynamic_Source_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"year": "2022",
+							"month": "07",
+							"day": "31"
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "dynamic_Landing_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"year": "2022",
+							"month": "07",
+							"day": "31"
+						}
+					}
+				]
+			}
+		],
+		"folder": {
+			"name": "project_phase/dynamic"
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-04T14:38:45Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

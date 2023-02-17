@@ -1,0 +1,114 @@
+version: 2
+
+models:
+  - name: int_stackoverflow_answers
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: organization_name
+        description: Organization name.
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: tags_element
+        description: Tag element.
+      - name: id
+        description: Answer ID.
+      - name: title
+        description: Answer title.
+      - name: accepted_answer_id
+        description: Accepted answer ID.
+      - name: answer_count
+        description: Answer count.
+      - name: comment_count
+        description: Comment count.
+      - name: community_owned_datetime_utc
+        description: Community owned datetime in UTC format.
+      - name: creation_datetime_utc
+        description: Time of creation in UTL format.
+      - name: favorite_count
+        description: Favorite count.
+      - name: last_activity_datetime_utc
+        description: Last activity datetime in UTC format.
+      - name: last_edit_datetime_utc
+        description: Last edit datetime in UTC format.
+      - name: last_editor_display_name
+        description: Last editor display name.
+      - name: last_editor_user_id
+        description: Last editor user ID.
+      - name: owner_display_name
+        description: Owner display name.
+      - name: owner_user_id
+        description: Owner user ID.
+      - name: parent_id
+        description: Parent ID.
+      - name: post_type_id
+        description: Post type ID.
+      - name: score
+        description: Score.
+      - name: tags
+        description: Tags.
+      - name: tags_array
+        description: Tags array.
+      - name: view_count
+        description: View count.
+
+  - name: int_stackoverflow_questions
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: organization_name
+        description: Organization name.
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: tags_element
+        description: Tag element.
+      - name: id
+        description: Answer ID.
+      - name: title
+        description: Answer title.
+      - name: accepted_answer_id
+        description: Accepted answer ID.
+      - name: answer_count
+        description: Answer count.
+      - name: comment_count
+        description: Comment count.
+      - name: community_owned_datetime_utc
+        description: Community owned datetime in UTC format.
+      - name: creation_datetime_utc
+        description: Time of creation in UTL format.
+      - name: favorite_count
+        description: Favorite count.
+      - name: last_activity_datetime_utc
+        description: Last activity datetime in UTC format.
+      - name: last_edit_datetime_utc
+        description: Last edit datetime in UTC format.
+      - name: last_editor_display_name
+        description: Last editor display name.
+      - name: last_editor_user_id
+        description: Last editor user ID.
+      - name: owner_display_name
+        description: Owner display name.
+      - name: owner_user_id
+        description: Owner user ID.
+      - name: parent_id
+        description: Parent ID.
+      - name: post_type_id
+        description: Post type ID.
+      - name: score
+        description: Score.
+      - name: tags
+        description: Tags.
+      - name: tags_array
+        description: Tags array.
+      - name: view_count
+        description: View count.

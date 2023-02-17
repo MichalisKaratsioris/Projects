@@ -1,0 +1,35 @@
+{
+	"name": "Landing_StackoverflowPost_Optional",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_decoursesa",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_file_name": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Ingestion/Stackoverflow/Optional"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(dataset().p_file_name,'.csv')",
+					"type": "Expression"
+				},
+				"folderPath": "stackoverflow",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

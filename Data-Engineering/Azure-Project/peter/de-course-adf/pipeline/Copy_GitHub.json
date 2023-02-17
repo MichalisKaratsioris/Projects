@@ -1,0 +1,76 @@
+{
+	"name": "Copy_GitHub",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy GitHub - enter date",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "Source_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Landing_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"variables": {
+			"v_load_date": {
+				"type": "String",
+				"defaultValue": "20220930"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-08T14:55:37Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "local_ADLS_project1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://gfaproject.dfs.core.windows.net/"
+		}
+	}
+}

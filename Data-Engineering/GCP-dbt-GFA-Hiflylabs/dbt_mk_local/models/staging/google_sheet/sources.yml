@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_sheet
+    database: gcp-project-2023
+    schema: raw_airbyte_google_sheet
+    tables:
+      - name: companies_data
+        identifier: "airbyte"

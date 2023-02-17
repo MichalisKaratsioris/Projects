@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Azure-gfa-DF"
+		},
+		"GitHub_LS_accountKey": {
+			"value": ""
+		},
+		"StackOverflow_LS_connectionString": {
+			"value": ""
+		},
+		"GitHub_LS_properties_typeProperties_url": {
+			"value": "https://decoursesacc.dfs.core.windows.net"
+		},
+		"My_storage_LS_properties_typeProperties_url": {
+			"value": "https://azuregfaproject.dfs.core.windows.net/"
+		},
+		"REST_LS_properties_typeProperties_url": {
+			"value": " https://de-course-ingest-api.azurewebsites.net/api/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "SzVarga-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ceb23868-7e97-4b97-841e-6ded05d4d342",
+		"tenantId": "70a23f64-06eb-423e-81e9-6c60bd916c09"
+	}
+}

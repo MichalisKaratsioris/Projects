@@ -1,0 +1,170 @@
+version: 2
+
+models:
+  - name: marts_stackoverflow_questions_daily
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: post_count
+        description: Count of the questions based on the ID.
+      - name: answer_count
+        description: Count of the answers in total.
+      - name: avg_answer_count
+        description: Average number of answers for a question.
+      - name: comment_count
+        description: Count of the comments in total.
+      - name: avg_comment_count
+        description: Average number of comments for a question.
+      - name: favorite_count
+        description: Count of the favorites in total.
+      - name: avg_favorite_count
+        description: Average favorites for a question.
+      - name: view_count
+        description: Count of the views in total.
+      - name: avg_view_count
+        description: Average view of the questions.
+      - name: accepted_answer_count
+        description: Number of accepted answers for a question. Corrected with the question counts.
+      - name: no_answer_count
+        description: Number of questions without answers.
+      - name: avg_no_answer_count
+        description: Number of questions without answers divided by the number of questions.
+      - name: score
+        description: Normalized value of the scores.
+      - name: tags_count
+        description: Total number of tags besides the ones listed in the Company Details.
+      - name: last_activity_datetime_utc
+        description: Maximum of last activity date.
+      - name: last_edit_datetime_utc
+        description: Maximum of last edit date.
+
+  - name: marts_stackoverflow_questions_monthly
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: post_count
+        description: Count of the questions based on the ID.
+      - name: answer_count
+        description: Count of the answers in total.
+      - name: avg_answer_count
+        description: Average number of answers for a question.
+      - name: comment_count
+        description: Count of the comments in total.
+      - name: avg_comment_count
+        description: Average number of comments for a question.
+      - name: favorite_count
+        description: Count of the favorites in total.
+      - name: avg_favorite_count
+        description: Average favorites for a question.
+      - name: view_count
+        description: Count of the views in total.
+      - name: avg_view_count
+        description: Average view of the questions.
+      - name: accepted_answer_count
+        description: Number of accepted answers for a question. Corrected with the question counts.
+      - name: no_answer_count
+        description: Number of questions without answers.
+      - name: avg_no_answer_count
+        description: Number of questions without answers divided by the number of questions.
+      - name: score
+        description: Normalized value of the scores.
+      - name: tags_count
+        description: Total number of tags besides the ones listed in the Company Details.
+      - name: last_activity_datetime_utc
+        description: Maximum of last activity date.
+      - name: last_edit_datetime_utc
+        description: Maximum of last edit date.
+        
+  - name: marts_stackoverflow_questions_quarterly
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique:
+              config:
+                severity: warn
+                store_failures: true
+          - not_null:
+              config:
+                severity: warn
+                store_failures: true
+      - name: first_day_of_period
+        description: First day of the actual period.
+      - name: month
+        description: Month of the period.
+      - name: quarter
+        description: Quarter of the period.
+      - name: year
+        description: Year of the period.
+      - name: organization_name
+        description: Organization name.
+      - name: post_count
+        description: Count of the questions based on the ID.
+      - name: answer_count
+        description: Count of the answers in total.
+      - name: avg_answer_count
+        description: Average number of answers for a question.
+      - name: comment_count
+        description: Count of the comments in total.
+      - name: avg_comment_count
+        description: Average number of comments for a question.
+      - name: favorite_count
+        description: Count of the favorites in total.
+      - name: avg_favorite_count
+        description: Average favorites for a question.
+      - name: view_count
+        description: Count of the views in total.
+      - name: avg_view_count
+        description: Average view of the questions.
+      - name: accepted_answer_count
+        description: Number of accepted answers for a question. Corrected with the question counts.
+      - name: no_answer_count
+        description: Number of questions without answers.
+      - name: avg_no_answer_count
+        description: Number of questions without answers divided by the number of questions.
+      - name: score
+        description: Normalized value of the scores.
+      - name: tags_count
+        description: Total number of tags besides the ones listed in the Company Details.
+      - name: last_activity_datetime_utc
+        description: Maximum of last activity date.
+      - name: last_edit_datetime_utc
+        description: Maximum of last edit date.

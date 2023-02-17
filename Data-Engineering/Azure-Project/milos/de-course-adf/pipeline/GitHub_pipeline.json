@@ -1,0 +1,100 @@
+{
+	"name": "GitHub_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "GitHub_copy",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "Append variable1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "GitHub_JSON_Source",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_value": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "GitHub_JSON_sink",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "p_load_date",
+					"value": {
+						"value": "@pipeline().parameters.p_load_date",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"p_load_date": {
+				"type": "Array"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-10T22:32:23Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

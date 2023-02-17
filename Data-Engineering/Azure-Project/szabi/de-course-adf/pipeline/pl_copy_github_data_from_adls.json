@@ -1,0 +1,103 @@
+{
+	"name": "pl_copy_github_data_from_adls",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy github data from adls to adls",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "Set Date",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "Source_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Landing_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.p_load_date",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "Set Date",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Date",
+					"value": {
+						"value": "@pipeline().parameters.p_load_date",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"Date": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "project_phase/original"
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-04T23:14:30Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "ADLS_decoursesa",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://decoursesa.dfs.core.windows.net/"
+		}
+	}
+}

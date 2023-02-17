@@ -1,0 +1,32 @@
+{
+	"name": "Source_GitHubArchiveDay",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_github",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "project_phase/github/original"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('githubarchive_day_',dataset().p_load_date,'.json')",
+					"type": "Expression"
+				},
+				"folderPath": "github",
+				"fileSystem": "external"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

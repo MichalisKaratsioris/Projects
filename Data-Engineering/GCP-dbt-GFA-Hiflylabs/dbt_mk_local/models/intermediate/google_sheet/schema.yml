@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: int_google_sheet
+    description: Information about the companies contained in the study, taken from the google sheet provided by hiflylabs.
+    columns:
+      - name: _pk
+        description: Primary key. (BYTES)
+        tests:
+          - unique
+          - not_null
+      - name: tags
+        description: Keywords connected with the corresponding organization. (STRING)
+      - name: tags_array
+        description: An array of the keywords. (STRING)
+      - name: l1_type
+        description: Values in the range [modern_data_stack, null]. (STRING)
+      - name: l2_type
+        description: Values in the range [ingestion, orchestration, devops, transformation, data_platform, reverse_etl, business_intellegence]. (STRING)
+      - name: l3_type
+        description: Value in the range [dbt package, null]. (STRING)
+      - name: organization
+        description: Organization name. (STRING)
+      - name: repository_name
+        description: Repository name. (STRING)
+      - name: repository_account
+        description: Repository account. (STRING)
+      - name: open_source_available
+        description: Boolean values - true or false. (BOOLEAN)
+      - name: airbyte_ab_id
+        description: ""
+      - name: airbyte_emitted_at
+        description: ""
+      - name: airbyte_normalized_at
+        description: ""
+      - name: airbyte_Company_data_1_hashid
+        description: ""
+      - name: dbt_scd_id
+        description: ""
+      - name: dbt_updated_at
+        description: ""
+      - name: dbt_valid_from
+        description: ""
+      - name: dbt_valid_to
+        description: ""

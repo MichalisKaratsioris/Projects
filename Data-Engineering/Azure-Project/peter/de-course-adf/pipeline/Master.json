@@ -1,0 +1,100 @@
+{
+	"name": "Master",
+	"properties": {
+		"activities": [
+			{
+				"name": "Landing_to_bronze",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy_company_details",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/anetka.starova@gmail.com/dusicyon-de-azure/de-course-dbx/etl/landing_to_bronze",
+					"baseParameters": {
+						"p_load_date": {
+							"value": "@pipeline().parameters.p_load_date",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_GFA_project",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Copy_GitHub",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Copy_stackoverflow",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Copy_GitHub",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Copy_company_details",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Copy_GitHub",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Copy_company_details",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Copy_stackoverflow",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Copy_stackoverflow",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"parameters": {
+			"p_load_date": {
+				"type": "string",
+				"defaultValue": "20220731"
+			}
+		},
+		"annotations": []
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"name": "Copy_company_details",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy company data from REST  - enter date",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "RestSource",
+						"httpRequestTimeout": "00:01:40",
+						"requestInterval": "00.00:00:00.010",
+						"requestMethod": "GET",
+						"paginationRules": {
+							"supportRFC5988": "true"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "Source_CompanyDetail",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Landing_CompanyDetail",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"variables": {
+			"v_load_date": {
+				"type": "String",
+				"defaultValue": "20220930"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-08T14:55:37Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

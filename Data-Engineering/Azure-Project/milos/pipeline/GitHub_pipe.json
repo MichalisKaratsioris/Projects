@@ -1,0 +1,84 @@
+{
+	"name": "GitHub_pipe",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "Json_source",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.date",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "json_sink",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@pipeline().parameters.date",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"parameters": {
+			"date": {
+				"type": "String"
+			}
+		},
+		"variables": {
+			"p_load_date": {
+				"type": "String",
+				"defaultValue": "20220731"
+			},
+			"date": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-05T10:03:22Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

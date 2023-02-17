@@ -1,0 +1,9 @@
+{
+	"name": "greenfox-storage",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5fc3083d-b243-4ebe-94c2-822cfefc9955",
+		"tenantId": "aa288639-2223-44aa-a6b8-6e0d2482cced"
+	}
+}

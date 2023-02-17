@@ -1,0 +1,26 @@
+{
+	"name": "Source_CompanyDetail",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "REST_Company",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Ingestion/CompanyDetail"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@concat('get_company_data_api?p_load_date=',dataset().p_load_date)",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"name": "pl_kind_of_master_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data questions from synapse DB",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_copy_data_question_from_synapse_db",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Copy data answers from synapse DB",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Copy data questions from synapse DB",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_copy_data_answer_from_synapse_db",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Copy github data from adls",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Copy data answers from synapse DB",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_copy_github_data_from_adls",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Copy data from REST API",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Copy github data from adls",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_copy_data_from_restapi",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "landing_to_bronze",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy data from REST API",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/varga.pal.amanda@outlook.com/dusicyon-de-azure/de-course-dbx/etl/landing_to_bronze",
+					"baseParameters": {
+						"p_file_date": {
+							"value": "@variables('v_file_date')",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_databricks_project_phase",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "bronze_to_silver",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "landing_to_bronze",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/varga.pal.amanda@outlook.com/dusicyon-de-azure/de-course-dbx/etl/silver/bronze_to_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_databricks_project_phase",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"variables": {
+			"Date": {
+				"type": "String"
+			},
+			"v_file_date": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "project_phase"
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-05T07:00:11Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

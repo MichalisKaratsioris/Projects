@@ -1,0 +1,13 @@
+{
+	"name": "ADBX_oskerik_dbx",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-5679110825649311.11.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/e8c94f39-6ce9-4316-b5ae-f35de6e7ec0a/resourceGroups/de-course-rg/providers/Microsoft.Databricks/workspaces/oskerik-dbx",
+			"existingClusterId": "0110-230407-710efmhv"
+		}
+	}
+}

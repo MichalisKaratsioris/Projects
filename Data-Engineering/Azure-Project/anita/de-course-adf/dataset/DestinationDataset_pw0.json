@@ -1,0 +1,25 @@
+{
+	"name": "DestinationDataset_pw0",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "copy_themes.parquet",
+				"folderPath": {
+					"value": "@concat('raw/ball/', formatDateTime(utcNow(), 'yyyy-MM-dd/'))",
+					"type": "Expression"
+				},
+				"fileSystem": "copied"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

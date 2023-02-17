@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: int_github
+    columns:
+      - name: _pk
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: repository_account
+        description: Repository account.
+      - name: repository_name
+        description: Repository name.
+      - name: user_id
+        description: Actor ID.
+      - name: event_id
+        description: Event ID.
+      - name: type
+        description: Values in the range [FollowEvent, PushEvent, WatchEvent, CreateEvent, MemberEvent, ForkEvent, IssuesEvent].
+      - name: organization_name
+        description: Organization name.
+      - name: created_at_datetime_utc
+        description: Time of creation in UTL format.
+

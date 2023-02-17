@@ -1,0 +1,9 @@
+{
+	"name": "abogar",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b37223ff-077d-4e21-9b09-525d4455357b",
+		"tenantId": "11cb3ae0-f3f9-4ef5-be24-2f3fe66403cc"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Azure-gfa-DF",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2cdb1dec-a432-4e17-8c81-a3bcb55a19eb",
+		"tenantId": "f5e9d6ff-6ae4-4d7e-8a7c-1878c6ec8974"
+	}
+}

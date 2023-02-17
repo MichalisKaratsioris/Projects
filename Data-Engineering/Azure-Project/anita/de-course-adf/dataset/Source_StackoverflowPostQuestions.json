@@ -1,0 +1,20 @@
+{
+	"name": "Source_StackoverflowPostQuestions",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "adf"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "stackoverflow",
+			"table": "stackoverflow_post_questions"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

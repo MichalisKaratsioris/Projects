@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: stackoverflow
+    description: Stackoverflow public data from 2022 - https://console.cloud.google.com/marketplace/product/stack-exchange/stack-overflow
+    database: bigquery-public-data
+    schema: stackoverflow
+    tables:
+      - name: answers
+        identifier: posts_answers
+      - name: questions
+        identifier: posts_questions

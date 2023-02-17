@@ -1,0 +1,10 @@
+{
+	"name": "datalake_project_destination",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://dl0projectphase.dfs.core.windows.net/"
+		}
+	}
+}

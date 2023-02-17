@@ -1,0 +1,32 @@
+id,name_surname,age,address,preferred_language,cognitive_score,class_id
+1,Amayah Lowe,43,2 Tything HouseThe Street Olveston,Java,58,1
+2,Edith Bowman,41,Strongford House Stone Road Tittensor,Java,99,1
+3,Lemar Ahmad,46,Unknown,Java,66,1
+4,Rikesh Bannister,51,MeadowsideBury Road Cockfield,Java,85,1
+5,Madelaine Mullen,25,Unknown,Java,63,1
+6,Kaylee Spears,57,8 St Annes Grove Liverpool,Java,53,1
+7,Olivia-Mae Rivas,57,25 Rectory Fields Stockport,Python,56,2
+8,Jamie-Leigh Dickerson,35,Unknown,Python,73,2
+9,Yasemin Osborne,38,Tregoegan Ty Croes,Python,71,2
+10,Tj Bonner,23,19 Addison Road Banbury,Python,81,2
+11,Tessa Dunne,48,Unknown,Python,61,2
+12,Cynthia Velasquez,22,66 Queens Drive West Derby,Python,56,2
+13,Hibba Santos,23,2 Vulcan Cottages Queens Road Lydd,Python,73,2
+14,Simona Alvarado,40,Unknown,Python,91,2
+15,Sofia Searle,32,Brereton House Brereton Park Brereton,Python,73,2
+16,Harper-Rose Steele,36,8 Pound Park Road London,Python,86,2
+17,Beatrice Thorpe,62,55 Norbins Road Glastonbury,Python,66,2
+18,Rosemary Lister,62,1 Burnham Avenue Sully,Python,97,2
+19,Manal Velez,28,Flat 48 Waterloo Warehouse Waterloo Road Liverpool,Python,64,2
+20,Coen Edwards,32,34 Gunn Road Swanscombe,Python,71,2
+21,April Avery,46,Unknown,Python,55,2
+22,Sumaya Montes,23,19 Elizabeth Drive Knottingley,Python,83,2
+23,Shona Ingram,64,Brynhyfryd Cae Glo Cefn Mawr,Python,90,2
+24,Luciana Vu,41,6 Reedmaker Place Swinton,Python,72,2
+25,James Webber,26,11 Brynside Close Birmingham,Python,96,2
+26,Muhammad Doherty,27,24 Thurlow Place Haverhill,Python,79,2
+27,Malachy Clarke,31,17 Thomas Street Maerdy,Python,73,2
+28,Devan Waller,30,Greenside Woodside Green Great Hallingbury,Python,70,2
+29,Sorcha Hayden,23,311 Belle Vue RoadSouthbourne,JavaScript,91,1
+30,Shaan Mcdougall,54,Unknown,JavaScript,93,1
+31,Aishah Carney,61,50 Madison Street Stoke-On-Trent,JavaScript,100,1

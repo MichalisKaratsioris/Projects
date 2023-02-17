@@ -1,0 +1,9 @@
+{
+	"name": "ADF-GFA",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2df0477d-f094-4a60-8268-89017d8bee7a",
+		"tenantId": "172a6725-1f8a-457c-b743-707bb83f086c"
+	}
+}

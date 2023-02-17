@@ -1,0 +1,102 @@
+{
+	"name": "Copy_GitHubArchiveDay",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy GitHubArchiveDay",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "Set Load Date",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"dataIntegrationUnits": 2
+				},
+				"inputs": [
+					{
+						"referenceName": "Source_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Landing_GitHubArchiveDay",
+						"type": "DatasetReference",
+						"parameters": {
+							"p_load_date": {
+								"value": "@variables('v_load_date')",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "Set Load Date",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "v_load_date",
+					"value": {
+						"value": "@if(empty(pipeline().parameters.p_load_date),concat(substring(getPastTime(1,'Day'),0,4),substring(getPastTime(1,'Day'),5,2),substring(getPastTime(1,'Day'),8,2)),pipeline().parameters.p_load_date)",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"p_load_date": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"v_load_date": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "Ingestion"
+		},
+		"annotations": []
+	}
+}
