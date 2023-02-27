@@ -1,0 +1,290 @@
+[2022-11-16 15:46:46,861] {processor.py:153} INFO - Started process (PID=82) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:46:46,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:46:46,866] {logging_mixin.py:115} INFO - [2022-11-16 15:46:46,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:46:54,377] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:46:55,000] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 8.140 seconds
+[2022-11-16 15:47:26,292] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:47:26,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:47:26,302] {logging_mixin.py:115} INFO - [2022-11-16 15:47:26,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:47:29,118] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:47:29,145] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 2.892 seconds
+[2022-11-16 15:47:59,805] {processor.py:153} INFO - Started process (PID=131) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:47:59,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:47:59,810] {logging_mixin.py:115} INFO - [2022-11-16 15:47:59,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:48:10,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:48:11,168] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 11.410 seconds
+[2022-11-16 15:48:41,678] {processor.py:153} INFO - Started process (PID=160) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:48:41,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:48:41,687] {logging_mixin.py:115} INFO - [2022-11-16 15:48:41,686] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:48:43,880] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:48:43,907] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 2.257 seconds
+[2022-11-16 15:49:14,150] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:14,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:49:14,156] {logging_mixin.py:115} INFO - [2022-11-16 15:49:14,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:14,965] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:15,014] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.870 seconds
+[2022-11-16 15:49:45,382] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:45,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:49:45,392] {logging_mixin.py:115} INFO - [2022-11-16 15:49:45,391] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:47,367] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:49:47,429] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 2.053 seconds
+[2022-11-16 15:50:17,968] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:17,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:50:17,988] {logging_mixin.py:115} INFO - [2022-11-16 15:50:17,988] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:21,113] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:21,277] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 3.320 seconds
+[2022-11-16 15:50:51,535] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:51,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:50:51,550] {logging_mixin.py:115} INFO - [2022-11-16 15:50:51,549] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:56,348] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:50:56,506] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 4.990 seconds
+[2022-11-16 15:51:26,758] {processor.py:153} INFO - Started process (PID=263) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:51:26,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:51:26,784] {logging_mixin.py:115} INFO - [2022-11-16 15:51:26,783] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:51:30,283] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:51:30,376] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 3.635 seconds
+[2022-11-16 15:52:01,731] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:01,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:52:01,780] {logging_mixin.py:115} INFO - [2022-11-16 15:52:01,779] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:06,352] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:06,451] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 4.718 seconds
+[2022-11-16 15:52:37,332] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:37,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:52:37,362] {logging_mixin.py:115} INFO - [2022-11-16 15:52:37,362] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:40,565] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:52:40,663] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 3.363 seconds
+[2022-11-16 15:53:11,322] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:11,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:53:11,338] {logging_mixin.py:115} INFO - [2022-11-16 15:53:11,337] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:13,976] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:14,076] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 2.770 seconds
+[2022-11-16 15:53:44,592] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:44,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:53:44,598] {logging_mixin.py:115} INFO - [2022-11-16 15:53:44,597] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:46,655] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:53:46,704] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 2.135 seconds
+[2022-11-16 15:54:17,017] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:17,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:54:17,124] {logging_mixin.py:115} INFO - [2022-11-16 15:54:17,124] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:22,257] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:22,357] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 5.357 seconds
+[2022-11-16 15:54:53,180] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:53,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:54:53,228] {logging_mixin.py:115} INFO - [2022-11-16 15:54:53,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:57,683] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:54:57,793] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 4.647 seconds
+[2022-11-16 15:55:28,238] {processor.py:153} INFO - Started process (PID=385) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:55:28,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 15:55:28,257] {logging_mixin.py:115} INFO - [2022-11-16 15:55:28,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:55:32,897] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 15:55:32,958] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 4.744 seconds
+[2022-11-16 16:42:33,327] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:42:33,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:42:33,799] {logging_mixin.py:115} INFO - [2022-11-16 16:42:33,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:43:04,397] {logging_mixin.py:115} INFO - [2022-11-16 16:43:04,393] {timeout.py:67} ERROR - Process timed out, PID: 272
+[2022-11-16 16:43:05,562] {logging_mixin.py:115} INFO - [2022-11-16 16:43:04,528] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/pythonAirflowMongoDB.py
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 166, in _get_module_lock
+KeyError: 'pandas._libs.tslibs.offsets'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonAirflowMongoDB.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 15, in <module>
+    from pandas.compat.numpy import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py", line 7, in <module>
+    from pandas.util.version import Version
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/__init__.py", line 1, in <module>
+    from pandas.util._decorators import (  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_libs/tslibs/__init__.py", line 31, in <module>
+    from pandas._libs.tslibs.conversion import (
+  File "pandas/_libs/tslibs/conversion.pyx", line 63, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "<frozen importlib._bootstrap>", line 980, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 148, in __enter__
+  File "<frozen importlib._bootstrap>", line 166, in _get_module_lock
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/pythonAirflowMongoDB.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#reducing-dag-complexity, PID: 272
+[2022-11-16 16:43:05,605] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:43:10,266] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 38.420 seconds
+[2022-11-16 16:43:48,820] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:43:48,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:43:49,083] {logging_mixin.py:115} INFO - [2022-11-16 16:43:49,081] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:44:36,297] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:44:36,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:44:36,357] {logging_mixin.py:115} INFO - [2022-11-16 16:44:36,356] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:45:30,707] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:45:30,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:45:30,878] {logging_mixin.py:115} INFO - [2022-11-16 16:45:30,878] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:46:24,327] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:46:24,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:46:24,515] {logging_mixin.py:115} INFO - [2022-11-16 16:46:24,514] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:47:14,094] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:47:14,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 16:47:14,633] {logging_mixin.py:115} INFO - [2022-11-16 16:47:14,632] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:47:46,500] {logging_mixin.py:115} INFO - [2022-11-16 16:47:46,498] {timeout.py:67} ERROR - Process timed out, PID: 396
+[2022-11-16 16:47:46,564] {logging_mixin.py:115} INFO - [2022-11-16 16:47:46,508] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/pythonAirflowMongoDB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonAirflowMongoDB.py", line 8, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 15, in <module>
+    from pandas.compat.numpy import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py", line 7, in <module>
+    from pandas.util.version import Version
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/__init__.py", line 1, in <module>
+    from pandas.util._decorators import (  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/pythonAirflowMongoDB.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#reducing-dag-complexity, PID: 396
+[2022-11-16 16:47:46,567] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 16:47:46,710] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 33.724 seconds
+[2022-11-16 18:06:26,817] {processor.py:153} INFO - Started process (PID=60) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:06:26,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:06:26,826] {logging_mixin.py:115} INFO - [2022-11-16 18:06:26,826] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:06:30,467] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:06:30,517] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 3.729 seconds
+[2022-11-16 18:07:01,911] {processor.py:153} INFO - Started process (PID=88) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:01,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:07:01,925] {logging_mixin.py:115} INFO - [2022-11-16 18:07:01,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:08,807] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:08,847] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 7.255 seconds
+[2022-11-16 18:07:39,492] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:39,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:07:39,503] {logging_mixin.py:115} INFO - [2022-11-16 18:07:39,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:45,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:07:46,011] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 6.676 seconds
+[2022-11-16 18:08:16,196] {processor.py:153} INFO - Started process (PID=130) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:16,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:08:16,198] {logging_mixin.py:115} INFO - [2022-11-16 18:08:16,198] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:16,633] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:16,649] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.474 seconds
+[2022-11-16 18:08:46,781] {processor.py:153} INFO - Started process (PID=160) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:46,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:08:46,783] {logging_mixin.py:115} INFO - [2022-11-16 18:08:46,783] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:47,149] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:08:47,162] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.384 seconds
+[2022-11-16 18:09:17,324] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:17,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:09:17,328] {logging_mixin.py:115} INFO - [2022-11-16 18:09:17,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:17,745] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:17,757] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.440 seconds
+[2022-11-16 18:09:47,914] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:47,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:09:47,916] {logging_mixin.py:115} INFO - [2022-11-16 18:09:47,916] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:48,246] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:09:48,259] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.349 seconds
+[2022-11-16 18:10:18,398] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:18,399] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:10:18,401] {logging_mixin.py:115} INFO - [2022-11-16 18:10:18,401] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:19,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:19,221] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.827 seconds
+[2022-11-16 18:10:49,360] {processor.py:153} INFO - Started process (PID=268) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:49,361] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:10:49,362] {logging_mixin.py:115} INFO - [2022-11-16 18:10:49,362] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:49,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:10:49,806] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.450 seconds
+[2022-11-16 18:11:19,964] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:19,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:11:19,966] {logging_mixin.py:115} INFO - [2022-11-16 18:11:19,966] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:20,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:20,341] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.380 seconds
+[2022-11-16 18:11:50,498] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:50,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:11:50,500] {logging_mixin.py:115} INFO - [2022-11-16 18:11:50,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:50,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:11:50,837] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.342 seconds
+[2022-11-16 18:12:20,992] {processor.py:153} INFO - Started process (PID=346) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:20,993] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:12:20,994] {logging_mixin.py:115} INFO - [2022-11-16 18:12:20,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:21,346] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:21,357] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.368 seconds
+[2022-11-16 18:12:51,518] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:51,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:12:51,520] {logging_mixin.py:115} INFO - [2022-11-16 18:12:51,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:51,927] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:12:51,942] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.428 seconds
+[2022-11-16 18:13:22,089] {processor.py:153} INFO - Started process (PID=398) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:22,090] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:13:22,091] {logging_mixin.py:115} INFO - [2022-11-16 18:13:22,091] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:22,463] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:22,477] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.390 seconds
+[2022-11-16 18:13:52,635] {processor.py:153} INFO - Started process (PID=427) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:52,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:13:52,636] {logging_mixin.py:115} INFO - [2022-11-16 18:13:52,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:53,070] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:13:53,080] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.449 seconds
+[2022-11-16 18:14:23,228] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:23,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:14:23,230] {logging_mixin.py:115} INFO - [2022-11-16 18:14:23,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:23,585] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:23,598] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.373 seconds
+[2022-11-16 18:14:53,739] {processor.py:153} INFO - Started process (PID=475) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:53,740] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:14:53,741] {logging_mixin.py:115} INFO - [2022-11-16 18:14:53,741] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:54,066] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:14:54,079] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.342 seconds
+[2022-11-16 18:15:24,226] {processor.py:153} INFO - Started process (PID=504) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:24,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:15:24,227] {logging_mixin.py:115} INFO - [2022-11-16 18:15:24,227] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:24,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:24,634] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.411 seconds
+[2022-11-16 18:15:54,798] {processor.py:153} INFO - Started process (PID=535) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:54,799] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:15:54,800] {logging_mixin.py:115} INFO - [2022-11-16 18:15:54,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:55,488] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:15:55,508] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.715 seconds
+[2022-11-16 18:16:25,650] {processor.py:153} INFO - Started process (PID=555) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:25,651] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:16:25,652] {logging_mixin.py:115} INFO - [2022-11-16 18:16:25,652] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:26,050] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:26,061] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.413 seconds
+[2022-11-16 18:16:56,261] {processor.py:153} INFO - Started process (PID=584) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:56,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:16:56,263] {logging_mixin.py:115} INFO - [2022-11-16 18:16:56,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:56,685] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:16:56,732] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.474 seconds
+[2022-11-16 18:17:26,908] {processor.py:153} INFO - Started process (PID=613) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:26,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:17:26,910] {logging_mixin.py:115} INFO - [2022-11-16 18:17:26,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:27,748] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:27,766] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.863 seconds
+[2022-11-16 18:17:57,926] {processor.py:153} INFO - Started process (PID=633) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:57,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-16 18:17:57,928] {logging_mixin.py:115} INFO - [2022-11-16 18:17:57,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:58,266] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-16 18:17:58,277] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 0.354 seconds

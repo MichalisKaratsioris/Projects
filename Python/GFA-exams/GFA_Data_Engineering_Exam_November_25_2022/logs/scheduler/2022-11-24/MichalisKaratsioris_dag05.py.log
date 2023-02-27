@@ -1,0 +1,42 @@
+[2022-11-24 10:57:06,862] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:06,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 10:57:06,866] {logging_mixin.py:115} INFO - [2022-11-24 10:57:06,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:08,637] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:08,700] {logging_mixin.py:115} INFO - [2022-11-24 10:57:08,699] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 10:57:08,781] {logging_mixin.py:115} INFO - [2022-11-24 10:57:08,781] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 10:57:08,815] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 1.965 seconds
+[2022-11-24 10:57:39,225] {processor.py:153} INFO - Started process (PID=94) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:39,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 10:57:39,227] {logging_mixin.py:115} INFO - [2022-11-24 10:57:39,227] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:39,816] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:57:39,839] {logging_mixin.py:115} INFO - [2022-11-24 10:57:39,839] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 10:57:39,879] {logging_mixin.py:115} INFO - [2022-11-24 10:57:39,879] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 10:57:39,927] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 0.709 seconds
+[2022-11-24 10:58:10,189] {processor.py:153} INFO - Started process (PID=131) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:58:10,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 10:58:10,192] {logging_mixin.py:115} INFO - [2022-11-24 10:58:10,191] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:58:10,825] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 10:58:10,847] {logging_mixin.py:115} INFO - [2022-11-24 10:58:10,846] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 10:58:10,867] {logging_mixin.py:115} INFO - [2022-11-24 10:58:10,867] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 10:58:10,886] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 0.701 seconds
+[2022-11-24 11:01:12,501] {processor.py:153} INFO - Started process (PID=75) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:12,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 11:01:12,536] {logging_mixin.py:115} INFO - [2022-11-24 11:01:12,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:14,160] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:14,310] {logging_mixin.py:115} INFO - [2022-11-24 11:01:14,310] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 11:01:14,415] {logging_mixin.py:115} INFO - [2022-11-24 11:01:14,414] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 11:01:14,496] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 2.032 seconds
+[2022-11-24 11:01:45,422] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:45,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 11:01:45,427] {logging_mixin.py:115} INFO - [2022-11-24 11:01:45,426] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:46,434] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:01:46,465] {logging_mixin.py:115} INFO - [2022-11-24 11:01:46,465] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 11:01:46,495] {logging_mixin.py:115} INFO - [2022-11-24 11:01:46,495] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 11:01:46,518] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 1.110 seconds
+[2022-11-24 11:02:17,183] {processor.py:153} INFO - Started process (PID=140) to work on /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:02:17,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05.py for tasks to queue
+[2022-11-24 11:02:17,185] {logging_mixin.py:115} INFO - [2022-11-24 11:02:17,185] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:02:18,203] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05.py
+[2022-11-24 11:02:18,239] {logging_mixin.py:115} INFO - [2022-11-24 11:02:18,239] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-24 11:02:18,272] {logging_mixin.py:115} INFO - [2022-11-24 11:02:18,272] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-24 11:02:18,299] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05.py took 1.120 seconds

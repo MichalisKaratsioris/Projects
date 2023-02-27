@@ -1,0 +1,18 @@
+[2022-11-20 11:35:02,641] {processor.py:153} INFO - Started process (PID=75) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:35:02,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-20 11:35:02,655] {logging_mixin.py:115} INFO - [2022-11-20 11:35:02,655] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:35:21,289] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:35:21,800] {logging_mixin.py:115} INFO - [2022-11-20 11:35:21,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-20 11:35:22,037] {logging_mixin.py:115} INFO - [2022-11-20 11:35:22,037] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20 11:35:22,195] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 19.551 seconds
+[2022-11-20 11:35:59,316] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:36:00,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-20 11:36:00,338] {logging_mixin.py:115} INFO - [2022-11-20 11:36:00,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:36:07,905] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-20 11:36:08,024] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,023] {manager.py:508} INFO - Created Permission View: can edit on DAG:MSSQL_connection
+[2022-11-20 11:36:08,044] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,044] {manager.py:508} INFO - Created Permission View: can read on DAG:MSSQL_connection
+[2022-11-20 11:36:08,058] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,058] {manager.py:508} INFO - Created Permission View: can delete on DAG:MSSQL_connection
+[2022-11-20 11:36:08,060] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,059] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-20 11:36:08,075] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,075] {dag.py:2398} INFO - Creating ORM DAG for MSSQL_connection
+[2022-11-20 11:36:08,101] {logging_mixin.py:115} INFO - [2022-11-20 11:36:08,101] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-15T00:00:00+00:00, run_after=2022-11-16T00:00:00+00:00
+[2022-11-20 11:36:08,129] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.809 seconds

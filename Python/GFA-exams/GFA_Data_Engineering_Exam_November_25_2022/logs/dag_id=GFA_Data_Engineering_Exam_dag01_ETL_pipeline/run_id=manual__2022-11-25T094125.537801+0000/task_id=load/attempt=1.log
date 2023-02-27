@@ -1,0 +1,48 @@
+[2022-11-25 09:41:47,002] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag01_ETL_pipeline.load manual__2022-11-25T09:41:25.537801+00:00 [queued]>
+[2022-11-25 09:41:47,033] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag01_ETL_pipeline.load manual__2022-11-25T09:41:25.537801+00:00 [queued]>
+[2022-11-25 09:41:47,034] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 09:41:47,036] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-25 09:41:47,037] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 09:41:47,084] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): load> on 2022-11-25 09:41:25.537801+00:00
+[2022-11-25 09:41:47,094] {standard_task_runner.py:52} INFO - Started process 7559 to run task
+[2022-11-25 09:41:47,101] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'GFA_Data_Engineering_Exam_dag01_ETL_pipeline', 'load', 'manual__2022-11-25T09:41:25.537801+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/MichalisKaratsioris_dag01.py', '--cfg-path', '/tmp/tmpvnhb2_5e', '--error-file', '/tmp/tmpysna7si_']
+[2022-11-25 09:41:47,103] {standard_task_runner.py:80} INFO - Job 80: Subtask load
+[2022-11-25 09:41:47,205] {task_command.py:370} INFO - Running <TaskInstance: GFA_Data_Engineering_Exam_dag01_ETL_pipeline.load manual__2022-11-25T09:41:25.537801+00:00 [running]> on host c78bb2381ec5
+[2022-11-25 09:41:47,332] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=GFA_Data_Engineering_Exam_dag01_ETL_pipeline
+AIRFLOW_CTX_TASK_ID=load
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-25T09:41:25.537801+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-25T09:41:25.537801+00:00
+[2022-11-25 09:41:47,380] {base.py:68} INFO - Using connection ID '***-mssql' for task execution.
+[2022-11-25 09:41:47,402] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "src/pymssql/_pymssql.pyx", line 647, in pymssql._pymssql.connect
+  File "src/pymssql/_mssql.pyx", line 2109, in pymssql._mssql.connect
+  File "src/pymssql/_mssql.pyx", line 701, in pymssql._mssql.MSSQLConnection.__init__
+  File "src/pymssql/_mssql.pyx", line 1818, in pymssql._mssql.maybe_raise_MSSQLDatabaseException
+  File "src/pymssql/_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/MichalisKaratsioris_dag01.py", line 57, in _load
+    hook.insert_rows("GFA_Data_Engineering_Exam.dbo.countries", result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 364, in insert_rows
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/microsoft/mssql/hooks/mssql.py", line 102, in get_conn
+    port=conn.port,
+  File "src/pymssql/_pymssql.pyx", line 653, in pymssql._pymssql.connect
+pymssql._pymssql.OperationalError: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\n')
+[2022-11-25 09:41:47,427] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=GFA_Data_Engineering_Exam_dag01_ETL_pipeline, task_id=load, execution_date=20221125T094125, start_date=20221125T094147, end_date=20221125T094147
+[2022-11-25 09:41:47,451] {standard_task_runner.py:97} ERROR - Failed to execute job 80 for task load ((20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)\nNet-Lib error during Connection refused (111)\n'); 7559)
+[2022-11-25 09:41:47,476] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-11-25 09:41:47,567] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

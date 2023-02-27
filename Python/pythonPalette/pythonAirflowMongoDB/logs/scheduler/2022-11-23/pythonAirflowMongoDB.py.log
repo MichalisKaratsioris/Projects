@@ -1,0 +1,17 @@
+[2022-11-23 10:17:31,222] {processor.py:153} INFO - Started process (PID=78) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-23 10:17:31,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-23 10:17:31,225] {logging_mixin.py:115} INFO - [2022-11-23 10:17:31,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-23 10:17:34,641] {logging_mixin.py:115} INFO - [2022-11-23 10:17:34,588] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/pythonAirflowMongoDB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonAirflowMongoDB.py", line 10, in <module>
+    from dotenv import load_dotenv, find_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-11-23 10:17:34,660] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-23 10:17:34,935] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMongoDB.py took 3.717 seconds
+[2022-11-23 10:18:07,878] {processor.py:153} INFO - Started process (PID=98) to work on /opt/airflow/dags/pythonAirflowMongoDB.py
+[2022-11-23 10:18:07,896] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMongoDB.py for tasks to queue
+[2022-11-23 10:18:08,066] {logging_mixin.py:115} INFO - [2022-11-23 10:18:08,030] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMongoDB.py

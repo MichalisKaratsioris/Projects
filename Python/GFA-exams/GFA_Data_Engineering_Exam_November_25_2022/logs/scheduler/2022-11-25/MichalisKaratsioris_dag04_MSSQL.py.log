@@ -1,0 +1,1409 @@
+[2022-11-25 11:34:08,593] {processor.py:153} INFO - Started process (PID=817) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:08,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:34:08,596] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,596] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:09,696] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04_MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:09,812] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,811] {manager.py:508} INFO - Created Permission View: can delete on DAG:GFA_Data_Engineering_Exam_dag04_MSSQL
+[2022-11-25 11:34:09,832] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,832] {manager.py:508} INFO - Created Permission View: can read on DAG:GFA_Data_Engineering_Exam_dag04_MSSQL
+[2022-11-25 11:34:09,850] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,850] {manager.py:508} INFO - Created Permission View: can edit on DAG:GFA_Data_Engineering_Exam_dag04_MSSQL
+[2022-11-25 11:34:09,852] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:09,882] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,881] {dag.py:2398} INFO - Creating ORM DAG for GFA_Data_Engineering_Exam_dag04_MSSQL
+[2022-11-25 11:34:09,929] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,928] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04_MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:10,023] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.435 seconds
+[2022-11-25 11:34:40,551] {processor.py:153} INFO - Started process (PID=853) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:40,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:34:40,554] {logging_mixin.py:115} INFO - [2022-11-25 11:34:40,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:41,797] {logging_mixin.py:115} INFO - [2022-11-25 11:34:41,786] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 46, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:34:41,799] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:34:41,836] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.302 seconds
+[2022-11-25 11:35:11,911] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:11,912] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:35:11,913] {logging_mixin.py:115} INFO - [2022-11-25 11:35:11,913] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:12,628] {logging_mixin.py:115} INFO - [2022-11-25 11:35:12,623] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 46, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:35:12,629] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:12,704] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.796 seconds
+[2022-11-25 11:35:32,104] {processor.py:153} INFO - Started process (PID=905) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:32,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:35:32,106] {logging_mixin.py:115} INFO - [2022-11-25 11:35:32,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:33,307] {logging_mixin.py:115} INFO - [2022-11-25 11:35:33,302] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 68, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:35:33,309] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:33,340] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.245 seconds
+[2022-11-25 11:35:55,466] {processor.py:153} INFO - Started process (PID=933) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:55,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:35:55,468] {logging_mixin.py:115} INFO - [2022-11-25 11:35:55,468] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:56,030] {logging_mixin.py:115} INFO - [2022-11-25 11:35:56,023] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:35:56,032] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:35:56,055] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.592 seconds
+[2022-11-25 11:36:26,179] {processor.py:153} INFO - Started process (PID=970) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:26,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:36:26,181] {logging_mixin.py:115} INFO - [2022-11-25 11:36:26,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:26,764] {logging_mixin.py:115} INFO - [2022-11-25 11:36:26,760] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:36:26,766] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:26,789] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.616 seconds
+[2022-11-25 11:36:57,671] {processor.py:153} INFO - Started process (PID=1007) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:57,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:36:57,672] {logging_mixin.py:115} INFO - [2022-11-25 11:36:57,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:58,214] {logging_mixin.py:115} INFO - [2022-11-25 11:36:58,209] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:36:58,216] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:36:58,235] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.568 seconds
+[2022-11-25 11:37:28,547] {processor.py:153} INFO - Started process (PID=1035) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:37:28,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:37:28,549] {logging_mixin.py:115} INFO - [2022-11-25 11:37:28,549] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:37:29,434] {logging_mixin.py:115} INFO - [2022-11-25 11:37:29,420] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:37:29,436] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:37:29,470] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.927 seconds
+[2022-11-25 11:37:59,578] {processor.py:153} INFO - Started process (PID=1073) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:37:59,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:37:59,580] {logging_mixin.py:115} INFO - [2022-11-25 11:37:59,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:38:00,126] {logging_mixin.py:115} INFO - [2022-11-25 11:38:00,120] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:38:00,128] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:38:00,148] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.573 seconds
+[2022-11-25 11:38:30,214] {processor.py:153} INFO - Started process (PID=1101) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:38:30,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:38:30,217] {logging_mixin.py:115} INFO - [2022-11-25 11:38:30,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:38:30,767] {logging_mixin.py:115} INFO - [2022-11-25 11:38:30,760] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 77, in <module>
+    extract >> transform >> load
+NameError: name 'extract' is not defined
+[2022-11-25 11:38:30,769] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:38:30,797] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.590 seconds
+[2022-11-25 11:39:00,237] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:00,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:39:00,240] {logging_mixin.py:115} INFO - [2022-11-25 11:39:00,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:01,698] {logging_mixin.py:115} INFO - [2022-11-25 11:39:01,690] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:39:01,699] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:01,783] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.552 seconds
+[2022-11-25 11:39:32,161] {processor.py:153} INFO - Started process (PID=1167) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:32,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:39:32,164] {logging_mixin.py:115} INFO - [2022-11-25 11:39:32,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:32,541] {logging_mixin.py:115} INFO - [2022-11-25 11:39:32,533] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:39:32,542] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:39:32,557] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.399 seconds
+[2022-11-25 11:40:02,718] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:02,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:40:02,719] {logging_mixin.py:115} INFO - [2022-11-25 11:40:02,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:03,175] {logging_mixin.py:115} INFO - [2022-11-25 11:40:03,167] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:40:03,176] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:03,197] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.482 seconds
+[2022-11-25 11:40:33,273] {processor.py:153} INFO - Started process (PID=1232) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:33,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:40:33,275] {logging_mixin.py:115} INFO - [2022-11-25 11:40:33,275] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:33,783] {logging_mixin.py:115} INFO - [2022-11-25 11:40:33,772] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:40:33,783] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:40:33,801] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.533 seconds
+[2022-11-25 11:41:04,757] {processor.py:153} INFO - Started process (PID=1269) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:04,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:41:04,759] {logging_mixin.py:115} INFO - [2022-11-25 11:41:04,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:05,168] {logging_mixin.py:115} INFO - [2022-11-25 11:41:05,163] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:41:05,168] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:05,184] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.431 seconds
+[2022-11-25 11:41:35,980] {processor.py:153} INFO - Started process (PID=1297) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:35,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:41:35,981] {logging_mixin.py:115} INFO - [2022-11-25 11:41:35,981] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:36,449] {logging_mixin.py:115} INFO - [2022-11-25 11:41:36,440] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:41:36,450] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:41:36,468] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.492 seconds
+[2022-11-25 11:42:06,600] {processor.py:153} INFO - Started process (PID=1335) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:06,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:42:06,602] {logging_mixin.py:115} INFO - [2022-11-25 11:42:06,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:07,064] {logging_mixin.py:115} INFO - [2022-11-25 11:42:07,055] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:42:07,065] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:07,085] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.488 seconds
+[2022-11-25 11:42:37,248] {processor.py:153} INFO - Started process (PID=1370) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:37,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:42:37,250] {logging_mixin.py:115} INFO - [2022-11-25 11:42:37,250] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:37,911] {logging_mixin.py:115} INFO - [2022-11-25 11:42:37,901] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:42:37,911] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:42:37,934] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.689 seconds
+[2022-11-25 11:43:08,941] {processor.py:153} INFO - Started process (PID=1400) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:08,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:43:08,943] {logging_mixin.py:115} INFO - [2022-11-25 11:43:08,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:09,717] {logging_mixin.py:115} INFO - [2022-11-25 11:43:09,702] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:43:09,718] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:09,742] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.804 seconds
+[2022-11-25 11:43:40,146] {processor.py:153} INFO - Started process (PID=1437) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:40,147] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:43:40,147] {logging_mixin.py:115} INFO - [2022-11-25 11:43:40,147] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:40,784] {logging_mixin.py:115} INFO - [2022-11-25 11:43:40,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:43:40,785] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:43:40,815] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.673 seconds
+[2022-11-25 11:44:11,144] {processor.py:153} INFO - Started process (PID=1465) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:11,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:44:11,146] {logging_mixin.py:115} INFO - [2022-11-25 11:44:11,146] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:11,596] {logging_mixin.py:115} INFO - [2022-11-25 11:44:11,586] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:44:11,597] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:11,618] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.477 seconds
+[2022-11-25 11:44:41,699] {processor.py:153} INFO - Started process (PID=1502) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:41,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:44:41,701] {logging_mixin.py:115} INFO - [2022-11-25 11:44:41,701] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:42,239] {logging_mixin.py:115} INFO - [2022-11-25 11:44:42,228] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:44:42,240] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:44:42,259] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.563 seconds
+[2022-11-25 11:45:12,686] {processor.py:153} INFO - Started process (PID=1530) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:12,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:45:12,689] {logging_mixin.py:115} INFO - [2022-11-25 11:45:12,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:13,468] {logging_mixin.py:115} INFO - [2022-11-25 11:45:13,458] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 96, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:45:13,469] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:13,492] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.813 seconds
+[2022-11-25 11:45:20,614] {processor.py:153} INFO - Started process (PID=1541) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:20,615] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:45:20,616] {logging_mixin.py:115} INFO - [2022-11-25 11:45:20,616] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:21,221] {logging_mixin.py:115} INFO - [2022-11-25 11:45:21,212] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:45:21,222] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:21,245] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.634 seconds
+[2022-11-25 11:45:51,364] {processor.py:153} INFO - Started process (PID=1569) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:51,364] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:45:51,366] {logging_mixin.py:115} INFO - [2022-11-25 11:45:51,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:51,751] {logging_mixin.py:115} INFO - [2022-11-25 11:45:51,739] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:45:51,751] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:45:51,771] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.411 seconds
+[2022-11-25 11:46:22,127] {processor.py:153} INFO - Started process (PID=1606) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:22,129] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:46:22,132] {logging_mixin.py:115} INFO - [2022-11-25 11:46:22,132] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:23,737] {logging_mixin.py:115} INFO - [2022-11-25 11:46:23,727] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:46:23,738] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:23,770] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.659 seconds
+[2022-11-25 11:46:53,968] {processor.py:153} INFO - Started process (PID=1643) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:53,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:46:53,970] {logging_mixin.py:115} INFO - [2022-11-25 11:46:53,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:54,618] {logging_mixin.py:115} INFO - [2022-11-25 11:46:54,607] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:46:54,619] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:46:54,651] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.687 seconds
+[2022-11-25 11:47:25,496] {processor.py:153} INFO - Started process (PID=1671) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:25,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:47:25,498] {logging_mixin.py:115} INFO - [2022-11-25 11:47:25,498] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:26,594] {logging_mixin.py:115} INFO - [2022-11-25 11:47:26,584] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:47:26,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:26,622] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.130 seconds
+[2022-11-25 11:47:56,998] {processor.py:153} INFO - Started process (PID=1708) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:56,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:47:57,001] {logging_mixin.py:115} INFO - [2022-11-25 11:47:57,001] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:57,504] {logging_mixin.py:115} INFO - [2022-11-25 11:47:57,498] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:47:57,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:47:57,523] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.529 seconds
+[2022-11-25 11:48:27,903] {processor.py:153} INFO - Started process (PID=1736) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:27,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:48:27,906] {logging_mixin.py:115} INFO - [2022-11-25 11:48:27,906] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:28,811] {logging_mixin.py:115} INFO - [2022-11-25 11:48:28,804] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:48:28,812] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:28,840] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.942 seconds
+[2022-11-25 11:48:58,898] {processor.py:153} INFO - Started process (PID=1775) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:58,899] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:48:58,900] {logging_mixin.py:115} INFO - [2022-11-25 11:48:58,900] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:59,427] {logging_mixin.py:115} INFO - [2022-11-25 11:48:59,419] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 97, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:48:59,428] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:48:59,450] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.555 seconds
+[2022-11-25 11:49:11,411] {processor.py:153} INFO - Started process (PID=1786) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:11,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:49:11,413] {logging_mixin.py:115} INFO - [2022-11-25 11:49:11,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:11,959] {logging_mixin.py:115} INFO - [2022-11-25 11:49:11,942] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 99, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:49:11,959] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:12,072] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.664 seconds
+[2022-11-25 11:49:42,145] {processor.py:153} INFO - Started process (PID=1814) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:42,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:49:42,151] {logging_mixin.py:115} INFO - [2022-11-25 11:49:42,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:42,662] {logging_mixin.py:115} INFO - [2022-11-25 11:49:42,652] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 99, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:49:42,663] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:49:42,688] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.552 seconds
+[2022-11-25 11:50:13,035] {processor.py:153} INFO - Started process (PID=1851) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:13,036] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:50:13,037] {logging_mixin.py:115} INFO - [2022-11-25 11:50:13,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:13,789] {logging_mixin.py:115} INFO - [2022-11-25 11:50:13,781] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 99, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:50:13,790] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:13,811] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.780 seconds
+[2022-11-25 11:50:43,888] {processor.py:153} INFO - Started process (PID=1888) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:43,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:50:43,890] {logging_mixin.py:115} INFO - [2022-11-25 11:50:43,890] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:44,694] {logging_mixin.py:115} INFO - [2022-11-25 11:50:44,685] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 99, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:50:44,695] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:50:44,718] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.835 seconds
+[2022-11-25 11:51:09,361] {processor.py:153} INFO - Started process (PID=1916) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:09,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:51:09,363] {logging_mixin.py:115} INFO - [2022-11-25 11:51:09,363] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:09,879] {logging_mixin.py:115} INFO - [2022-11-25 11:51:09,870] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:51:09,879] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:09,898] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.539 seconds
+[2022-11-25 11:51:40,610] {processor.py:153} INFO - Started process (PID=1944) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:40,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:51:40,613] {logging_mixin.py:115} INFO - [2022-11-25 11:51:40,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:41,161] {logging_mixin.py:115} INFO - [2022-11-25 11:51:41,153] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:51:41,162] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:51:41,181] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.579 seconds
+[2022-11-25 11:52:11,421] {processor.py:153} INFO - Started process (PID=1981) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:11,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:52:11,422] {logging_mixin.py:115} INFO - [2022-11-25 11:52:11,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:11,910] {logging_mixin.py:115} INFO - [2022-11-25 11:52:11,900] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:52:11,910] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:11,929] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.511 seconds
+[2022-11-25 11:52:42,672] {processor.py:153} INFO - Started process (PID=2009) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:42,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:52:42,674] {logging_mixin.py:115} INFO - [2022-11-25 11:52:42,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:44,091] {logging_mixin.py:115} INFO - [2022-11-25 11:52:44,075] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:52:44,092] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:52:44,123] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.460 seconds
+[2022-11-25 11:53:14,228] {processor.py:153} INFO - Started process (PID=2046) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:14,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:53:14,230] {logging_mixin.py:115} INFO - [2022-11-25 11:53:14,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:15,246] {logging_mixin.py:115} INFO - [2022-11-25 11:53:15,223] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:53:15,247] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:15,281] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.058 seconds
+[2022-11-25 11:53:45,555] {processor.py:153} INFO - Started process (PID=2074) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:45,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:53:45,556] {logging_mixin.py:115} INFO - [2022-11-25 11:53:45,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:46,335] {logging_mixin.py:115} INFO - [2022-11-25 11:53:46,326] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:53:46,335] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:53:46,387] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.836 seconds
+[2022-11-25 11:54:16,720] {processor.py:153} INFO - Started process (PID=2111) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:16,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:54:16,722] {logging_mixin.py:115} INFO - [2022-11-25 11:54:16,722] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:17,425] {logging_mixin.py:115} INFO - [2022-11-25 11:54:17,418] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:54:17,426] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:17,444] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.726 seconds
+[2022-11-25 11:54:47,522] {processor.py:153} INFO - Started process (PID=2149) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:47,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:54:47,524] {logging_mixin.py:115} INFO - [2022-11-25 11:54:47,524] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:48,375] {logging_mixin.py:115} INFO - [2022-11-25 11:54:48,364] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:54:48,375] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:54:48,412] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.894 seconds
+[2022-11-25 11:55:18,717] {processor.py:153} INFO - Started process (PID=2177) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:18,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:55:18,719] {logging_mixin.py:115} INFO - [2022-11-25 11:55:18,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:19,451] {logging_mixin.py:115} INFO - [2022-11-25 11:55:19,443] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:55:19,451] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:19,467] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.753 seconds
+[2022-11-25 11:55:49,571] {processor.py:153} INFO - Started process (PID=2215) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:49,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:55:49,573] {logging_mixin.py:115} INFO - [2022-11-25 11:55:49,573] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:50,255] {logging_mixin.py:115} INFO - [2022-11-25 11:55:50,248] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:55:50,255] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:55:50,285] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.716 seconds
+[2022-11-25 11:56:20,574] {processor.py:153} INFO - Started process (PID=2243) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:20,576] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:56:20,577] {logging_mixin.py:115} INFO - [2022-11-25 11:56:20,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:21,407] {logging_mixin.py:115} INFO - [2022-11-25 11:56:21,398] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 100, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:56:21,408] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:21,425] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.856 seconds
+[2022-11-25 11:56:37,106] {processor.py:153} INFO - Started process (PID=2267) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:37,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:56:37,108] {logging_mixin.py:115} INFO - [2022-11-25 11:56:37,108] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:38,038] {logging_mixin.py:115} INFO - [2022-11-25 11:56:38,030] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:56:38,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:56:38,063] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.961 seconds
+[2022-11-25 11:57:08,474] {processor.py:153} INFO - Started process (PID=2296) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:08,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:57:08,476] {logging_mixin.py:115} INFO - [2022-11-25 11:57:08,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:09,451] {logging_mixin.py:115} INFO - [2022-11-25 11:57:09,443] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:57:09,452] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:09,475] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.009 seconds
+[2022-11-25 11:57:39,939] {processor.py:153} INFO - Started process (PID=2333) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:39,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:57:39,941] {logging_mixin.py:115} INFO - [2022-11-25 11:57:39,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:41,110] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,099] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:57:41,111] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:57:41,142] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.208 seconds
+[2022-11-25 11:58:11,238] {processor.py:153} INFO - Started process (PID=2361) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:11,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:58:11,240] {logging_mixin.py:115} INFO - [2022-11-25 11:58:11,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:11,795] {logging_mixin.py:115} INFO - [2022-11-25 11:58:11,788] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:58:11,795] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:11,812] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.577 seconds
+[2022-11-25 11:58:42,105] {processor.py:153} INFO - Started process (PID=2400) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:42,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:58:42,107] {logging_mixin.py:115} INFO - [2022-11-25 11:58:42,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:42,941] {logging_mixin.py:115} INFO - [2022-11-25 11:58:42,932] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:58:42,942] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:58:42,968] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.867 seconds
+[2022-11-25 11:59:13,158] {processor.py:153} INFO - Started process (PID=2428) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:13,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:59:13,159] {logging_mixin.py:115} INFO - [2022-11-25 11:59:13,159] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:13,905] {logging_mixin.py:115} INFO - [2022-11-25 11:59:13,897] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:59:13,906] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:13,925] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.770 seconds
+[2022-11-25 11:59:44,194] {processor.py:153} INFO - Started process (PID=2465) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:44,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 11:59:44,196] {logging_mixin.py:115} INFO - [2022-11-25 11:59:44,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:44,724] {logging_mixin.py:115} INFO - [2022-11-25 11:59:44,716] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 11:59:44,725] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 11:59:44,740] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.550 seconds
+[2022-11-25 12:00:15,580] {processor.py:153} INFO - Started process (PID=2502) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:15,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:00:15,584] {logging_mixin.py:115} INFO - [2022-11-25 12:00:15,583] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:16,490] {logging_mixin.py:115} INFO - [2022-11-25 12:00:16,479] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:00:16,491] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:16,520] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.945 seconds
+[2022-11-25 12:00:46,871] {processor.py:153} INFO - Started process (PID=2530) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:46,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:00:46,873] {logging_mixin.py:115} INFO - [2022-11-25 12:00:46,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:47,498] {logging_mixin.py:115} INFO - [2022-11-25 12:00:47,488] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:00:47,499] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:00:47,523] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.658 seconds
+[2022-11-25 12:01:18,019] {processor.py:153} INFO - Started process (PID=2568) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:18,020] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:01:18,022] {logging_mixin.py:115} INFO - [2022-11-25 12:01:18,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:18,743] {logging_mixin.py:115} INFO - [2022-11-25 12:01:18,731] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 101, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:01:18,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:18,780] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.766 seconds
+[2022-11-25 12:01:29,809] {processor.py:153} INFO - Started process (PID=2581) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:29,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:01:29,812] {logging_mixin.py:115} INFO - [2022-11-25 12:01:29,812] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:31,706] {logging_mixin.py:115} INFO - [2022-11-25 12:01:31,692] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 109, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:01:31,707] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:31,767] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.966 seconds
+[2022-11-25 12:01:59,286] {processor.py:153} INFO - Started process (PID=2611) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:01:59,287] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:01:59,288] {logging_mixin.py:115} INFO - [2022-11-25 12:01:59,288] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:00,504] {logging_mixin.py:115} INFO - [2022-11-25 12:02:00,492] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 110, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:02:00,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:00,536] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.255 seconds
+[2022-11-25 12:02:17,791] {processor.py:153} INFO - Started process (PID=2622) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:17,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:02:17,794] {logging_mixin.py:115} INFO - [2022-11-25 12:02:17,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:19,358] {logging_mixin.py:115} INFO - [2022-11-25 12:02:19,334] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 114, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:02:19,360] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:19,431] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.649 seconds
+[2022-11-25 12:02:29,347] {processor.py:153} INFO - Started process (PID=2641) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:29,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:02:29,350] {logging_mixin.py:115} INFO - [2022-11-25 12:02:29,350] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:30,525] {logging_mixin.py:115} INFO - [2022-11-25 12:02:30,516] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 114, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:02:30,526] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:30,552] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.210 seconds
+[2022-11-25 12:02:39,449] {processor.py:153} INFO - Started process (PID=2652) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:39,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:02:39,450] {logging_mixin.py:115} INFO - [2022-11-25 12:02:39,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:40,086] {logging_mixin.py:115} INFO - [2022-11-25 12:02:40,080] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 114, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:02:40,104] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:40,190] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 0.745 seconds
+[2022-11-25 12:02:48,803] {processor.py:153} INFO - Started process (PID=2662) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:48,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:02:48,809] {logging_mixin.py:115} INFO - [2022-11-25 12:02:48,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:50,022] {logging_mixin.py:115} INFO - [2022-11-25 12:02:50,014] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 114, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:02:50,023] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:02:50,051] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.259 seconds
+[2022-11-25 12:03:11,299] {processor.py:153} INFO - Started process (PID=2681) to work on /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:03:11,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py for tasks to queue
+[2022-11-25 12:03:11,303] {logging_mixin.py:115} INFO - [2022-11-25 12:03:11,303] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:03:13,046] {logging_mixin.py:115} INFO - [2022-11-25 12:03:13,032] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py", line 114, in <module>
+    python_callable=_aggregation_02_pandas_print
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aggregation_01' has already been added to the DAG
+[2022-11-25 12:03:13,047] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py
+[2022-11-25 12:03:13,085] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04_MSSQL.py took 1.791 seconds

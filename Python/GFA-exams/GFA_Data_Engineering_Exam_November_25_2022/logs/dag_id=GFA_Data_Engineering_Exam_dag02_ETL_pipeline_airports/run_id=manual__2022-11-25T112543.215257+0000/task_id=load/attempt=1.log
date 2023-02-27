@@ -1,0 +1,47 @@
+[2022-11-25 11:26:22,938] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.load manual__2022-11-25T11:25:43.215257+00:00 [queued]>
+[2022-11-25 11:26:22,984] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.load manual__2022-11-25T11:25:43.215257+00:00 [queued]>
+[2022-11-25 11:26:22,987] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 11:26:22,994] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-25 11:26:22,995] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 11:26:23,082] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): load> on 2022-11-25 11:25:43.215257+00:00
+[2022-11-25 11:26:23,149] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports', 'load', 'manual__2022-11-25T11:25:43.215257+00:00', '--job-id', '123', '--raw', '--subdir', 'DAGS_FOLDER/MichalisKaratsioris_dag02.py', '--cfg-path', '/tmp/tmph7qtxtyn', '--error-file', '/tmp/tmplxfi72yp']
+[2022-11-25 11:26:23,123] {standard_task_runner.py:52} INFO - Started process 368 to run task
+[2022-11-25 11:26:23,152] {standard_task_runner.py:80} INFO - Job 123: Subtask load
+[2022-11-25 11:26:23,432] {task_command.py:370} INFO - Running <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.load manual__2022-11-25T11:25:43.215257+00:00 [running]> on host c78bb2381ec5
+[2022-11-25 11:26:23,901] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports
+AIRFLOW_CTX_TASK_ID=load
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-25T11:25:43.215257+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-25T11:25:43.215257+00:00
+[2022-11-25 11:26:25,224] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'elevation_ft'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/MichalisKaratsioris_dag02.py", line 42, in _load
+    df["elevation_ft"] = df["elevation_ft"].astype(int)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'elevation_ft'
+[2022-11-25 11:26:25,294] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports, task_id=load, execution_date=20221125T112543, start_date=20221125T112622, end_date=20221125T112625
+[2022-11-25 11:26:25,373] {standard_task_runner.py:97} ERROR - Failed to execute job 123 for task load ('elevation_ft'; 368)
+[2022-11-25 11:26:25,538] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-11-25 11:26:25,648] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

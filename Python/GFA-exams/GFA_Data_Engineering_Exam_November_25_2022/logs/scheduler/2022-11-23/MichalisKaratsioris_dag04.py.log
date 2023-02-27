@@ -1,0 +1,228 @@
+[2022-11-23 10:22:41,776] {processor.py:153} INFO - Started process (PID=104) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:22:41,780] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:22:41,810] {logging_mixin.py:115} INFO - [2022-11-23 10:22:41,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:22:55,484] {logging_mixin.py:115} INFO - [2022-11-23 10:22:55,462] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:22:55,486] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:22:55,950] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 14.193 seconds
+[2022-11-23 10:23:31,717] {processor.py:153} INFO - Started process (PID=133) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:23:31,720] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:23:31,724] {logging_mixin.py:115} INFO - [2022-11-23 10:23:31,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:23:33,249] {logging_mixin.py:115} INFO - [2022-11-23 10:23:33,236] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:23:33,250] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:23:33,285] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 1.593 seconds
+[2022-11-23 10:24:04,146] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:04,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:24:04,151] {logging_mixin.py:115} INFO - [2022-11-23 10:24:04,151] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:05,297] {logging_mixin.py:115} INFO - [2022-11-23 10:24:05,288] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:24:05,298] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:05,332] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 1.193 seconds
+[2022-11-23 10:24:35,738] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:35,739] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:24:35,741] {logging_mixin.py:115} INFO - [2022-11-23 10:24:35,741] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:36,565] {logging_mixin.py:115} INFO - [2022-11-23 10:24:36,558] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:24:36,566] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:24:36,602] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 0.872 seconds
+[2022-11-23 10:25:07,755] {processor.py:153} INFO - Started process (PID=226) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:07,766] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:25:07,779] {logging_mixin.py:115} INFO - [2022-11-23 10:25:07,778] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:09,818] {logging_mixin.py:115} INFO - [2022-11-23 10:25:09,804] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:25:09,819] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:09,872] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 2.137 seconds
+[2022-11-23 10:25:40,595] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:40,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:25:40,599] {logging_mixin.py:115} INFO - [2022-11-23 10:25:40,599] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:42,382] {logging_mixin.py:115} INFO - [2022-11-23 10:25:42,365] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:25:42,389] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:25:42,478] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 1.893 seconds
+[2022-11-23 10:26:30,019] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:26:30,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:26:30,030] {logging_mixin.py:115} INFO - [2022-11-23 10:26:30,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:26:50,554] {logging_mixin.py:115} INFO - [2022-11-23 10:26:50,341] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/MichalisKaratsioris_dag04.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/MichalisKaratsioris_dag04.py", line 36, in <module>
+    with DAG('GFA_Data_Engineering_Exam_dag##', default_args=default_args) as dag:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'GFA_Data_Engineering_Exam_dag##' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-11-23 10:26:50,662] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:26:52,360] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 22.372 seconds
+[2022-11-23 10:27:12,731] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:27:12,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:27:12,750] {logging_mixin.py:115} INFO - [2022-11-23 10:27:12,750] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:27:29,147] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:27:33,030] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,030] {manager.py:508} INFO - Created Permission View: can edit on DAG:GFA_Data_Engineering_Exam_dag04
+[2022-11-23 10:27:33,182] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,182] {manager.py:508} INFO - Created Permission View: can read on DAG:GFA_Data_Engineering_Exam_dag04
+[2022-11-23 10:27:33,305] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,304] {manager.py:508} INFO - Created Permission View: can delete on DAG:GFA_Data_Engineering_Exam_dag04
+[2022-11-23 10:27:33,380] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,307] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:27:33,507] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,506] {dag.py:2398} INFO - Creating ORM DAG for GFA_Data_Engineering_Exam_dag04
+[2022-11-23 10:27:33,636] {logging_mixin.py:115} INFO - [2022-11-23 10:27:33,635] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:27:33,863] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 20.439 seconds
+[2022-11-23 10:28:04,472] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:04,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:28:04,490] {logging_mixin.py:115} INFO - [2022-11-23 10:28:04,489] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:17,775] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:17,968] {logging_mixin.py:115} INFO - [2022-11-23 10:28:17,967] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:28:18,161] {logging_mixin.py:115} INFO - [2022-11-23 10:28:18,160] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:28:18,398] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 13.960 seconds
+[2022-11-23 10:28:49,543] {processor.py:153} INFO - Started process (PID=385) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:49,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:28:49,554] {logging_mixin.py:115} INFO - [2022-11-23 10:28:49,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:53,174] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:28:53,336] {logging_mixin.py:115} INFO - [2022-11-23 10:28:53,336] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:28:53,498] {logging_mixin.py:115} INFO - [2022-11-23 10:28:53,497] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:28:53,607] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 4.080 seconds
+[2022-11-23 10:29:24,426] {processor.py:153} INFO - Started process (PID=413) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:29:24,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:29:24,483] {logging_mixin.py:115} INFO - [2022-11-23 10:29:24,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:29:40,242] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:29:40,501] {logging_mixin.py:115} INFO - [2022-11-23 10:29:40,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:29:40,744] {logging_mixin.py:115} INFO - [2022-11-23 10:29:40,743] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:29:40,934] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 16.438 seconds
+[2022-11-23 10:35:13,245] {processor.py:153} INFO - Started process (PID=78) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:35:13,265] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:35:13,292] {logging_mixin.py:115} INFO - [2022-11-23 10:35:13,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:35:33,274] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:35:35,075] {logging_mixin.py:115} INFO - [2022-11-23 10:35:35,048] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:35:35,806] {logging_mixin.py:115} INFO - [2022-11-23 10:35:35,805] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:35:36,375] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 23.197 seconds
+[2022-11-23 10:36:47,816] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:36:47,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:36:47,855] {logging_mixin.py:115} INFO - [2022-11-23 10:36:47,855] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:36:51,786] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:36:51,953] {logging_mixin.py:115} INFO - [2022-11-23 10:36:51,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:36:52,273] {logging_mixin.py:115} INFO - [2022-11-23 10:36:52,272] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:36:52,458] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 4.889 seconds
+[2022-11-23 10:37:25,032] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:37:25,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 10:37:25,036] {logging_mixin.py:115} INFO - [2022-11-23 10:37:25,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:37:27,276] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 10:37:27,429] {logging_mixin.py:115} INFO - [2022-11-23 10:37:27,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 10:37:27,534] {logging_mixin.py:115} INFO - [2022-11-23 10:37:27,534] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 10:37:27,587] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 2.572 seconds
+[2022-11-23 14:02:07,910] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:02:07,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:02:07,918] {logging_mixin.py:115} INFO - [2022-11-23 14:02:07,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:02:16,528] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:02:16,688] {logging_mixin.py:115} INFO - [2022-11-23 14:02:16,687] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 14:02:16,800] {logging_mixin.py:115} INFO - [2022-11-23 14:02:16,800] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 14:02:16,852] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 8.997 seconds
+[2022-11-23 14:02:53,452] {processor.py:153} INFO - Started process (PID=105) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:02:53,511] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:02:53,531] {logging_mixin.py:115} INFO - [2022-11-23 14:02:53,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:03:36,417] {logging_mixin.py:115} INFO - [2022-11-23 14:03:36,387] {timeout.py:67} ERROR - Process timed out, PID: 105
+[2022-11-23 14:03:36,460] {logging_mixin.py:115} WARNING - Exception ignored in: <function _collection_gced at 0x7fc34ce2e290>
+[2022-11-23 14:03:36,480] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2022-11-23 14:03:36,499] {logging_mixin.py:115} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2022-11-23 14:03:36,535] {logging_mixin.py:115} WARNING -     def _collection_gced(ref):
+[2022-11-23 14:03:36,563] {logging_mixin.py:115} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+[2022-11-23 14:03:36,580] {logging_mixin.py:115} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2022-11-23 14:03:36,643] {logging_mixin.py:115} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/MichalisKaratsioris_dag04.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#reducing-dag-complexity, PID: 105
+[2022-11-23 14:03:40,057] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:03:40,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:03:40,127] {logging_mixin.py:115} INFO - [2022-11-23 14:03:40,122] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:04:03,144] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:04:03,787] {logging_mixin.py:115} INFO - [2022-11-23 14:04:03,770] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 14:04:04,179] {logging_mixin.py:115} INFO - [2022-11-23 14:04:04,179] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 14:04:04,477] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 25.038 seconds
+[2022-11-23 14:04:34,977] {processor.py:153} INFO - Started process (PID=164) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:04:34,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:04:34,985] {logging_mixin.py:115} INFO - [2022-11-23 14:04:34,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:04:36,533] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:04:36,609] {logging_mixin.py:115} INFO - [2022-11-23 14:04:36,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 14:04:36,669] {logging_mixin.py:115} INFO - [2022-11-23 14:04:36,669] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 14:04:36,707] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 1.740 seconds
+[2022-11-23 14:05:07,108] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:07,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:05:07,114] {logging_mixin.py:115} INFO - [2022-11-23 14:05:07,113] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:08,064] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:08,102] {logging_mixin.py:115} INFO - [2022-11-23 14:05:08,102] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 14:05:08,138] {logging_mixin.py:115} INFO - [2022-11-23 14:05:08,138] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 14:05:08,162] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 1.062 seconds
+[2022-11-23 14:05:38,906] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:38,912] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag04.py for tasks to queue
+[2022-11-23 14:05:38,917] {logging_mixin.py:115} INFO - [2022-11-23 14:05:38,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:41,063] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag04']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag04.py
+[2022-11-23 14:05:41,221] {logging_mixin.py:115} INFO - [2022-11-23 14:05:41,220] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-23 14:05:41,415] {logging_mixin.py:115} INFO - [2022-11-23 14:05:41,414] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag04 to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-23 14:05:41,487] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag04.py took 2.594 seconds

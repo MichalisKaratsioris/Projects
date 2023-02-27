@@ -1,0 +1,396 @@
+[2022-11-25 11:34:06,577] {processor.py:153} INFO - Started process (PID=813) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:06,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:34:06,580] {logging_mixin.py:115} INFO - [2022-11-25 11:34:06,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:07,803] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:07,988] {logging_mixin.py:115} INFO - [2022-11-25 11:34:07,988] {manager.py:508} INFO - Created Permission View: can delete on DAG:GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL
+[2022-11-25 11:34:08,011] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,011] {manager.py:508} INFO - Created Permission View: can read on DAG:GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL
+[2022-11-25 11:34:08,030] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,030] {manager.py:508} INFO - Created Permission View: can edit on DAG:GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL
+[2022-11-25 11:34:08,034] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,031] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:08,048] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,048] {dag.py:2398} INFO - Creating ORM DAG for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL
+[2022-11-25 11:34:08,075] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,075] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:08,109] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.537 seconds
+[2022-11-25 11:34:38,917] {processor.py:153} INFO - Started process (PID=850) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:38,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:34:38,919] {logging_mixin.py:115} INFO - [2022-11-25 11:34:38,919] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:39,398] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:34:39,432] {logging_mixin.py:115} INFO - [2022-11-25 11:34:39,431] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:39,460] {logging_mixin.py:115} INFO - [2022-11-25 11:34:39,459] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:39,477] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.564 seconds
+[2022-11-25 11:35:10,277] {processor.py:153} INFO - Started process (PID=887) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:10,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:35:10,278] {logging_mixin.py:115} INFO - [2022-11-25 11:35:10,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:10,795] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:10,822] {logging_mixin.py:115} INFO - [2022-11-25 11:35:10,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:10,855] {logging_mixin.py:115} INFO - [2022-11-25 11:35:10,854] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:10,870] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.596 seconds
+[2022-11-25 11:35:41,240] {processor.py:153} INFO - Started process (PID=917) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:41,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:35:41,242] {logging_mixin.py:115} INFO - [2022-11-25 11:35:41,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:42,298] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:35:42,407] {logging_mixin.py:115} INFO - [2022-11-25 11:35:42,406] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:42,450] {logging_mixin.py:115} INFO - [2022-11-25 11:35:42,450] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:42,479] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.246 seconds
+[2022-11-25 11:36:12,784] {processor.py:153} INFO - Started process (PID=954) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:12,785] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:36:12,786] {logging_mixin.py:115} INFO - [2022-11-25 11:36:12,786] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:13,242] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:13,264] {logging_mixin.py:115} INFO - [2022-11-25 11:36:13,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:13,283] {logging_mixin.py:115} INFO - [2022-11-25 11:36:13,283] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:13,294] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.513 seconds
+[2022-11-25 11:36:43,838] {processor.py:153} INFO - Started process (PID=989) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:43,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:36:43,841] {logging_mixin.py:115} INFO - [2022-11-25 11:36:43,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:44,393] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:36:44,441] {logging_mixin.py:115} INFO - [2022-11-25 11:36:44,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:44,466] {logging_mixin.py:115} INFO - [2022-11-25 11:36:44,466] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:44,484] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.651 seconds
+[2022-11-25 11:37:14,815] {processor.py:153} INFO - Started process (PID=1019) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:14,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:37:14,819] {logging_mixin.py:115} INFO - [2022-11-25 11:37:14,819] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:16,034] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:16,382] {logging_mixin.py:115} INFO - [2022-11-25 11:37:16,376] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:16,463] {logging_mixin.py:115} INFO - [2022-11-25 11:37:16,463] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:16,492] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.682 seconds
+[2022-11-25 11:37:46,849] {processor.py:153} INFO - Started process (PID=1057) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:46,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:37:46,852] {logging_mixin.py:115} INFO - [2022-11-25 11:37:46,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:47,667] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:37:47,708] {logging_mixin.py:115} INFO - [2022-11-25 11:37:47,708] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:47,739] {logging_mixin.py:115} INFO - [2022-11-25 11:37:47,739] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:47,759] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.917 seconds
+[2022-11-25 11:38:18,355] {processor.py:153} INFO - Started process (PID=1085) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:18,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:38:18,358] {logging_mixin.py:115} INFO - [2022-11-25 11:38:18,358] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:18,815] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:18,871] {logging_mixin.py:115} INFO - [2022-11-25 11:38:18,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:18,940] {logging_mixin.py:115} INFO - [2022-11-25 11:38:18,940] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:18,989] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.638 seconds
+[2022-11-25 11:38:49,151] {processor.py:153} INFO - Started process (PID=1122) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:49,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:38:49,153] {logging_mixin.py:115} INFO - [2022-11-25 11:38:49,153] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:49,643] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:38:49,683] {logging_mixin.py:115} INFO - [2022-11-25 11:38:49,682] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:49,706] {logging_mixin.py:115} INFO - [2022-11-25 11:38:49,706] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:49,719] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.571 seconds
+[2022-11-25 11:39:20,036] {processor.py:153} INFO - Started process (PID=1151) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:20,038] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:39:20,038] {logging_mixin.py:115} INFO - [2022-11-25 11:39:20,038] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:20,566] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:20,633] {logging_mixin.py:115} INFO - [2022-11-25 11:39:20,632] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:20,663] {logging_mixin.py:115} INFO - [2022-11-25 11:39:20,663] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:20,681] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.648 seconds
+[2022-11-25 11:39:50,795] {processor.py:153} INFO - Started process (PID=1188) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:50,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:39:50,797] {logging_mixin.py:115} INFO - [2022-11-25 11:39:50,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:51,247] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:39:51,287] {logging_mixin.py:115} INFO - [2022-11-25 11:39:51,287] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:51,311] {logging_mixin.py:115} INFO - [2022-11-25 11:39:51,310] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:51,327] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.536 seconds
+[2022-11-25 11:40:21,417] {processor.py:153} INFO - Started process (PID=1216) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:21,418] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:40:21,418] {logging_mixin.py:115} INFO - [2022-11-25 11:40:21,418] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:21,936] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:22,001] {logging_mixin.py:115} INFO - [2022-11-25 11:40:22,000] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:22,046] {logging_mixin.py:115} INFO - [2022-11-25 11:40:22,046] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:22,079] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.665 seconds
+[2022-11-25 11:40:52,688] {processor.py:153} INFO - Started process (PID=1253) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:52,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:40:52,692] {logging_mixin.py:115} INFO - [2022-11-25 11:40:52,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:54,059] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:40:54,222] {logging_mixin.py:115} INFO - [2022-11-25 11:40:54,220] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:54,308] {logging_mixin.py:115} INFO - [2022-11-25 11:40:54,308] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:54,351] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.670 seconds
+[2022-11-25 11:41:25,009] {processor.py:153} INFO - Started process (PID=1288) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:25,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:41:25,011] {logging_mixin.py:115} INFO - [2022-11-25 11:41:25,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:25,701] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:25,786] {logging_mixin.py:115} INFO - [2022-11-25 11:41:25,785] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:41:25,812] {logging_mixin.py:115} INFO - [2022-11-25 11:41:25,812] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:41:25,830] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.824 seconds
+[2022-11-25 11:41:56,383] {processor.py:153} INFO - Started process (PID=1318) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:56,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:41:56,386] {logging_mixin.py:115} INFO - [2022-11-25 11:41:56,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:57,173] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:41:57,211] {logging_mixin.py:115} INFO - [2022-11-25 11:41:57,211] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:41:57,252] {logging_mixin.py:115} INFO - [2022-11-25 11:41:57,251] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:41:57,275] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.895 seconds
+[2022-11-25 11:42:27,908] {processor.py:153} INFO - Started process (PID=1356) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:42:27,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:42:27,910] {logging_mixin.py:115} INFO - [2022-11-25 11:42:27,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:42:28,582] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:42:28,645] {logging_mixin.py:115} INFO - [2022-11-25 11:42:28,644] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:42:28,688] {logging_mixin.py:115} INFO - [2022-11-25 11:42:28,688] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:42:28,705] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.801 seconds
+[2022-11-25 11:42:59,112] {processor.py:153} INFO - Started process (PID=1384) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:42:59,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:42:59,116] {logging_mixin.py:115} INFO - [2022-11-25 11:42:59,116] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:43:00,140] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:43:00,279] {logging_mixin.py:115} INFO - [2022-11-25 11:43:00,277] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:00,343] {logging_mixin.py:115} INFO - [2022-11-25 11:43:00,343] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:00,372] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.265 seconds
+[2022-11-25 11:43:31,001] {processor.py:153} INFO - Started process (PID=1421) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:43:31,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:43:31,002] {logging_mixin.py:115} INFO - [2022-11-25 11:43:31,002] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:43:31,843] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:43:31,955] {logging_mixin.py:115} INFO - [2022-11-25 11:43:31,955] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:31,994] {logging_mixin.py:115} INFO - [2022-11-25 11:43:31,994] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:32,022] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.024 seconds
+[2022-11-25 11:44:02,957] {processor.py:153} INFO - Started process (PID=1456) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:02,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:44:02,959] {logging_mixin.py:115} INFO - [2022-11-25 11:44:02,959] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:03,938] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:04,000] {logging_mixin.py:115} INFO - [2022-11-25 11:44:03,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:04,040] {logging_mixin.py:115} INFO - [2022-11-25 11:44:04,039] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:04,060] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.107 seconds
+[2022-11-25 11:44:34,401] {processor.py:153} INFO - Started process (PID=1486) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:34,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:44:34,403] {logging_mixin.py:115} INFO - [2022-11-25 11:44:34,402] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:34,993] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:44:35,028] {logging_mixin.py:115} INFO - [2022-11-25 11:44:35,027] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:35,045] {logging_mixin.py:115} INFO - [2022-11-25 11:44:35,045] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:35,058] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.661 seconds
+[2022-11-25 11:45:05,472] {processor.py:153} INFO - Started process (PID=1523) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:05,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:45:05,475] {logging_mixin.py:115} INFO - [2022-11-25 11:45:05,474] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:06,213] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:06,288] {logging_mixin.py:115} INFO - [2022-11-25 11:45:06,287] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:06,321] {logging_mixin.py:115} INFO - [2022-11-25 11:45:06,321] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:06,339] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.872 seconds
+[2022-11-25 11:45:36,435] {processor.py:153} INFO - Started process (PID=1553) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:36,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:45:36,438] {logging_mixin.py:115} INFO - [2022-11-25 11:45:36,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:37,049] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:45:37,139] {logging_mixin.py:115} INFO - [2022-11-25 11:45:37,138] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:37,167] {logging_mixin.py:115} INFO - [2022-11-25 11:45:37,167] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:37,185] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.754 seconds
+[2022-11-25 11:46:07,940] {processor.py:153} INFO - Started process (PID=1590) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:07,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:46:07,942] {logging_mixin.py:115} INFO - [2022-11-25 11:46:07,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:08,738] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:08,805] {logging_mixin.py:115} INFO - [2022-11-25 11:46:08,804] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:08,833] {logging_mixin.py:115} INFO - [2022-11-25 11:46:08,833] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:08,852] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.916 seconds
+[2022-11-25 11:46:38,955] {processor.py:153} INFO - Started process (PID=1618) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:38,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:46:38,959] {logging_mixin.py:115} INFO - [2022-11-25 11:46:38,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:39,638] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:46:39,699] {logging_mixin.py:115} INFO - [2022-11-25 11:46:39,698] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:39,739] {logging_mixin.py:115} INFO - [2022-11-25 11:46:39,739] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:39,762] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.812 seconds
+[2022-11-25 11:47:09,820] {processor.py:153} INFO - Started process (PID=1655) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:09,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:47:09,824] {logging_mixin.py:115} INFO - [2022-11-25 11:47:09,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:10,481] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:10,544] {logging_mixin.py:115} INFO - [2022-11-25 11:47:10,543] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:10,579] {logging_mixin.py:115} INFO - [2022-11-25 11:47:10,578] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:10,653] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.840 seconds
+[2022-11-25 11:47:40,847] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:40,848] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:47:40,850] {logging_mixin.py:115} INFO - [2022-11-25 11:47:40,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:41,581] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:47:41,635] {logging_mixin.py:115} INFO - [2022-11-25 11:47:41,634] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:41,661] {logging_mixin.py:115} INFO - [2022-11-25 11:47:41,661] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:41,678] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.836 seconds
+[2022-11-25 11:48:12,743] {processor.py:153} INFO - Started process (PID=1720) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:12,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:48:12,745] {logging_mixin.py:115} INFO - [2022-11-25 11:48:12,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:13,321] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:13,398] {logging_mixin.py:115} INFO - [2022-11-25 11:48:13,397] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:13,433] {logging_mixin.py:115} INFO - [2022-11-25 11:48:13,433] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:13,450] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.710 seconds
+[2022-11-25 11:48:44,066] {processor.py:153} INFO - Started process (PID=1759) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:44,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:48:44,068] {logging_mixin.py:115} INFO - [2022-11-25 11:48:44,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:44,762] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:48:44,838] {logging_mixin.py:115} INFO - [2022-11-25 11:48:44,837] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:44,872] {logging_mixin.py:115} INFO - [2022-11-25 11:48:44,872] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:44,893] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.832 seconds
+[2022-11-25 11:49:15,161] {processor.py:153} INFO - Started process (PID=1789) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:15,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:49:15,163] {logging_mixin.py:115} INFO - [2022-11-25 11:49:15,163] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:15,761] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:15,829] {logging_mixin.py:115} INFO - [2022-11-25 11:49:15,828] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:15,852] {logging_mixin.py:115} INFO - [2022-11-25 11:49:15,852] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:15,868] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.709 seconds
+[2022-11-25 11:49:46,167] {processor.py:153} INFO - Started process (PID=1826) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:46,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:49:46,168] {logging_mixin.py:115} INFO - [2022-11-25 11:49:46,168] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:46,755] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:49:46,819] {logging_mixin.py:115} INFO - [2022-11-25 11:49:46,819] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:46,852] {logging_mixin.py:115} INFO - [2022-11-25 11:49:46,852] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:46,873] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.710 seconds
+[2022-11-25 11:50:17,074] {processor.py:153} INFO - Started process (PID=1854) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:17,075] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:50:17,076] {logging_mixin.py:115} INFO - [2022-11-25 11:50:17,076] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:17,531] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:17,567] {logging_mixin.py:115} INFO - [2022-11-25 11:50:17,567] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:17,587] {logging_mixin.py:115} INFO - [2022-11-25 11:50:17,587] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:17,600] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.530 seconds
+[2022-11-25 11:50:47,865] {processor.py:153} INFO - Started process (PID=1891) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:47,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:50:47,868] {logging_mixin.py:115} INFO - [2022-11-25 11:50:47,868] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:48,697] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:50:48,746] {logging_mixin.py:115} INFO - [2022-11-25 11:50:48,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:48,774] {logging_mixin.py:115} INFO - [2022-11-25 11:50:48,774] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:48,791] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.939 seconds
+[2022-11-25 11:51:19,027] {processor.py:153} INFO - Started process (PID=1925) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:19,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:51:19,029] {logging_mixin.py:115} INFO - [2022-11-25 11:51:19,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:19,554] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:19,670] {logging_mixin.py:115} INFO - [2022-11-25 11:51:19,669] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:19,697] {logging_mixin.py:115} INFO - [2022-11-25 11:51:19,697] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:19,713] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.688 seconds
+[2022-11-25 11:51:50,025] {processor.py:153} INFO - Started process (PID=1956) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:50,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:51:50,027] {logging_mixin.py:115} INFO - [2022-11-25 11:51:50,027] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:51,011] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:51:51,112] {logging_mixin.py:115} INFO - [2022-11-25 11:51:51,110] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:51,167] {logging_mixin.py:115} INFO - [2022-11-25 11:51:51,167] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:51,196] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.174 seconds
+[2022-11-25 11:52:21,498] {processor.py:153} INFO - Started process (PID=1993) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:21,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:52:21,500] {logging_mixin.py:115} INFO - [2022-11-25 11:52:21,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:22,289] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:22,339] {logging_mixin.py:115} INFO - [2022-11-25 11:52:22,338] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:22,376] {logging_mixin.py:115} INFO - [2022-11-25 11:52:22,376] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:22,398] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.903 seconds
+[2022-11-25 11:52:52,971] {processor.py:153} INFO - Started process (PID=2021) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:52,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:52:52,975] {logging_mixin.py:115} INFO - [2022-11-25 11:52:52,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:53,777] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:52:53,875] {logging_mixin.py:115} INFO - [2022-11-25 11:52:53,874] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:53,928] {logging_mixin.py:115} INFO - [2022-11-25 11:52:53,928] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:53,953] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.984 seconds
+[2022-11-25 11:53:24,338] {processor.py:153} INFO - Started process (PID=2058) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:24,339] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:53:24,340] {logging_mixin.py:115} INFO - [2022-11-25 11:53:24,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:24,949] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:24,987] {logging_mixin.py:115} INFO - [2022-11-25 11:53:24,987] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:53:25,011] {logging_mixin.py:115} INFO - [2022-11-25 11:53:25,011] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:53:25,028] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.693 seconds
+[2022-11-25 11:53:55,242] {processor.py:153} INFO - Started process (PID=2086) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:55,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:53:55,243] {logging_mixin.py:115} INFO - [2022-11-25 11:53:55,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:55,839] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:53:55,868] {logging_mixin.py:115} INFO - [2022-11-25 11:53:55,867] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:53:55,886] {logging_mixin.py:115} INFO - [2022-11-25 11:53:55,886] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:53:55,902] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.663 seconds
+[2022-11-25 11:54:26,217] {processor.py:153} INFO - Started process (PID=2124) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:26,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:54:26,219] {logging_mixin.py:115} INFO - [2022-11-25 11:54:26,219] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:26,933] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:27,011] {logging_mixin.py:115} INFO - [2022-11-25 11:54:27,010] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:27,046] {logging_mixin.py:115} INFO - [2022-11-25 11:54:27,046] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:27,069] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.856 seconds
+[2022-11-25 11:54:57,370] {processor.py:153} INFO - Started process (PID=2161) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:57,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:54:57,372] {logging_mixin.py:115} INFO - [2022-11-25 11:54:57,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:58,172] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:54:58,211] {logging_mixin.py:115} INFO - [2022-11-25 11:54:58,210] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:58,235] {logging_mixin.py:115} INFO - [2022-11-25 11:54:58,234] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:58,248] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.883 seconds
+[2022-11-25 11:55:28,581] {processor.py:153} INFO - Started process (PID=2189) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:55:28,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:55:28,585] {logging_mixin.py:115} INFO - [2022-11-25 11:55:28,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:55:29,259] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:55:29,316] {logging_mixin.py:115} INFO - [2022-11-25 11:55:29,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:55:29,342] {logging_mixin.py:115} INFO - [2022-11-25 11:55:29,342] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:55:29,359] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.784 seconds
+[2022-11-25 11:56:00,279] {processor.py:153} INFO - Started process (PID=2227) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:00,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:56:00,282] {logging_mixin.py:115} INFO - [2022-11-25 11:56:00,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:01,176] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:01,267] {logging_mixin.py:115} INFO - [2022-11-25 11:56:01,266] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:01,298] {logging_mixin.py:115} INFO - [2022-11-25 11:56:01,298] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:01,321] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.046 seconds
+[2022-11-25 11:56:31,556] {processor.py:153} INFO - Started process (PID=2255) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:31,557] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:56:31,559] {logging_mixin.py:115} INFO - [2022-11-25 11:56:31,558] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:32,915] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:56:33,073] {logging_mixin.py:115} INFO - [2022-11-25 11:56:33,071] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:33,141] {logging_mixin.py:115} INFO - [2022-11-25 11:56:33,141] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:33,167] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.616 seconds
+[2022-11-25 11:57:03,366] {processor.py:153} INFO - Started process (PID=2293) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:03,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:57:03,369] {logging_mixin.py:115} INFO - [2022-11-25 11:57:03,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:04,466] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:04,539] {logging_mixin.py:115} INFO - [2022-11-25 11:57:04,539] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:04,578] {logging_mixin.py:115} INFO - [2022-11-25 11:57:04,577] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:04,600] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.240 seconds
+[2022-11-25 11:57:34,745] {processor.py:153} INFO - Started process (PID=2321) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:34,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:57:34,747] {logging_mixin.py:115} INFO - [2022-11-25 11:57:34,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:35,773] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:57:35,855] {logging_mixin.py:115} INFO - [2022-11-25 11:57:35,854] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:35,893] {logging_mixin.py:115} INFO - [2022-11-25 11:57:35,893] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:35,915] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.173 seconds
+[2022-11-25 11:58:06,177] {processor.py:153} INFO - Started process (PID=2358) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:06,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:58:06,180] {logging_mixin.py:115} INFO - [2022-11-25 11:58:06,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:07,182] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:07,254] {logging_mixin.py:115} INFO - [2022-11-25 11:58:07,253] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:07,287] {logging_mixin.py:115} INFO - [2022-11-25 11:58:07,286] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:07,305] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.133 seconds
+[2022-11-25 11:58:37,406] {processor.py:153} INFO - Started process (PID=2387) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:37,407] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:58:37,408] {logging_mixin.py:115} INFO - [2022-11-25 11:58:37,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:38,258] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:58:38,329] {logging_mixin.py:115} INFO - [2022-11-25 11:58:38,328] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:38,354] {logging_mixin.py:115} INFO - [2022-11-25 11:58:38,354] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:38,371] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.968 seconds
+[2022-11-25 11:59:08,792] {processor.py:153} INFO - Started process (PID=2425) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:08,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:59:08,795] {logging_mixin.py:115} INFO - [2022-11-25 11:59:08,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:09,862] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:09,972] {logging_mixin.py:115} INFO - [2022-11-25 11:59:09,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:10,040] {logging_mixin.py:115} INFO - [2022-11-25 11:59:10,040] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:10,081] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.295 seconds
+[2022-11-25 11:59:40,144] {processor.py:153} INFO - Started process (PID=2462) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:40,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 11:59:40,146] {logging_mixin.py:115} INFO - [2022-11-25 11:59:40,146] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:40,968] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 11:59:41,057] {logging_mixin.py:115} INFO - [2022-11-25 11:59:41,056] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:41,094] {logging_mixin.py:115} INFO - [2022-11-25 11:59:41,094] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:41,113] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.974 seconds
+[2022-11-25 12:00:11,530] {processor.py:153} INFO - Started process (PID=2490) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:11,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:00:11,532] {logging_mixin.py:115} INFO - [2022-11-25 12:00:11,532] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:12,510] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:12,574] {logging_mixin.py:115} INFO - [2022-11-25 12:00:12,573] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:12,601] {logging_mixin.py:115} INFO - [2022-11-25 12:00:12,601] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:12,620] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.093 seconds
+[2022-11-25 12:00:42,930] {processor.py:153} INFO - Started process (PID=2527) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:42,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:00:42,931] {logging_mixin.py:115} INFO - [2022-11-25 12:00:42,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:43,664] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:00:43,742] {logging_mixin.py:115} INFO - [2022-11-25 12:00:43,741] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:43,769] {logging_mixin.py:115} INFO - [2022-11-25 12:00:43,769] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:43,785] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.859 seconds
+[2022-11-25 12:01:13,991] {processor.py:153} INFO - Started process (PID=2556) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:13,992] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:01:13,994] {logging_mixin.py:115} INFO - [2022-11-25 12:01:13,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:15,708] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:15,819] {logging_mixin.py:115} INFO - [2022-11-25 12:01:15,817] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:15,895] {logging_mixin.py:115} INFO - [2022-11-25 12:01:15,895] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:15,934] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.948 seconds
+[2022-11-25 12:01:46,513] {processor.py:153} INFO - Started process (PID=2595) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:46,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:01:46,515] {logging_mixin.py:115} INFO - [2022-11-25 12:01:46,515] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:49,163] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:01:49,319] {logging_mixin.py:115} INFO - [2022-11-25 12:01:49,318] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:49,368] {logging_mixin.py:115} INFO - [2022-11-25 12:01:49,368] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:49,392] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 2.883 seconds
+[2022-11-25 12:02:19,596] {processor.py:153} INFO - Started process (PID=2625) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:19,599] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:02:19,601] {logging_mixin.py:115} INFO - [2022-11-25 12:02:19,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:21,094] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:21,232] {logging_mixin.py:115} INFO - [2022-11-25 12:02:21,230] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:21,300] {logging_mixin.py:115} INFO - [2022-11-25 12:02:21,300] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:21,323] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 1.746 seconds
+[2022-11-25 12:02:51,841] {processor.py:153} INFO - Started process (PID=2665) to work on /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:51,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py for tasks to queue
+[2022-11-25 12:02:51,843] {logging_mixin.py:115} INFO - [2022-11-25 12:02:51,843] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:52,273] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py
+[2022-11-25 12:02:52,313] {logging_mixin.py:115} INFO - [2022-11-25 12:02:52,313] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:52,351] {logging_mixin.py:115} INFO - [2022-11-25 12:02:52,350] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag02_ETL_csv2MSSQL to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:52,367] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag02_ETL_csv2MSSQL.py took 0.529 seconds

@@ -1,0 +1,23 @@
+[2022-11-25 10:25:17,930] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.start manual__2022-11-25T10:25:12.652580+00:00 [queued]>
+[2022-11-25 10:25:17,943] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.start manual__2022-11-25T10:25:12.652580+00:00 [queued]>
+[2022-11-25 10:25:17,944] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 10:25:17,945] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-25 10:25:17,946] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25 10:25:17,965] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): start> on 2022-11-25 10:25:12.652580+00:00
+[2022-11-25 10:25:17,972] {standard_task_runner.py:52} INFO - Started process 9336 to run task
+[2022-11-25 10:25:17,976] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports', 'start', 'manual__2022-11-25T10:25:12.652580+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/MichalisKaratsioris_dag02.py', '--cfg-path', '/tmp/tmpaw0rd2zj', '--error-file', '/tmp/tmp04qrv_2_']
+[2022-11-25 10:25:17,978] {standard_task_runner.py:80} INFO - Job 95: Subtask start
+[2022-11-25 10:25:18,050] {task_command.py:370} INFO - Running <TaskInstance: GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports.start manual__2022-11-25T10:25:12.652580+00:00 [running]> on host c78bb2381ec5
+[2022-11-25 10:25:18,147] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports
+AIRFLOW_CTX_TASK_ID=start
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-25T10:25:12.652580+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-25T10:25:12.652580+00:00
+[2022-11-25 10:25:18,149] {python.py:173} INFO - Done. Returned value was: Start of the work-flow!
+[2022-11-25 10:25:18,186] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=GFA_Data_Engineering_Exam_dag02_ETL_pipeline_airports, task_id=start, execution_date=20221125T102512, start_date=20221125T102517, end_date=20221125T102518
+[2022-11-25 10:25:18,230] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-11-25 10:25:18,287] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

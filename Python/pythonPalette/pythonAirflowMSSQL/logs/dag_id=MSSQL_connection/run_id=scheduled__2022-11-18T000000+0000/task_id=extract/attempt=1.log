@@ -1,0 +1,15 @@
+[2022-11-20 11:36:07,110] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract scheduled__2022-11-18T00:00:00+00:00 [queued]>
+[2022-11-20 11:36:07,176] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract scheduled__2022-11-18T00:00:00+00:00 [queued]>
+[2022-11-20 11:36:07,178] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-20 11:36:07,181] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-20 11:36:07,182] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-20 11:36:07,272] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): extract> on 2022-11-18 00:00:00+00:00
+[2022-11-20 11:36:07,293] {standard_task_runner.py:52} INFO - Started process 119 to run task
+[2022-11-20 11:36:07,301] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'MSSQL_connection', 'extract', 'scheduled__2022-11-18T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/pythonAirflowMSSQL.py', '--cfg-path', '/tmp/tmpu9vu6xgr', '--error-file', '/tmp/tmp0g9fe287']
+[2022-11-20 11:36:07,307] {standard_task_runner.py:80} INFO - Job 10: Subtask extract
+[2022-11-20 11:36:07,501] {standard_task_runner.py:97} ERROR - Failed to execute job 10 for task extract (DagRun for MSSQL_connection with run_id or execution_date of 'scheduled__2022-11-18T00:00:00+00:00' not found; 119)
+[2022-11-20 11:36:07,576] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-11-20 11:36:07,654] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=MSSQL_connection, task_id=extract, execution_date=20221118T000000, start_date=20221120T113607, end_date=20221120T113607
+[2022-11-20 11:36:07,753] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

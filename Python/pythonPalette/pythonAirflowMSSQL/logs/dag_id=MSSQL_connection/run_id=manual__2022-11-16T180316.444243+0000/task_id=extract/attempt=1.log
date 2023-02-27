@@ -1,0 +1,25 @@
+[2022-11-16 18:03:22,918] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract manual__2022-11-16T18:03:16.444243+00:00 [queued]>
+[2022-11-16 18:03:22,951] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract manual__2022-11-16T18:03:16.444243+00:00 [queued]>
+[2022-11-16 18:03:22,952] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 18:03:22,953] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-16 18:03:22,953] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 18:03:22,984] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): extract> on 2022-11-16 18:03:16.444243+00:00
+[2022-11-16 18:03:22,998] {standard_task_runner.py:52} INFO - Started process 198 to run task
+[2022-11-16 18:03:23,005] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'MSSQL_connection', 'extract', 'manual__2022-11-16T18:03:16.444243+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/pythonAirflowMSSQL.py', '--cfg-path', '/tmp/tmp2t4vcjuj', '--error-file', '/tmp/tmp3fju5tcj']
+[2022-11-16 18:03:23,008] {standard_task_runner.py:80} INFO - Job 33: Subtask extract
+[2022-11-16 18:03:23,174] {task_command.py:370} INFO - Running <TaskInstance: MSSQL_connection.extract manual__2022-11-16T18:03:16.444243+00:00 [running]> on host 5036e10e6c0b
+[2022-11-16 18:03:23,301] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=MSSQL_connection
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-16T18:03:16.444243+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-16T18:03:16.444243+00:00
+[2022-11-16 18:03:23,324] {base.py:68} INFO - Using connection ID '***_mssql' for task execution.
+[2022-11-16 18:03:23,512] {logging_mixin.py:115} INFO - Data extraction complete: [(5, 'J5', '5'), (6, 'J6', '6'), (7, 'J7', '7'), (8, 'J8', '8'), (9, 'J9', '9')]
+[2022-11-16 18:03:23,513] {python.py:173} INFO - Done. Returned value was: [(5, 'J5', '5'), (6, 'J6', '6'), (7, 'J7', '7'), (8, 'J8', '8'), (9, 'J9', '9')]
+[2022-11-16 18:03:23,546] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=MSSQL_connection, task_id=extract, execution_date=20221116T180316, start_date=20221116T180322, end_date=20221116T180323
+[2022-11-16 18:03:23,596] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-11-16 18:03:23,707] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

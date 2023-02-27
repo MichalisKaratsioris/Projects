@@ -1,0 +1,24 @@
+[2022-11-16 15:25:33,541] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract manual__2022-11-16T15:25:29.248075+00:00 [queued]>
+[2022-11-16 15:25:33,576] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.extract manual__2022-11-16T15:25:29.248075+00:00 [queued]>
+[2022-11-16 15:25:33,577] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 15:25:33,578] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-16 15:25:33,578] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 15:25:33,613] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): extract> on 2022-11-16 15:25:29.248075+00:00
+[2022-11-16 15:25:33,629] {standard_task_runner.py:52} INFO - Started process 1289 to run task
+[2022-11-16 15:25:33,637] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'MSSQL_connection', 'extract', 'manual__2022-11-16T15:25:29.248075+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/pythonAirflowMSSQL.py', '--cfg-path', '/tmp/tmpve7tpsa2', '--error-file', '/tmp/tmp_z7422f2']
+[2022-11-16 15:25:33,639] {standard_task_runner.py:80} INFO - Job 16: Subtask extract
+[2022-11-16 15:25:33,736] {task_command.py:370} INFO - Running <TaskInstance: MSSQL_connection.extract manual__2022-11-16T15:25:29.248075+00:00 [running]> on host 5036e10e6c0b
+[2022-11-16 15:25:33,884] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=MSSQL_connection
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-16T15:25:29.248075+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-16T15:25:29.248075+00:00
+[2022-11-16 15:25:33,909] {base.py:68} INFO - Using connection ID '***_mssql' for task execution.
+[2022-11-16 15:25:34,255] {python.py:173} INFO - Done. Returned value was: Data extraction complete: [(6, 'J6', '6'), (7, 'J7', '7'), (8, 'J8', '8'), (9, 'J9', '9')]
+[2022-11-16 15:25:34,308] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=MSSQL_connection, task_id=extract, execution_date=20221116T152529, start_date=20221116T152533, end_date=20221116T152534
+[2022-11-16 15:25:34,380] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-11-16 15:25:34,487] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

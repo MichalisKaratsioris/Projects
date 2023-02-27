@@ -1,0 +1,396 @@
+[2022-11-25 11:34:08,168] {processor.py:153} INFO - Started process (PID=816) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:08,169] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:34:08,170] {logging_mixin.py:115} INFO - [2022-11-25 11:34:08,170] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:09,322] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:09,476] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,476] {manager.py:508} INFO - Created Permission View: can delete on DAG:GFA_Data_Engineering_Exam_dag05_MongoDB
+[2022-11-25 11:34:09,492] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,492] {manager.py:508} INFO - Created Permission View: can read on DAG:GFA_Data_Engineering_Exam_dag05_MongoDB
+[2022-11-25 11:34:09,504] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,504] {manager.py:508} INFO - Created Permission View: can edit on DAG:GFA_Data_Engineering_Exam_dag05_MongoDB
+[2022-11-25 11:34:09,505] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,504] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:09,517] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,517] {dag.py:2398} INFO - Creating ORM DAG for GFA_Data_Engineering_Exam_dag05_MongoDB
+[2022-11-25 11:34:09,535] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,535] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:09,561] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.398 seconds
+[2022-11-25 11:34:40,544] {processor.py:153} INFO - Started process (PID=854) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:40,545] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:34:40,548] {logging_mixin.py:115} INFO - [2022-11-25 11:34:40,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:41,787] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:34:41,827] {logging_mixin.py:115} INFO - [2022-11-25 11:34:41,827] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:41,916] {logging_mixin.py:115} INFO - [2022-11-25 11:34:41,915] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:42,145] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.610 seconds
+[2022-11-25 11:35:12,751] {processor.py:153} INFO - Started process (PID=892) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:12,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:35:12,754] {logging_mixin.py:115} INFO - [2022-11-25 11:35:12,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:13,380] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:13,422] {logging_mixin.py:115} INFO - [2022-11-25 11:35:13,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:13,465] {logging_mixin.py:115} INFO - [2022-11-25 11:35:13,463] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:13,490] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.742 seconds
+[2022-11-25 11:35:43,644] {processor.py:153} INFO - Started process (PID=920) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:43,646] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:35:43,647] {logging_mixin.py:115} INFO - [2022-11-25 11:35:43,647] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:44,210] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:35:44,235] {logging_mixin.py:115} INFO - [2022-11-25 11:35:44,235] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:44,267] {logging_mixin.py:115} INFO - [2022-11-25 11:35:44,267] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:44,286] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.646 seconds
+[2022-11-25 11:36:14,341] {processor.py:153} INFO - Started process (PID=957) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:14,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:36:14,343] {logging_mixin.py:115} INFO - [2022-11-25 11:36:14,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:14,911] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:14,936] {logging_mixin.py:115} INFO - [2022-11-25 11:36:14,936] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:14,960] {logging_mixin.py:115} INFO - [2022-11-25 11:36:14,960] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:14,976] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.640 seconds
+[2022-11-25 11:36:45,559] {processor.py:153} INFO - Started process (PID=994) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:45,560] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:36:45,561] {logging_mixin.py:115} INFO - [2022-11-25 11:36:45,561] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:46,364] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:36:46,393] {logging_mixin.py:115} INFO - [2022-11-25 11:36:46,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:46,422] {logging_mixin.py:115} INFO - [2022-11-25 11:36:46,422] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:46,462] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.908 seconds
+[2022-11-25 11:37:16,638] {processor.py:153} INFO - Started process (PID=1022) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:16,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:37:16,641] {logging_mixin.py:115} INFO - [2022-11-25 11:37:16,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:18,192] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:18,341] {logging_mixin.py:115} INFO - [2022-11-25 11:37:18,340] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:18,378] {logging_mixin.py:115} INFO - [2022-11-25 11:37:18,378] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:18,396] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.767 seconds
+[2022-11-25 11:37:48,817] {processor.py:153} INFO - Started process (PID=1060) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:48,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:37:48,818] {logging_mixin.py:115} INFO - [2022-11-25 11:37:48,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:49,272] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:37:49,295] {logging_mixin.py:115} INFO - [2022-11-25 11:37:49,295] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:49,332] {logging_mixin.py:115} INFO - [2022-11-25 11:37:49,332] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:49,349] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.536 seconds
+[2022-11-25 11:38:20,058] {processor.py:153} INFO - Started process (PID=1088) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:20,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:38:20,061] {logging_mixin.py:115} INFO - [2022-11-25 11:38:20,060] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:20,891] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:20,919] {logging_mixin.py:115} INFO - [2022-11-25 11:38:20,919] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:20,946] {logging_mixin.py:115} INFO - [2022-11-25 11:38:20,946] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:20,961] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.907 seconds
+[2022-11-25 11:38:51,441] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:51,443] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:38:51,444] {logging_mixin.py:115} INFO - [2022-11-25 11:38:51,444] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:52,039] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:38:52,063] {logging_mixin.py:115} INFO - [2022-11-25 11:38:52,063] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:52,086] {logging_mixin.py:115} INFO - [2022-11-25 11:38:52,085] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:52,100] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.663 seconds
+[2022-11-25 11:39:22,768] {processor.py:153} INFO - Started process (PID=1154) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:22,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:39:22,770] {logging_mixin.py:115} INFO - [2022-11-25 11:39:22,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:23,487] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:23,513] {logging_mixin.py:115} INFO - [2022-11-25 11:39:23,512] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:23,536] {logging_mixin.py:115} INFO - [2022-11-25 11:39:23,535] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:23,549] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.785 seconds
+[2022-11-25 11:39:53,840] {processor.py:153} INFO - Started process (PID=1191) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:53,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:39:53,843] {logging_mixin.py:115} INFO - [2022-11-25 11:39:53,842] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:54,545] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:39:54,575] {logging_mixin.py:115} INFO - [2022-11-25 11:39:54,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:54,609] {logging_mixin.py:115} INFO - [2022-11-25 11:39:54,609] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:54,630] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.795 seconds
+[2022-11-25 11:40:24,939] {processor.py:153} INFO - Started process (PID=1228) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:24,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:40:24,941] {logging_mixin.py:115} INFO - [2022-11-25 11:40:24,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:25,657] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:25,696] {logging_mixin.py:115} INFO - [2022-11-25 11:40:25,695] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:25,731] {logging_mixin.py:115} INFO - [2022-11-25 11:40:25,731] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:25,753] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.818 seconds
+[2022-11-25 11:40:56,121] {processor.py:153} INFO - Started process (PID=1256) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:56,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:40:56,125] {logging_mixin.py:115} INFO - [2022-11-25 11:40:56,124] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:57,346] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:40:57,418] {logging_mixin.py:115} INFO - [2022-11-25 11:40:57,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:57,516] {logging_mixin.py:115} INFO - [2022-11-25 11:40:57,515] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:57,586] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.474 seconds
+[2022-11-25 11:41:27,892] {processor.py:153} INFO - Started process (PID=1293) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:41:27,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:41:27,895] {logging_mixin.py:115} INFO - [2022-11-25 11:41:27,895] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:41:28,911] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:41:28,971] {logging_mixin.py:115} INFO - [2022-11-25 11:41:28,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:41:29,034] {logging_mixin.py:115} INFO - [2022-11-25 11:41:29,034] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:41:29,069] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.182 seconds
+[2022-11-25 11:41:59,374] {processor.py:153} INFO - Started process (PID=1321) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:41:59,375] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:41:59,377] {logging_mixin.py:115} INFO - [2022-11-25 11:41:59,377] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:42:00,509] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:42:00,542] {logging_mixin.py:115} INFO - [2022-11-25 11:42:00,541] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:42:00,568] {logging_mixin.py:115} INFO - [2022-11-25 11:42:00,568] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:42:00,585] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.219 seconds
+[2022-11-25 11:42:30,797] {processor.py:153} INFO - Started process (PID=1359) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:42:30,799] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:42:30,801] {logging_mixin.py:115} INFO - [2022-11-25 11:42:30,801] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:42:31,893] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:42:31,963] {logging_mixin.py:115} INFO - [2022-11-25 11:42:31,962] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:42:32,046] {logging_mixin.py:115} INFO - [2022-11-25 11:42:32,046] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:42:32,081] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.299 seconds
+[2022-11-25 11:43:02,246] {processor.py:153} INFO - Started process (PID=1396) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:02,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:43:02,250] {logging_mixin.py:115} INFO - [2022-11-25 11:43:02,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:03,590] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:03,675] {logging_mixin.py:115} INFO - [2022-11-25 11:43:03,675] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:03,737] {logging_mixin.py:115} INFO - [2022-11-25 11:43:03,737] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:03,801] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.560 seconds
+[2022-11-25 11:43:34,055] {processor.py:153} INFO - Started process (PID=1424) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:34,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:43:34,058] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,057] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:34,609] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:43:34,628] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,628] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:34,647] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,646] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:34,660] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.608 seconds
+[2022-11-25 11:44:05,076] {processor.py:153} INFO - Started process (PID=1461) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:05,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:44:05,079] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:05,786] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:05,835] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:05,878] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,877] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:05,902] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.829 seconds
+[2022-11-25 11:44:36,114] {processor.py:153} INFO - Started process (PID=1489) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:36,115] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:44:36,116] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,116] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:36,565] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:44:36,584] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,584] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:36,601] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,601] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:36,617] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.506 seconds
+[2022-11-25 11:45:07,416] {processor.py:153} INFO - Started process (PID=1526) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:07,418] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:45:07,420] {logging_mixin.py:115} INFO - [2022-11-25 11:45:07,419] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:08,329] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:08,364] {logging_mixin.py:115} INFO - [2022-11-25 11:45:08,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:08,401] {logging_mixin.py:115} INFO - [2022-11-25 11:45:08,400] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:08,427] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.019 seconds
+[2022-11-25 11:45:38,916] {processor.py:153} INFO - Started process (PID=1556) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:38,917] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:45:38,918] {logging_mixin.py:115} INFO - [2022-11-25 11:45:38,918] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:39,577] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:45:39,601] {logging_mixin.py:115} INFO - [2022-11-25 11:45:39,600] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:39,625] {logging_mixin.py:115} INFO - [2022-11-25 11:45:39,625] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:39,643] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.732 seconds
+[2022-11-25 11:46:09,910] {processor.py:153} INFO - Started process (PID=1593) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:09,911] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:46:09,912] {logging_mixin.py:115} INFO - [2022-11-25 11:46:09,912] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:10,779] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:10,889] {logging_mixin.py:115} INFO - [2022-11-25 11:46:10,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:10,936] {logging_mixin.py:115} INFO - [2022-11-25 11:46:10,936] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:10,959] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.053 seconds
+[2022-11-25 11:46:41,294] {processor.py:153} INFO - Started process (PID=1630) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:41,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:46:41,296] {logging_mixin.py:115} INFO - [2022-11-25 11:46:41,296] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:42,813] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:46:42,916] {logging_mixin.py:115} INFO - [2022-11-25 11:46:42,916] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:42,963] {logging_mixin.py:115} INFO - [2022-11-25 11:46:42,962] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:42,994] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.705 seconds
+[2022-11-25 11:47:13,347] {processor.py:153} INFO - Started process (PID=1658) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:13,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:47:13,351] {logging_mixin.py:115} INFO - [2022-11-25 11:47:13,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:14,397] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:14,465] {logging_mixin.py:115} INFO - [2022-11-25 11:47:14,465] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:14,494] {logging_mixin.py:115} INFO - [2022-11-25 11:47:14,494] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:14,510] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.171 seconds
+[2022-11-25 11:47:44,773] {processor.py:153} INFO - Started process (PID=1695) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:44,774] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:47:44,775] {logging_mixin.py:115} INFO - [2022-11-25 11:47:44,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:45,304] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:47:45,352] {logging_mixin.py:115} INFO - [2022-11-25 11:47:45,352] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:45,378] {logging_mixin.py:115} INFO - [2022-11-25 11:47:45,378] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:45,392] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.624 seconds
+[2022-11-25 11:48:15,514] {processor.py:153} INFO - Started process (PID=1723) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:15,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:48:15,517] {logging_mixin.py:115} INFO - [2022-11-25 11:48:15,517] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:16,570] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:16,706] {logging_mixin.py:115} INFO - [2022-11-25 11:48:16,705] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:16,755] {logging_mixin.py:115} INFO - [2022-11-25 11:48:16,755] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:16,778] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.269 seconds
+[2022-11-25 11:48:47,009] {processor.py:153} INFO - Started process (PID=1762) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:47,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:48:47,011] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:47,552] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:48:47,586] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,586] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:47,615] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,615] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:47,634] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.629 seconds
+[2022-11-25 11:49:17,930] {processor.py:153} INFO - Started process (PID=1792) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:17,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:49:17,932] {logging_mixin.py:115} INFO - [2022-11-25 11:49:17,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:18,486] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:18,578] {logging_mixin.py:115} INFO - [2022-11-25 11:49:18,577] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:18,604] {logging_mixin.py:115} INFO - [2022-11-25 11:49:18,604] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:18,618] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.692 seconds
+[2022-11-25 11:49:48,787] {processor.py:153} INFO - Started process (PID=1829) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:48,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:49:48,789] {logging_mixin.py:115} INFO - [2022-11-25 11:49:48,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:49,623] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:49:49,690] {logging_mixin.py:115} INFO - [2022-11-25 11:49:49,689] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:49,732] {logging_mixin.py:115} INFO - [2022-11-25 11:49:49,731] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:49,757] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.973 seconds
+[2022-11-25 11:50:20,109] {processor.py:153} INFO - Started process (PID=1866) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:20,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:50:20,111] {logging_mixin.py:115} INFO - [2022-11-25 11:50:20,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:20,906] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:20,955] {logging_mixin.py:115} INFO - [2022-11-25 11:50:20,955] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:21,001] {logging_mixin.py:115} INFO - [2022-11-25 11:50:21,000] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:21,021] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.916 seconds
+[2022-11-25 11:50:51,317] {processor.py:153} INFO - Started process (PID=1894) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:51,318] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:50:51,319] {logging_mixin.py:115} INFO - [2022-11-25 11:50:51,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:52,055] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:50:52,085] {logging_mixin.py:115} INFO - [2022-11-25 11:50:52,085] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:52,112] {logging_mixin.py:115} INFO - [2022-11-25 11:50:52,111] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:52,127] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.813 seconds
+[2022-11-25 11:51:22,502] {processor.py:153} INFO - Started process (PID=1931) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:22,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:51:22,503] {logging_mixin.py:115} INFO - [2022-11-25 11:51:22,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:23,282] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:23,337] {logging_mixin.py:115} INFO - [2022-11-25 11:51:23,336] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:23,363] {logging_mixin.py:115} INFO - [2022-11-25 11:51:23,362] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:23,377] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.879 seconds
+[2022-11-25 11:51:54,071] {processor.py:153} INFO - Started process (PID=1959) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:54,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:51:54,073] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:54,767] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:51:54,822] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:54,864] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,864] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:54,881] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.813 seconds
+[2022-11-25 11:52:25,476] {processor.py:153} INFO - Started process (PID=1996) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:25,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:52:25,478] {logging_mixin.py:115} INFO - [2022-11-25 11:52:25,478] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:26,495] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:26,571] {logging_mixin.py:115} INFO - [2022-11-25 11:52:26,571] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:26,605] {logging_mixin.py:115} INFO - [2022-11-25 11:52:26,605] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:26,645] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.172 seconds
+[2022-11-25 11:52:57,055] {processor.py:153} INFO - Started process (PID=2033) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:57,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:52:57,068] {logging_mixin.py:115} INFO - [2022-11-25 11:52:57,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:58,526] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:52:58,592] {logging_mixin.py:115} INFO - [2022-11-25 11:52:58,591] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:58,638] {logging_mixin.py:115} INFO - [2022-11-25 11:52:58,638] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:58,664] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.624 seconds
+[2022-11-25 11:53:29,111] {processor.py:153} INFO - Started process (PID=2061) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:53:29,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:53:29,114] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,113] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:53:29,816] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:53:29,869] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,868] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:53:29,906] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,906] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:53:29,932] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.826 seconds
+[2022-11-25 11:54:00,550] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:00,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:54:00,552] {logging_mixin.py:115} INFO - [2022-11-25 11:54:00,552] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:01,276] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:01,376] {logging_mixin.py:115} INFO - [2022-11-25 11:54:01,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:01,428] {logging_mixin.py:115} INFO - [2022-11-25 11:54:01,427] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:01,456] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.910 seconds
+[2022-11-25 11:54:31,575] {processor.py:153} INFO - Started process (PID=2127) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:31,576] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:54:31,577] {logging_mixin.py:115} INFO - [2022-11-25 11:54:31,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:32,265] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:54:32,333] {logging_mixin.py:115} INFO - [2022-11-25 11:54:32,333] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:32,359] {logging_mixin.py:115} INFO - [2022-11-25 11:54:32,359] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:32,373] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.800 seconds
+[2022-11-25 11:55:02,562] {processor.py:153} INFO - Started process (PID=2164) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:02,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:55:02,564] {logging_mixin.py:115} INFO - [2022-11-25 11:55:02,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:03,558] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:03,655] {logging_mixin.py:115} INFO - [2022-11-25 11:55:03,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:55:03,692] {logging_mixin.py:115} INFO - [2022-11-25 11:55:03,692] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:55:03,712] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.154 seconds
+[2022-11-25 11:55:34,053] {processor.py:153} INFO - Started process (PID=2202) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:34,055] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:55:34,056] {logging_mixin.py:115} INFO - [2022-11-25 11:55:34,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:35,299] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:55:35,367] {logging_mixin.py:115} INFO - [2022-11-25 11:55:35,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:55:35,396] {logging_mixin.py:115} INFO - [2022-11-25 11:55:35,396] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:55:35,414] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.365 seconds
+[2022-11-25 11:56:06,365] {processor.py:153} INFO - Started process (PID=2230) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:06,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:56:06,368] {logging_mixin.py:115} INFO - [2022-11-25 11:56:06,368] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:07,670] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:07,738] {logging_mixin.py:115} INFO - [2022-11-25 11:56:07,737] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:07,770] {logging_mixin.py:115} INFO - [2022-11-25 11:56:07,770] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:07,791] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.431 seconds
+[2022-11-25 11:56:38,129] {processor.py:153} INFO - Started process (PID=2269) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:38,131] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:56:38,133] {logging_mixin.py:115} INFO - [2022-11-25 11:56:38,133] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:39,062] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:56:39,136] {logging_mixin.py:115} INFO - [2022-11-25 11:56:39,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:39,165] {logging_mixin.py:115} INFO - [2022-11-25 11:56:39,165] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:39,182] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.058 seconds
+[2022-11-25 11:57:09,473] {processor.py:153} INFO - Started process (PID=2298) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:09,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:57:09,476] {logging_mixin.py:115} INFO - [2022-11-25 11:57:09,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:10,483] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:10,567] {logging_mixin.py:115} INFO - [2022-11-25 11:57:10,567] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:10,603] {logging_mixin.py:115} INFO - [2022-11-25 11:57:10,603] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:10,645] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.177 seconds
+[2022-11-25 11:57:40,954] {processor.py:153} INFO - Started process (PID=2335) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:40,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:57:40,959] {logging_mixin.py:115} INFO - [2022-11-25 11:57:40,959] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:41,785] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:57:41,852] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,852] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:41,891] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,891] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:41,911] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.962 seconds
+[2022-11-25 11:58:12,394] {processor.py:153} INFO - Started process (PID=2363) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:12,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:58:12,396] {logging_mixin.py:115} INFO - [2022-11-25 11:58:12,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:13,034] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:13,095] {logging_mixin.py:115} INFO - [2022-11-25 11:58:13,095] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:13,125] {logging_mixin.py:115} INFO - [2022-11-25 11:58:13,125] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:13,144] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.753 seconds
+[2022-11-25 11:58:43,463] {processor.py:153} INFO - Started process (PID=2402) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:43,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:58:43,466] {logging_mixin.py:115} INFO - [2022-11-25 11:58:43,465] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:44,658] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:58:44,902] {logging_mixin.py:115} INFO - [2022-11-25 11:58:44,902] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:44,947] {logging_mixin.py:115} INFO - [2022-11-25 11:58:44,947] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:44,968] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.509 seconds
+[2022-11-25 11:59:15,882] {processor.py:153} INFO - Started process (PID=2439) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:15,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:59:15,884] {logging_mixin.py:115} INFO - [2022-11-25 11:59:15,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:16,840] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:16,889] {logging_mixin.py:115} INFO - [2022-11-25 11:59:16,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:16,925] {logging_mixin.py:115} INFO - [2022-11-25 11:59:16,924] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:16,948] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.071 seconds
+[2022-11-25 11:59:47,236] {processor.py:153} INFO - Started process (PID=2467) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:47,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 11:59:47,241] {logging_mixin.py:115} INFO - [2022-11-25 11:59:47,241] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:48,948] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 11:59:49,276] {logging_mixin.py:115} INFO - [2022-11-25 11:59:49,275] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:49,422] {logging_mixin.py:115} INFO - [2022-11-25 11:59:49,420] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:49,462] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 2.236 seconds
+[2022-11-25 12:00:19,593] {processor.py:153} INFO - Started process (PID=2504) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:19,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:00:19,596] {logging_mixin.py:115} INFO - [2022-11-25 12:00:19,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:20,058] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:20,100] {logging_mixin.py:115} INFO - [2022-11-25 12:00:20,100] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:20,120] {logging_mixin.py:115} INFO - [2022-11-25 12:00:20,120] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:20,135] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.545 seconds
+[2022-11-25 12:00:50,442] {processor.py:153} INFO - Started process (PID=2532) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:50,444] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:00:50,445] {logging_mixin.py:115} INFO - [2022-11-25 12:00:50,445] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:51,427] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:00:51,518] {logging_mixin.py:115} INFO - [2022-11-25 12:00:51,518] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:51,566] {logging_mixin.py:115} INFO - [2022-11-25 12:00:51,566] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:51,586] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.148 seconds
+[2022-11-25 12:01:21,851] {processor.py:153} INFO - Started process (PID=2570) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:21,852] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:01:21,854] {logging_mixin.py:115} INFO - [2022-11-25 12:01:21,854] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:22,574] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:22,611] {logging_mixin.py:115} INFO - [2022-11-25 12:01:22,610] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:22,639] {logging_mixin.py:115} INFO - [2022-11-25 12:01:22,639] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:22,658] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 0.813 seconds
+[2022-11-25 12:01:53,209] {processor.py:153} INFO - Started process (PID=2598) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:53,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:01:53,211] {logging_mixin.py:115} INFO - [2022-11-25 12:01:53,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:54,282] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:01:54,341] {logging_mixin.py:115} INFO - [2022-11-25 12:01:54,340] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:54,370] {logging_mixin.py:115} INFO - [2022-11-25 12:01:54,369] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:54,388] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.183 seconds
+[2022-11-25 12:02:24,912] {processor.py:153} INFO - Started process (PID=2637) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:24,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:02:24,914] {logging_mixin.py:115} INFO - [2022-11-25 12:02:24,914] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:26,052] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:26,165] {logging_mixin.py:115} INFO - [2022-11-25 12:02:26,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:26,227] {logging_mixin.py:115} INFO - [2022-11-25 12:02:26,227] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:26,246] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.336 seconds
+[2022-11-25 12:02:56,452] {processor.py:153} INFO - Started process (PID=2668) to work on /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:56,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py for tasks to queue
+[2022-11-25 12:02:56,455] {logging_mixin.py:115} INFO - [2022-11-25 12:02:56,455] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:57,945] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag05_MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py
+[2022-11-25 12:02:58,004] {logging_mixin.py:115} INFO - [2022-11-25 12:02:58,004] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:58,042] {logging_mixin.py:115} INFO - [2022-11-25 12:02:58,042] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag05_MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:58,069] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag05_MongoDB.py took 1.623 seconds

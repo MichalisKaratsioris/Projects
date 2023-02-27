@@ -1,0 +1,396 @@
+[2022-11-25 11:34:09,606] {processor.py:153} INFO - Started process (PID=827) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:09,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:34:09,608] {logging_mixin.py:115} INFO - [2022-11-25 11:34:09,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:10,570] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:10,762] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,761] {manager.py:508} INFO - Created Permission View: can delete on DAG:GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB
+[2022-11-25 11:34:10,783] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,783] {manager.py:508} INFO - Created Permission View: can read on DAG:GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB
+[2022-11-25 11:34:10,798] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,798] {manager.py:508} INFO - Created Permission View: can edit on DAG:GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB
+[2022-11-25 11:34:10,799] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,799] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:10,811] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,810] {dag.py:2398} INFO - Creating ORM DAG for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB
+[2022-11-25 11:34:10,832] {logging_mixin.py:115} INFO - [2022-11-25 11:34:10,832] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:10,853] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.254 seconds
+[2022-11-25 11:34:42,118] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:42,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:34:42,138] {logging_mixin.py:115} INFO - [2022-11-25 11:34:42,138] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:43,807] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:34:43,891] {logging_mixin.py:115} INFO - [2022-11-25 11:34:43,890] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:34:43,938] {logging_mixin.py:115} INFO - [2022-11-25 11:34:43,937] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:34:43,973] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.863 seconds
+[2022-11-25 11:35:14,552] {processor.py:153} INFO - Started process (PID=894) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:14,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:35:14,564] {logging_mixin.py:115} INFO - [2022-11-25 11:35:14,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:15,194] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:15,217] {logging_mixin.py:115} INFO - [2022-11-25 11:35:15,217] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:15,239] {logging_mixin.py:115} INFO - [2022-11-25 11:35:15,239] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:15,258] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.712 seconds
+[2022-11-25 11:35:45,346] {processor.py:153} INFO - Started process (PID=931) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:45,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:35:45,348] {logging_mixin.py:115} INFO - [2022-11-25 11:35:45,348] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:46,382] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:35:46,428] {logging_mixin.py:115} INFO - [2022-11-25 11:35:46,427] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:35:46,470] {logging_mixin.py:115} INFO - [2022-11-25 11:35:46,470] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:35:46,487] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.144 seconds
+[2022-11-25 11:36:16,826] {processor.py:153} INFO - Started process (PID=959) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:16,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:36:16,828] {logging_mixin.py:115} INFO - [2022-11-25 11:36:16,828] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:17,486] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:17,517] {logging_mixin.py:115} INFO - [2022-11-25 11:36:17,516] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:17,539] {logging_mixin.py:115} INFO - [2022-11-25 11:36:17,539] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:17,556] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.735 seconds
+[2022-11-25 11:36:48,008] {processor.py:153} INFO - Started process (PID=996) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:48,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:36:48,011] {logging_mixin.py:115} INFO - [2022-11-25 11:36:48,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:48,513] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:36:48,539] {logging_mixin.py:115} INFO - [2022-11-25 11:36:48,538] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:36:48,560] {logging_mixin.py:115} INFO - [2022-11-25 11:36:48,560] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:36:48,576] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.573 seconds
+[2022-11-25 11:37:18,654] {processor.py:153} INFO - Started process (PID=1024) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:18,656] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:37:18,658] {logging_mixin.py:115} INFO - [2022-11-25 11:37:18,658] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:19,429] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:19,456] {logging_mixin.py:115} INFO - [2022-11-25 11:37:19,455] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:19,479] {logging_mixin.py:115} INFO - [2022-11-25 11:37:19,479] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:19,495] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.845 seconds
+[2022-11-25 11:37:49,897] {processor.py:153} INFO - Started process (PID=1062) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:49,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:37:49,898] {logging_mixin.py:115} INFO - [2022-11-25 11:37:49,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:50,458] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:37:50,480] {logging_mixin.py:115} INFO - [2022-11-25 11:37:50,480] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:37:50,500] {logging_mixin.py:115} INFO - [2022-11-25 11:37:50,500] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:37:50,515] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.621 seconds
+[2022-11-25 11:38:21,007] {processor.py:153} INFO - Started process (PID=1090) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:21,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:38:21,010] {logging_mixin.py:115} INFO - [2022-11-25 11:38:21,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:21,945] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:21,983] {logging_mixin.py:115} INFO - [2022-11-25 11:38:21,982] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:22,026] {logging_mixin.py:115} INFO - [2022-11-25 11:38:22,025] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:22,082] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.081 seconds
+[2022-11-25 11:38:52,155] {processor.py:153} INFO - Started process (PID=1127) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:52,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:38:52,157] {logging_mixin.py:115} INFO - [2022-11-25 11:38:52,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:53,143] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:38:53,185] {logging_mixin.py:115} INFO - [2022-11-25 11:38:53,184] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:38:53,246] {logging_mixin.py:115} INFO - [2022-11-25 11:38:53,245] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:38:53,280] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.129 seconds
+[2022-11-25 11:39:23,599] {processor.py:153} INFO - Started process (PID=1165) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:23,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:39:23,602] {logging_mixin.py:115} INFO - [2022-11-25 11:39:23,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:24,235] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:24,261] {logging_mixin.py:115} INFO - [2022-11-25 11:39:24,260] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:24,284] {logging_mixin.py:115} INFO - [2022-11-25 11:39:24,284] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:24,299] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.704 seconds
+[2022-11-25 11:39:54,411] {processor.py:153} INFO - Started process (PID=1193) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:54,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:39:54,413] {logging_mixin.py:115} INFO - [2022-11-25 11:39:54,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:55,093] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:39:55,134] {logging_mixin.py:115} INFO - [2022-11-25 11:39:55,134] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:39:55,176] {logging_mixin.py:115} INFO - [2022-11-25 11:39:55,176] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:39:55,191] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.787 seconds
+[2022-11-25 11:40:25,812] {processor.py:153} INFO - Started process (PID=1230) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:25,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:40:25,815] {logging_mixin.py:115} INFO - [2022-11-25 11:40:25,815] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:26,301] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:26,323] {logging_mixin.py:115} INFO - [2022-11-25 11:40:26,322] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:26,341] {logging_mixin.py:115} INFO - [2022-11-25 11:40:26,341] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:26,355] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.548 seconds
+[2022-11-25 11:40:56,479] {processor.py:153} INFO - Started process (PID=1257) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:56,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:40:56,482] {logging_mixin.py:115} INFO - [2022-11-25 11:40:56,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:57,441] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:40:57,524] {logging_mixin.py:115} INFO - [2022-11-25 11:40:57,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:40:57,643] {logging_mixin.py:115} INFO - [2022-11-25 11:40:57,643] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:40:57,677] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.205 seconds
+[2022-11-25 11:41:27,894] {processor.py:153} INFO - Started process (PID=1294) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:41:27,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:41:27,896] {logging_mixin.py:115} INFO - [2022-11-25 11:41:27,896] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:41:28,908] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:41:28,974] {logging_mixin.py:115} INFO - [2022-11-25 11:41:28,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:41:29,034] {logging_mixin.py:115} INFO - [2022-11-25 11:41:29,034] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:41:29,069] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.180 seconds
+[2022-11-25 11:41:59,387] {processor.py:153} INFO - Started process (PID=1322) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:41:59,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:41:59,390] {logging_mixin.py:115} INFO - [2022-11-25 11:41:59,390] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:42:00,413] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:42:00,459] {logging_mixin.py:115} INFO - [2022-11-25 11:42:00,459] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:42:00,485] {logging_mixin.py:115} INFO - [2022-11-25 11:42:00,485] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:42:00,501] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.125 seconds
+[2022-11-25 11:42:30,797] {processor.py:153} INFO - Started process (PID=1360) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:42:30,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:42:30,801] {logging_mixin.py:115} INFO - [2022-11-25 11:42:30,801] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:42:31,895] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:42:31,965] {logging_mixin.py:115} INFO - [2022-11-25 11:42:31,964] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:42:32,046] {logging_mixin.py:115} INFO - [2022-11-25 11:42:32,046] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:42:32,081] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.292 seconds
+[2022-11-25 11:43:02,249] {processor.py:153} INFO - Started process (PID=1397) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:02,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:43:02,253] {logging_mixin.py:115} INFO - [2022-11-25 11:43:02,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:03,591] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:03,675] {logging_mixin.py:115} INFO - [2022-11-25 11:43:03,675] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:03,730] {logging_mixin.py:115} INFO - [2022-11-25 11:43:03,729] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:03,788] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.544 seconds
+[2022-11-25 11:43:34,055] {processor.py:153} INFO - Started process (PID=1425) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:34,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:43:34,058] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,057] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:34,610] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:43:34,629] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,628] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:43:34,647] {logging_mixin.py:115} INFO - [2022-11-25 11:43:34,646] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:43:34,661] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.609 seconds
+[2022-11-25 11:44:05,077] {processor.py:153} INFO - Started process (PID=1462) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:05,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:44:05,079] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:05,786] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:05,835] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:05,879] {logging_mixin.py:115} INFO - [2022-11-25 11:44:05,879] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:05,902] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.829 seconds
+[2022-11-25 11:44:36,114] {processor.py:153} INFO - Started process (PID=1490) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:36,115] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:44:36,116] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,116] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:36,565] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:44:36,584] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,584] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:44:36,601] {logging_mixin.py:115} INFO - [2022-11-25 11:44:36,601] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:44:36,616] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.505 seconds
+[2022-11-25 11:45:07,418] {processor.py:153} INFO - Started process (PID=1527) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:07,422] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:45:07,428] {logging_mixin.py:115} INFO - [2022-11-25 11:45:07,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:08,330] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:08,364] {logging_mixin.py:115} INFO - [2022-11-25 11:45:08,364] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:08,400] {logging_mixin.py:115} INFO - [2022-11-25 11:45:08,400] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:08,426] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.014 seconds
+[2022-11-25 11:45:38,916] {processor.py:153} INFO - Started process (PID=1557) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:38,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:45:38,919] {logging_mixin.py:115} INFO - [2022-11-25 11:45:38,919] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:39,577] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:45:39,601] {logging_mixin.py:115} INFO - [2022-11-25 11:45:39,601] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:45:39,625] {logging_mixin.py:115} INFO - [2022-11-25 11:45:39,625] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:45:39,643] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.731 seconds
+[2022-11-25 11:46:09,910] {processor.py:153} INFO - Started process (PID=1594) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:09,911] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:46:09,912] {logging_mixin.py:115} INFO - [2022-11-25 11:46:09,912] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:10,778] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:10,890] {logging_mixin.py:115} INFO - [2022-11-25 11:46:10,889] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:10,935] {logging_mixin.py:115} INFO - [2022-11-25 11:46:10,934] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:10,956] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.050 seconds
+[2022-11-25 11:46:41,294] {processor.py:153} INFO - Started process (PID=1631) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:41,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:46:41,297] {logging_mixin.py:115} INFO - [2022-11-25 11:46:41,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:42,812] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:46:42,917] {logging_mixin.py:115} INFO - [2022-11-25 11:46:42,916] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:46:42,957] {logging_mixin.py:115} INFO - [2022-11-25 11:46:42,957] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:46:42,988] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.699 seconds
+[2022-11-25 11:47:13,362] {processor.py:153} INFO - Started process (PID=1659) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:13,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:47:13,369] {logging_mixin.py:115} INFO - [2022-11-25 11:47:13,368] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:14,397] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:14,465] {logging_mixin.py:115} INFO - [2022-11-25 11:47:14,465] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:14,491] {logging_mixin.py:115} INFO - [2022-11-25 11:47:14,491] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:14,508] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.163 seconds
+[2022-11-25 11:47:44,773] {processor.py:153} INFO - Started process (PID=1696) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:44,774] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:47:44,775] {logging_mixin.py:115} INFO - [2022-11-25 11:47:44,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:45,310] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:47:45,355] {logging_mixin.py:115} INFO - [2022-11-25 11:47:45,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:47:45,380] {logging_mixin.py:115} INFO - [2022-11-25 11:47:45,380] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:47:45,393] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.626 seconds
+[2022-11-25 11:48:15,516] {processor.py:153} INFO - Started process (PID=1724) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:15,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:48:15,520] {logging_mixin.py:115} INFO - [2022-11-25 11:48:15,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:16,570] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:16,709] {logging_mixin.py:115} INFO - [2022-11-25 11:48:16,708] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:16,755] {logging_mixin.py:115} INFO - [2022-11-25 11:48:16,755] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:16,778] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.267 seconds
+[2022-11-25 11:48:47,009] {processor.py:153} INFO - Started process (PID=1763) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:47,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:48:47,011] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:47,552] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:48:47,586] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,585] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:48:47,617] {logging_mixin.py:115} INFO - [2022-11-25 11:48:47,616] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:48:47,632] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.627 seconds
+[2022-11-25 11:49:17,932] {processor.py:153} INFO - Started process (PID=1793) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:17,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:49:17,934] {logging_mixin.py:115} INFO - [2022-11-25 11:49:17,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:18,486] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:18,579] {logging_mixin.py:115} INFO - [2022-11-25 11:49:18,579] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:18,605] {logging_mixin.py:115} INFO - [2022-11-25 11:49:18,604] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:18,618] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.691 seconds
+[2022-11-25 11:49:48,787] {processor.py:153} INFO - Started process (PID=1830) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:48,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:49:48,789] {logging_mixin.py:115} INFO - [2022-11-25 11:49:48,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:49,623] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:49:49,688] {logging_mixin.py:115} INFO - [2022-11-25 11:49:49,687] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:49:49,732] {logging_mixin.py:115} INFO - [2022-11-25 11:49:49,732] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:49:49,756] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.972 seconds
+[2022-11-25 11:50:20,109] {processor.py:153} INFO - Started process (PID=1867) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:20,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:50:20,112] {logging_mixin.py:115} INFO - [2022-11-25 11:50:20,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:20,905] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:20,960] {logging_mixin.py:115} INFO - [2022-11-25 11:50:20,959] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:21,003] {logging_mixin.py:115} INFO - [2022-11-25 11:50:21,003] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:21,021] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.916 seconds
+[2022-11-25 11:50:51,319] {processor.py:153} INFO - Started process (PID=1895) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:51,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:50:51,321] {logging_mixin.py:115} INFO - [2022-11-25 11:50:51,320] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:52,055] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:50:52,085] {logging_mixin.py:115} INFO - [2022-11-25 11:50:52,085] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:50:52,117] {logging_mixin.py:115} INFO - [2022-11-25 11:50:52,116] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:50:52,135] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.819 seconds
+[2022-11-25 11:51:22,502] {processor.py:153} INFO - Started process (PID=1932) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:22,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:51:22,504] {logging_mixin.py:115} INFO - [2022-11-25 11:51:22,504] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:23,283] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:23,336] {logging_mixin.py:115} INFO - [2022-11-25 11:51:23,335] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:23,363] {logging_mixin.py:115} INFO - [2022-11-25 11:51:23,362] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:23,377] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.879 seconds
+[2022-11-25 11:51:54,071] {processor.py:153} INFO - Started process (PID=1960) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:54,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:51:54,073] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:54,767] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:51:54,820] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,819] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:51:54,864] {logging_mixin.py:115} INFO - [2022-11-25 11:51:54,864] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:51:54,881] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.813 seconds
+[2022-11-25 11:52:25,476] {processor.py:153} INFO - Started process (PID=1997) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:25,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:52:25,478] {logging_mixin.py:115} INFO - [2022-11-25 11:52:25,478] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:26,495] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:26,571] {logging_mixin.py:115} INFO - [2022-11-25 11:52:26,571] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:26,605] {logging_mixin.py:115} INFO - [2022-11-25 11:52:26,605] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:26,645] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.172 seconds
+[2022-11-25 11:52:57,074] {processor.py:153} INFO - Started process (PID=2034) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:57,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:52:57,077] {logging_mixin.py:115} INFO - [2022-11-25 11:52:57,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:58,526] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:52:58,592] {logging_mixin.py:115} INFO - [2022-11-25 11:52:58,592] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:52:58,638] {logging_mixin.py:115} INFO - [2022-11-25 11:52:58,638] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:52:58,664] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.604 seconds
+[2022-11-25 11:53:29,111] {processor.py:153} INFO - Started process (PID=2062) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:53:29,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:53:29,114] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,113] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:53:29,816] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:53:29,869] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,868] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:53:29,907] {logging_mixin.py:115} INFO - [2022-11-25 11:53:29,906] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:53:29,935] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.828 seconds
+[2022-11-25 11:54:00,552] {processor.py:153} INFO - Started process (PID=2099) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:00,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:54:00,554] {logging_mixin.py:115} INFO - [2022-11-25 11:54:00,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:01,276] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:01,375] {logging_mixin.py:115} INFO - [2022-11-25 11:54:01,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:01,428] {logging_mixin.py:115} INFO - [2022-11-25 11:54:01,427] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:01,456] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.907 seconds
+[2022-11-25 11:54:31,578] {processor.py:153} INFO - Started process (PID=2128) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:31,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:54:31,580] {logging_mixin.py:115} INFO - [2022-11-25 11:54:31,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:32,265] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:54:32,333] {logging_mixin.py:115} INFO - [2022-11-25 11:54:32,332] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:54:32,359] {logging_mixin.py:115} INFO - [2022-11-25 11:54:32,359] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:54:32,374] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.800 seconds
+[2022-11-25 11:55:02,562] {processor.py:153} INFO - Started process (PID=2165) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:02,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:55:02,564] {logging_mixin.py:115} INFO - [2022-11-25 11:55:02,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:03,561] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:03,655] {logging_mixin.py:115} INFO - [2022-11-25 11:55:03,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:55:03,691] {logging_mixin.py:115} INFO - [2022-11-25 11:55:03,691] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:55:03,711] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.153 seconds
+[2022-11-25 11:55:34,054] {processor.py:153} INFO - Started process (PID=2203) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:34,055] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:55:34,056] {logging_mixin.py:115} INFO - [2022-11-25 11:55:34,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:35,300] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:55:35,367] {logging_mixin.py:115} INFO - [2022-11-25 11:55:35,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:55:35,396] {logging_mixin.py:115} INFO - [2022-11-25 11:55:35,396] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:55:35,413] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.363 seconds
+[2022-11-25 11:56:06,367] {processor.py:153} INFO - Started process (PID=2231) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:06,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:56:06,370] {logging_mixin.py:115} INFO - [2022-11-25 11:56:06,370] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:07,670] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:07,738] {logging_mixin.py:115} INFO - [2022-11-25 11:56:07,738] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:07,770] {logging_mixin.py:115} INFO - [2022-11-25 11:56:07,770] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:07,790] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.429 seconds
+[2022-11-25 11:56:38,131] {processor.py:153} INFO - Started process (PID=2270) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:38,132] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:56:38,134] {logging_mixin.py:115} INFO - [2022-11-25 11:56:38,134] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:39,062] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:56:39,136] {logging_mixin.py:115} INFO - [2022-11-25 11:56:39,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:56:39,165] {logging_mixin.py:115} INFO - [2022-11-25 11:56:39,165] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:56:39,182] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.057 seconds
+[2022-11-25 11:57:09,517] {processor.py:153} INFO - Started process (PID=2299) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:09,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:57:09,524] {logging_mixin.py:115} INFO - [2022-11-25 11:57:09,524] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:10,483] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:10,566] {logging_mixin.py:115} INFO - [2022-11-25 11:57:10,566] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:10,607] {logging_mixin.py:115} INFO - [2022-11-25 11:57:10,606] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:10,642] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.135 seconds
+[2022-11-25 11:57:41,179] {processor.py:153} INFO - Started process (PID=2336) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:41,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:57:41,181] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:41,807] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:57:41,853] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,852] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:57:41,891] {logging_mixin.py:115} INFO - [2022-11-25 11:57:41,891] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:57:41,911] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.736 seconds
+[2022-11-25 11:58:12,395] {processor.py:153} INFO - Started process (PID=2364) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:12,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:58:12,397] {logging_mixin.py:115} INFO - [2022-11-25 11:58:12,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:13,034] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:13,095] {logging_mixin.py:115} INFO - [2022-11-25 11:58:13,095] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:13,125] {logging_mixin.py:115} INFO - [2022-11-25 11:58:13,125] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:13,144] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.752 seconds
+[2022-11-25 11:58:43,464] {processor.py:153} INFO - Started process (PID=2403) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:43,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:58:43,466] {logging_mixin.py:115} INFO - [2022-11-25 11:58:43,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:44,658] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:58:44,902] {logging_mixin.py:115} INFO - [2022-11-25 11:58:44,900] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:58:44,947] {logging_mixin.py:115} INFO - [2022-11-25 11:58:44,947] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:58:44,968] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.508 seconds
+[2022-11-25 11:59:15,886] {processor.py:153} INFO - Started process (PID=2440) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:15,888] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:59:15,890] {logging_mixin.py:115} INFO - [2022-11-25 11:59:15,890] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:16,841] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:16,889] {logging_mixin.py:115} INFO - [2022-11-25 11:59:16,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:16,925] {logging_mixin.py:115} INFO - [2022-11-25 11:59:16,925] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:16,947] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.066 seconds
+[2022-11-25 11:59:47,234] {processor.py:153} INFO - Started process (PID=2468) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:47,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 11:59:47,242] {logging_mixin.py:115} INFO - [2022-11-25 11:59:47,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:48,948] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 11:59:49,276] {logging_mixin.py:115} INFO - [2022-11-25 11:59:49,275] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 11:59:49,422] {logging_mixin.py:115} INFO - [2022-11-25 11:59:49,420] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 11:59:49,459] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 2.232 seconds
+[2022-11-25 12:00:19,593] {processor.py:153} INFO - Started process (PID=2505) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:19,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:00:19,596] {logging_mixin.py:115} INFO - [2022-11-25 12:00:19,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:20,058] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:20,100] {logging_mixin.py:115} INFO - [2022-11-25 12:00:20,100] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:20,120] {logging_mixin.py:115} INFO - [2022-11-25 12:00:20,120] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:20,133] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.544 seconds
+[2022-11-25 12:00:50,448] {processor.py:153} INFO - Started process (PID=2533) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:50,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:00:50,452] {logging_mixin.py:115} INFO - [2022-11-25 12:00:50,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:51,428] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:00:51,520] {logging_mixin.py:115} INFO - [2022-11-25 12:00:51,519] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:00:51,566] {logging_mixin.py:115} INFO - [2022-11-25 12:00:51,566] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:00:51,586] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.145 seconds
+[2022-11-25 12:01:21,855] {processor.py:153} INFO - Started process (PID=2571) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:21,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:01:21,860] {logging_mixin.py:115} INFO - [2022-11-25 12:01:21,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:22,574] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:22,611] {logging_mixin.py:115} INFO - [2022-11-25 12:01:22,610] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:22,639] {logging_mixin.py:115} INFO - [2022-11-25 12:01:22,639] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:22,658] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 0.808 seconds
+[2022-11-25 12:01:53,210] {processor.py:153} INFO - Started process (PID=2599) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:53,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:01:53,212] {logging_mixin.py:115} INFO - [2022-11-25 12:01:53,212] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:54,283] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:01:54,341] {logging_mixin.py:115} INFO - [2022-11-25 12:01:54,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:01:54,369] {logging_mixin.py:115} INFO - [2022-11-25 12:01:54,369] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:01:54,388] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.182 seconds
+[2022-11-25 12:02:24,913] {processor.py:153} INFO - Started process (PID=2638) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:24,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:02:24,914] {logging_mixin.py:115} INFO - [2022-11-25 12:02:24,914] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:26,051] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:26,168] {logging_mixin.py:115} INFO - [2022-11-25 12:02:26,168] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:26,226] {logging_mixin.py:115} INFO - [2022-11-25 12:02:26,226] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:26,246] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.336 seconds
+[2022-11-25 12:02:56,456] {processor.py:153} INFO - Started process (PID=2669) to work on /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:56,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py for tasks to queue
+[2022-11-25 12:02:56,460] {logging_mixin.py:115} INFO - [2022-11-25 12:02:56,459] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:57,945] {processor.py:651} INFO - DAG(s) dict_keys(['GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB']) retrieved from /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py
+[2022-11-25 12:02:58,005] {logging_mixin.py:115} INFO - [2022-11-25 12:02:58,004] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-25 12:02:58,042] {logging_mixin.py:115} INFO - [2022-11-25 12:02:58,042] {dag.py:2927} INFO - Setting next_dagrun for GFA_Data_Engineering_Exam_dag03_ETL_MSSQL2MongoDB to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-25 12:02:58,069] {processor.py:161} INFO - Processing /opt/airflow/dags/MichalisKaratsioris_dag03_ETL_MSSQL2MongoDB.py took 1.619 seconds

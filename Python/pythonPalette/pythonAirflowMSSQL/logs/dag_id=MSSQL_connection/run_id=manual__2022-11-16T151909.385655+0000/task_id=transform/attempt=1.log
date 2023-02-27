@@ -1,0 +1,23 @@
+[2022-11-16 15:19:17,311] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.transform manual__2022-11-16T15:19:09.385655+00:00 [queued]>
+[2022-11-16 15:19:17,337] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: MSSQL_connection.transform manual__2022-11-16T15:19:09.385655+00:00 [queued]>
+[2022-11-16 15:19:17,338] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 15:19:17,339] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-11-16 15:19:17,340] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-16 15:19:17,370] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): transform> on 2022-11-16 15:19:09.385655+00:00
+[2022-11-16 15:19:17,388] {standard_task_runner.py:52} INFO - Started process 1053 to run task
+[2022-11-16 15:19:17,396] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'MSSQL_connection', 'transform', 'manual__2022-11-16T15:19:09.385655+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/pythonAirflowMSSQL.py', '--cfg-path', '/tmp/tmpgce5d9w8', '--error-file', '/tmp/tmpygm70ke0']
+[2022-11-16 15:19:17,398] {standard_task_runner.py:80} INFO - Job 15: Subtask transform
+[2022-11-16 15:19:17,527] {task_command.py:370} INFO - Running <TaskInstance: MSSQL_connection.transform manual__2022-11-16T15:19:09.385655+00:00 [running]> on host 5036e10e6c0b
+[2022-11-16 15:19:17,650] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=MSSQL_connection
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-16T15:19:09.385655+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-16T15:19:09.385655+00:00
+[2022-11-16 15:19:17,754] {python.py:173} INFO - Done. Returned value was: [[6, 'J6', '6', '6 / J6'], [7, 'J7', '7', '7 / J7']]
+[2022-11-16 15:19:17,890] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=MSSQL_connection, task_id=transform, execution_date=20221116T151909, start_date=20221116T151917, end_date=20221116T151917
+[2022-11-16 15:19:17,973] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-11-16 15:19:18,050] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1 class="m-4 text-center">Welcome {{ name }}!</h1>
+    <div class="text-center">
+        <a href="{{ url_for('home') }}" target=”_blank”>Return to Home Page</a>
+    </div>
+{% endblock content %}

@@ -1,0 +1,54 @@
+USING CLI:
+
+START ZOOKEEPER:
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+START KAFKA: 
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+CREATE TOPIC: 
+.\bin\windows\kafka-topics.bat --create --topic my-first-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4
+
+LIST TOPICS : 
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+CREATE PRODUCER: 
+.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic my-first-topic
+
+CREATE CONSUMER: 
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my-first-topic --from-beginning
+
+STOP KAFKA: 
+.\bin\windows\kafka-server-stop.bat
+
+STOP ZOOKEEPER: 
+.\bin\windows\zookeeper-server-stop.bat
+
+------------------------------------------------------------------------------------------------------------------
+USING DOCKER:
+
+# Start a cluster:
+docker-compose up -d
+
+# Add more brokers:
+docker-compose scale kafka=3
+
+# Enter the Linux sys of the Docker Container
+docker exec -it kafka /bin/sh
+
+# Enter in the following dir
+cd opt/kafka_<version>/bin
+# so that to be able to run easier the following commands
+    - kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic first_kafka_topic
+    - kafka-topics.sh --list --zookeeper zookeeper:2181
+
+# Close the Consumer/Producer
+Ctrl+C
+
+# Exit the Linux sys of the Docker Container
+Ctrl+D
+
+# Destroy a cluster:
+docker-compose stop
+
+docker-compose -f docker-compose-single-broker.yml up

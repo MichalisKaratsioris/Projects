@@ -1,0 +1,784 @@
+[2022-11-16 15:09:53,472] {processor.py:153} INFO - Started process (PID=716) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:09:53,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:09:53,494] {logging_mixin.py:115} INFO - [2022-11-16 15:09:53,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:00,153] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:00,312] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,312] {manager.py:508} INFO - Created Permission View: can read on DAG:MSSQL_connection
+[2022-11-16 15:10:00,332] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,332] {manager.py:508} INFO - Created Permission View: can delete on DAG:MSSQL_connection
+[2022-11-16 15:10:00,346] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,345] {manager.py:508} INFO - Created Permission View: can edit on DAG:MSSQL_connection
+[2022-11-16 15:10:00,347] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,346] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:10:00,364] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,363] {dag.py:2398} INFO - Creating ORM DAG for MSSQL_connection
+[2022-11-16 15:10:00,381] {logging_mixin.py:115} INFO - [2022-11-16 15:10:00,381] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-15T00:00:00+00:00, run_after=2022-11-16T00:00:00+00:00
+[2022-11-16 15:10:00,405] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 7.522 seconds
+[2022-11-16 15:10:33,960] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:33,982] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:10:34,003] {logging_mixin.py:115} INFO - [2022-11-16 15:10:34,002] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:42,919] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:43,201] {logging_mixin.py:115} INFO - [2022-11-16 15:10:43,196] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:10:43,434] {logging_mixin.py:115} INFO - [2022-11-16 15:10:43,434] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-15T00:00:00+00:00, run_after=2022-11-16T00:00:00+00:00
+[2022-11-16 15:10:43,487] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.836 seconds
+[2022-11-16 15:10:52,591] {processor.py:153} INFO - Started process (PID=748) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:10:52,604] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:10:52,616] {logging_mixin.py:115} INFO - [2022-11-16 15:10:52,614] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:11:04,526] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:11:05,498] {logging_mixin.py:115} INFO - [2022-11-16 15:11:05,490] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:11:05,666] {logging_mixin.py:115} INFO - [2022-11-16 15:11:05,664] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-15T00:00:00+00:00, run_after=2022-11-16T00:00:00+00:00
+[2022-11-16 15:11:05,779] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 13.432 seconds
+[2022-11-16 15:11:36,256] {processor.py:153} INFO - Started process (PID=781) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:11:36,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:11:36,261] {logging_mixin.py:115} INFO - [2022-11-16 15:11:36,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:11:38,236] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:11:38,299] {logging_mixin.py:115} INFO - [2022-11-16 15:11:38,297] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:11:38,351] {logging_mixin.py:115} INFO - [2022-11-16 15:11:38,351] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:11:38,375] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.130 seconds
+[2022-11-16 15:12:05,222] {processor.py:153} INFO - Started process (PID=801) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:12:05,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:12:05,226] {logging_mixin.py:115} INFO - [2022-11-16 15:12:05,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:12:23,939] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:12:24,387] {logging_mixin.py:115} INFO - [2022-11-16 15:12:24,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:12:24,746] {logging_mixin.py:115} INFO - [2022-11-16 15:12:24,746] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:12:24,945] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 19.736 seconds
+[2022-11-16 15:12:57,662] {processor.py:153} INFO - Started process (PID=834) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:12:57,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:12:57,837] {logging_mixin.py:115} INFO - [2022-11-16 15:12:57,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:13:06,596] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:13:06,698] {logging_mixin.py:115} INFO - [2022-11-16 15:13:06,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:13:06,748] {logging_mixin.py:115} INFO - [2022-11-16 15:13:06,747] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:13:06,793] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.920 seconds
+[2022-11-16 15:13:37,141] {processor.py:153} INFO - Started process (PID=862) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:13:37,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:13:37,148] {logging_mixin.py:115} INFO - [2022-11-16 15:13:37,148] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:13:39,339] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:13:39,410] {logging_mixin.py:115} INFO - [2022-11-16 15:13:39,403] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:13:39,490] {logging_mixin.py:115} INFO - [2022-11-16 15:13:39,489] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:13:39,524] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.418 seconds
+[2022-11-16 15:14:09,696] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:09,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:14:09,700] {logging_mixin.py:115} INFO - [2022-11-16 15:14:09,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:10,659] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:10,723] {logging_mixin.py:115} INFO - [2022-11-16 15:14:10,718] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:14:10,784] {logging_mixin.py:115} INFO - [2022-11-16 15:14:10,783] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:14:10,810] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.125 seconds
+[2022-11-16 15:14:40,978] {processor.py:153} INFO - Started process (PID=910) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:40,982] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:14:40,985] {logging_mixin.py:115} INFO - [2022-11-16 15:14:40,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:43,393] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:14:43,718] {logging_mixin.py:115} INFO - [2022-11-16 15:14:43,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:14:43,921] {logging_mixin.py:115} INFO - [2022-11-16 15:14:43,921] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:14:43,985] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.028 seconds
+[2022-11-16 15:15:14,617] {processor.py:153} INFO - Started process (PID=930) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:14,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:15:14,624] {logging_mixin.py:115} INFO - [2022-11-16 15:15:14,624] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:18,971] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:19,117] {logging_mixin.py:115} INFO - [2022-11-16 15:15:19,116] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:15:19,232] {logging_mixin.py:115} INFO - [2022-11-16 15:15:19,232] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:15:19,309] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 4.723 seconds
+[2022-11-16 15:15:50,414] {processor.py:153} INFO - Started process (PID=959) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:50,418] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:15:50,426] {logging_mixin.py:115} INFO - [2022-11-16 15:15:50,425] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:56,058] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:56,104] {logging_mixin.py:115} INFO - [2022-11-16 15:15:56,103] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:15:56,145] {logging_mixin.py:115} INFO - [2022-11-16 15:15:56,145] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:15:56,177] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.810 seconds
+[2022-11-16 15:15:58,360] {processor.py:153} INFO - Started process (PID=961) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:15:58,364] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:15:58,368] {logging_mixin.py:115} INFO - [2022-11-16 15:15:58,367] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:16:01,566] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:16:01,847] {logging_mixin.py:115} INFO - [2022-11-16 15:16:01,846] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:16:01,924] {logging_mixin.py:115} INFO - [2022-11-16 15:16:01,924] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:16:02,024] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.680 seconds
+[2022-11-16 15:16:34,656] {processor.py:153} INFO - Started process (PID=990) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:16:34,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:16:34,746] {logging_mixin.py:115} INFO - [2022-11-16 15:16:34,737] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:16:50,104] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:16:50,158] {logging_mixin.py:115} INFO - [2022-11-16 15:16:50,157] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:16:50,199] {logging_mixin.py:115} INFO - [2022-11-16 15:16:50,199] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:16:50,239] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 15.816 seconds
+[2022-11-16 15:17:20,933] {processor.py:153} INFO - Started process (PID=1019) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:20,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:17:20,940] {logging_mixin.py:115} INFO - [2022-11-16 15:17:20,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:22,647] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:22,698] {logging_mixin.py:115} INFO - [2022-11-16 15:17:22,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:17:22,743] {logging_mixin.py:115} INFO - [2022-11-16 15:17:22,743] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:17:22,765] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.854 seconds
+[2022-11-16 15:17:53,209] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:53,212] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:17:53,216] {logging_mixin.py:115} INFO - [2022-11-16 15:17:53,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:55,338] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:17:55,385] {logging_mixin.py:115} INFO - [2022-11-16 15:17:55,384] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:17:55,423] {logging_mixin.py:115} INFO - [2022-11-16 15:17:55,423] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:17:55,445] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.263 seconds
+[2022-11-16 15:18:15,898] {processor.py:153} INFO - Started process (PID=1059) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:18:15,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:18:15,917] {logging_mixin.py:115} INFO - [2022-11-16 15:18:15,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:18:22,516] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:18:22,580] {logging_mixin.py:115} INFO - [2022-11-16 15:18:22,576] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:18:22,649] {logging_mixin.py:115} INFO - [2022-11-16 15:18:22,649] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:18:22,697] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.834 seconds
+[2022-11-16 15:18:53,196] {processor.py:153} INFO - Started process (PID=1080) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:18:53,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:18:53,208] {logging_mixin.py:115} INFO - [2022-11-16 15:18:53,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:19:04,459] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:19:04,529] {logging_mixin.py:115} INFO - [2022-11-16 15:19:04,528] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:19:04,676] {logging_mixin.py:115} INFO - [2022-11-16 15:19:04,674] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:19:04,967] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 11.739 seconds
+[2022-11-16 15:19:35,368] {processor.py:153} INFO - Started process (PID=1109) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:19:35,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:19:35,373] {logging_mixin.py:115} INFO - [2022-11-16 15:19:35,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:19:36,391] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:19:36,416] {logging_mixin.py:115} INFO - [2022-11-16 15:19:36,416] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:19:36,439] {logging_mixin.py:115} INFO - [2022-11-16 15:19:36,439] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:19:36,458] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.104 seconds
+[2022-11-16 15:20:07,052] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:07,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:20:07,057] {logging_mixin.py:115} INFO - [2022-11-16 15:20:07,057] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:08,797] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:08,841] {logging_mixin.py:115} INFO - [2022-11-16 15:20:08,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:20:08,878] {logging_mixin.py:115} INFO - [2022-11-16 15:20:08,878] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:20:08,904] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.863 seconds
+[2022-11-16 15:20:39,222] {processor.py:153} INFO - Started process (PID=1158) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:39,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:20:39,226] {logging_mixin.py:115} INFO - [2022-11-16 15:20:39,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:40,204] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:20:40,357] {logging_mixin.py:115} INFO - [2022-11-16 15:20:40,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:20:40,453] {logging_mixin.py:115} INFO - [2022-11-16 15:20:40,452] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:20:40,489] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.275 seconds
+[2022-11-16 15:21:10,762] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:10,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:21:10,771] {logging_mixin.py:115} INFO - [2022-11-16 15:21:10,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:15,259] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:15,496] {logging_mixin.py:115} INFO - [2022-11-16 15:21:15,494] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:21:15,882] {logging_mixin.py:115} INFO - [2022-11-16 15:21:15,881] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:21:15,996] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.253 seconds
+[2022-11-16 15:21:43,751] {processor.py:153} INFO - Started process (PID=1207) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:43,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:21:44,352] {logging_mixin.py:115} INFO - [2022-11-16 15:21:44,350] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:52,088] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:21:52,620] {logging_mixin.py:115} INFO - [2022-11-16 15:21:52,619] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:21:52,703] {logging_mixin.py:115} INFO - [2022-11-16 15:21:52,702] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:21:52,789] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.309 seconds
+[2022-11-16 15:22:23,818] {processor.py:153} INFO - Started process (PID=1227) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:22:23,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:22:23,834] {logging_mixin.py:115} INFO - [2022-11-16 15:22:23,832] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:22:29,986] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:22:30,131] {logging_mixin.py:115} INFO - [2022-11-16 15:22:30,130] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:22:30,208] {logging_mixin.py:115} INFO - [2022-11-16 15:22:30,208] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:22:30,256] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.497 seconds
+[2022-11-16 15:23:00,608] {processor.py:153} INFO - Started process (PID=1256) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:00,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:23:00,610] {logging_mixin.py:115} INFO - [2022-11-16 15:23:00,610] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:01,390] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:01,432] {logging_mixin.py:115} INFO - [2022-11-16 15:23:01,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:23:01,493] {logging_mixin.py:115} INFO - [2022-11-16 15:23:01,492] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:23:01,537] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.933 seconds
+[2022-11-16 15:23:28,645] {processor.py:153} INFO - Started process (PID=1277) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:28,662] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:23:28,683] {logging_mixin.py:115} INFO - [2022-11-16 15:23:28,682] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:34,220] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:23:34,344] {logging_mixin.py:115} INFO - [2022-11-16 15:23:34,340] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:23:34,415] {logging_mixin.py:115} INFO - [2022-11-16 15:23:34,415] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:23:34,457] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.074 seconds
+[2022-11-16 15:24:04,804] {processor.py:153} INFO - Started process (PID=1297) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:04,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:24:04,812] {logging_mixin.py:115} INFO - [2022-11-16 15:24:04,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:06,985] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:07,062] {logging_mixin.py:115} INFO - [2022-11-16 15:24:07,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:24:07,114] {logging_mixin.py:115} INFO - [2022-11-16 15:24:07,113] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:24:07,164] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.377 seconds
+[2022-11-16 15:24:37,393] {processor.py:153} INFO - Started process (PID=1317) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:37,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:24:37,395] {logging_mixin.py:115} INFO - [2022-11-16 15:24:37,395] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:37,909] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:24:37,938] {logging_mixin.py:115} INFO - [2022-11-16 15:24:37,938] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:24:37,966] {logging_mixin.py:115} INFO - [2022-11-16 15:24:37,966] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:24:37,987] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.599 seconds
+[2022-11-16 15:25:08,698] {processor.py:153} INFO - Started process (PID=1347) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:08,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:25:08,701] {logging_mixin.py:115} INFO - [2022-11-16 15:25:08,701] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:09,368] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:09,419] {logging_mixin.py:115} INFO - [2022-11-16 15:25:09,419] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:25:09,454] {logging_mixin.py:115} INFO - [2022-11-16 15:25:09,454] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:25:09,479] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.784 seconds
+[2022-11-16 15:25:39,845] {processor.py:153} INFO - Started process (PID=1367) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:39,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:25:39,849] {logging_mixin.py:115} INFO - [2022-11-16 15:25:39,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:40,465] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:25:40,512] {logging_mixin.py:115} INFO - [2022-11-16 15:25:40,510] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:25:40,554] {logging_mixin.py:115} INFO - [2022-11-16 15:25:40,554] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:25:40,577] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.740 seconds
+[2022-11-16 15:26:11,906] {processor.py:153} INFO - Started process (PID=1396) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:11,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:26:12,063] {logging_mixin.py:115} INFO - [2022-11-16 15:26:12,063] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:16,718] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:16,811] {logging_mixin.py:115} INFO - [2022-11-16 15:26:16,810] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:26:16,884] {logging_mixin.py:115} INFO - [2022-11-16 15:26:16,883] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:26:16,941] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.123 seconds
+[2022-11-16 15:26:47,685] {processor.py:153} INFO - Started process (PID=1416) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:47,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:26:47,689] {logging_mixin.py:115} INFO - [2022-11-16 15:26:47,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:48,689] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:26:48,758] {logging_mixin.py:115} INFO - [2022-11-16 15:26:48,757] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:26:48,821] {logging_mixin.py:115} INFO - [2022-11-16 15:26:48,819] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:26:48,847] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.171 seconds
+[2022-11-16 15:27:19,062] {processor.py:153} INFO - Started process (PID=1436) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:19,063] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:27:19,064] {logging_mixin.py:115} INFO - [2022-11-16 15:27:19,064] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:20,602] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:20,662] {logging_mixin.py:115} INFO - [2022-11-16 15:27:20,656] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:27:20,724] {logging_mixin.py:115} INFO - [2022-11-16 15:27:20,723] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:27:20,749] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.692 seconds
+[2022-11-16 15:27:50,932] {processor.py:153} INFO - Started process (PID=1465) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:50,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:27:50,935] {logging_mixin.py:115} INFO - [2022-11-16 15:27:50,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:51,638] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:51,669] {logging_mixin.py:115} INFO - [2022-11-16 15:27:51,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:27:51,692] {logging_mixin.py:115} INFO - [2022-11-16 15:27:51,692] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:27:51,708] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.782 seconds
+[2022-11-16 15:27:57,264] {processor.py:153} INFO - Started process (PID=1467) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:57,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:27:57,268] {logging_mixin.py:115} INFO - [2022-11-16 15:27:57,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:58,514] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:27:58,610] {logging_mixin.py:115} INFO - [2022-11-16 15:27:58,609] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:27:58,728] {logging_mixin.py:115} INFO - [2022-11-16 15:27:58,728] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:27:58,877] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.620 seconds
+[2022-11-16 15:28:29,170] {processor.py:153} INFO - Started process (PID=1496) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:28:29,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:28:29,174] {logging_mixin.py:115} INFO - [2022-11-16 15:28:29,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:28:30,044] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:28:30,084] {logging_mixin.py:115} INFO - [2022-11-16 15:28:30,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:28:30,111] {logging_mixin.py:115} INFO - [2022-11-16 15:28:30,111] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:28:30,126] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.960 seconds
+[2022-11-16 15:29:00,320] {processor.py:153} INFO - Started process (PID=1517) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:00,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:29:00,323] {logging_mixin.py:115} INFO - [2022-11-16 15:29:00,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:01,301] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:01,456] {logging_mixin.py:115} INFO - [2022-11-16 15:29:01,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:29:01,504] {logging_mixin.py:115} INFO - [2022-11-16 15:29:01,503] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:29:01,527] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.211 seconds
+[2022-11-16 15:29:20,491] {processor.py:153} INFO - Started process (PID=1528) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:20,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:29:20,499] {logging_mixin.py:115} INFO - [2022-11-16 15:29:20,498] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:22,890] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:22,952] {logging_mixin.py:115} INFO - [2022-11-16 15:29:22,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:29:23,031] {logging_mixin.py:115} INFO - [2022-11-16 15:29:23,030] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:29:23,107] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.640 seconds
+[2022-11-16 15:29:53,596] {processor.py:153} INFO - Started process (PID=1548) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:29:53,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:29:53,602] {logging_mixin.py:115} INFO - [2022-11-16 15:29:53,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:30:00,742] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:30:00,918] {logging_mixin.py:115} INFO - [2022-11-16 15:30:00,916] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:30:01,037] {logging_mixin.py:115} INFO - [2022-11-16 15:30:01,036] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:30:01,114] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 7.526 seconds
+[2022-11-16 15:30:31,743] {processor.py:153} INFO - Started process (PID=1578) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:30:31,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:30:31,752] {logging_mixin.py:115} INFO - [2022-11-16 15:30:31,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:30:34,696] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:30:34,770] {logging_mixin.py:115} INFO - [2022-11-16 15:30:34,769] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:30:34,838] {logging_mixin.py:115} INFO - [2022-11-16 15:30:34,838] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:30:34,893] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.180 seconds
+[2022-11-16 15:31:05,090] {processor.py:153} INFO - Started process (PID=1609) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:05,091] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:31:05,092] {logging_mixin.py:115} INFO - [2022-11-16 15:31:05,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:05,769] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:05,816] {logging_mixin.py:115} INFO - [2022-11-16 15:31:05,814] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:31:05,860] {logging_mixin.py:115} INFO - [2022-11-16 15:31:05,860] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:31:05,885] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.801 seconds
+[2022-11-16 15:31:35,967] {processor.py:153} INFO - Started process (PID=1629) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:35,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:31:35,970] {logging_mixin.py:115} INFO - [2022-11-16 15:31:35,969] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:37,159] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:31:37,531] {logging_mixin.py:115} INFO - [2022-11-16 15:31:37,530] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:31:37,644] {logging_mixin.py:115} INFO - [2022-11-16 15:31:37,643] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:31:37,720] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.756 seconds
+[2022-11-16 15:32:08,286] {processor.py:153} INFO - Started process (PID=1658) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:08,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:32:08,299] {logging_mixin.py:115} INFO - [2022-11-16 15:32:08,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:12,523] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:12,591] {logging_mixin.py:115} INFO - [2022-11-16 15:32:12,589] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:32:12,677] {logging_mixin.py:115} INFO - [2022-11-16 15:32:12,676] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:32:12,713] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 4.484 seconds
+[2022-11-16 15:32:42,916] {processor.py:153} INFO - Started process (PID=1678) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:42,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:32:42,919] {logging_mixin.py:115} INFO - [2022-11-16 15:32:42,919] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:43,687] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:32:43,715] {logging_mixin.py:115} INFO - [2022-11-16 15:32:43,715] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:32:43,742] {logging_mixin.py:115} INFO - [2022-11-16 15:32:43,742] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:32:43,760] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.848 seconds
+[2022-11-16 15:33:14,538] {processor.py:153} INFO - Started process (PID=1707) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:14,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:33:14,633] {logging_mixin.py:115} INFO - [2022-11-16 15:33:14,622] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:20,121] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:20,256] {logging_mixin.py:115} INFO - [2022-11-16 15:33:20,254] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:33:20,615] {logging_mixin.py:115} INFO - [2022-11-16 15:33:20,615] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:33:20,880] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.386 seconds
+[2022-11-16 15:33:51,086] {processor.py:153} INFO - Started process (PID=1727) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:51,088] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:33:51,091] {logging_mixin.py:115} INFO - [2022-11-16 15:33:51,090] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:58,932] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:33:59,088] {logging_mixin.py:115} INFO - [2022-11-16 15:33:59,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:33:59,147] {logging_mixin.py:115} INFO - [2022-11-16 15:33:59,147] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:33:59,184] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 8.113 seconds
+[2022-11-16 15:34:29,701] {processor.py:153} INFO - Started process (PID=1756) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:34:29,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:34:29,713] {logging_mixin.py:115} INFO - [2022-11-16 15:34:29,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:34:35,564] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:34:35,698] {logging_mixin.py:115} INFO - [2022-11-16 15:34:35,690] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:34:35,805] {logging_mixin.py:115} INFO - [2022-11-16 15:34:35,804] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:34:35,845] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.215 seconds
+[2022-11-16 15:35:06,294] {processor.py:153} INFO - Started process (PID=1785) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:06,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:35:06,299] {logging_mixin.py:115} INFO - [2022-11-16 15:35:06,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:07,434] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:07,506] {logging_mixin.py:115} INFO - [2022-11-16 15:35:07,505] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:35:07,594] {logging_mixin.py:115} INFO - [2022-11-16 15:35:07,593] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:35:07,616] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.333 seconds
+[2022-11-16 15:35:11,545] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:11,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:35:11,548] {logging_mixin.py:115} INFO - [2022-11-16 15:35:11,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:12,942] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:12,984] {logging_mixin.py:115} INFO - [2022-11-16 15:35:12,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:35:13,017] {logging_mixin.py:115} INFO - [2022-11-16 15:35:13,017] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:35:13,044] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.504 seconds
+[2022-11-16 15:35:43,276] {processor.py:153} INFO - Started process (PID=1807) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:43,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:35:43,281] {logging_mixin.py:115} INFO - [2022-11-16 15:35:43,281] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:44,910] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:35:45,296] {logging_mixin.py:115} INFO - [2022-11-16 15:35:45,250] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:35:45,928] {logging_mixin.py:115} INFO - [2022-11-16 15:35:45,927] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:35:46,285] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.020 seconds
+[2022-11-16 15:36:16,867] {processor.py:153} INFO - Started process (PID=1835) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:16,873] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:36:16,878] {logging_mixin.py:115} INFO - [2022-11-16 15:36:16,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:19,168] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:19,212] {logging_mixin.py:115} INFO - [2022-11-16 15:36:19,211] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:36:19,253] {logging_mixin.py:115} INFO - [2022-11-16 15:36:19,252] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:36:19,283] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.440 seconds
+[2022-11-16 15:36:49,484] {processor.py:153} INFO - Started process (PID=1855) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:49,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:36:49,487] {logging_mixin.py:115} INFO - [2022-11-16 15:36:49,487] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:50,110] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:36:50,206] {logging_mixin.py:115} INFO - [2022-11-16 15:36:50,205] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:36:50,264] {logging_mixin.py:115} INFO - [2022-11-16 15:36:50,264] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:36:50,300] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.820 seconds
+[2022-11-16 15:37:21,050] {processor.py:153} INFO - Started process (PID=1875) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:37:21,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:37:21,064] {logging_mixin.py:115} INFO - [2022-11-16 15:37:21,063] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:37:30,274] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:37:30,416] {logging_mixin.py:115} INFO - [2022-11-16 15:37:30,415] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:37:30,539] {logging_mixin.py:115} INFO - [2022-11-16 15:37:30,538] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:37:30,600] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.587 seconds
+[2022-11-16 15:38:01,636] {processor.py:153} INFO - Started process (PID=1896) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:01,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:38:01,647] {logging_mixin.py:115} INFO - [2022-11-16 15:38:01,647] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:08,393] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:08,557] {logging_mixin.py:115} INFO - [2022-11-16 15:38:08,548] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:38:08,630] {logging_mixin.py:115} INFO - [2022-11-16 15:38:08,630] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:38:08,693] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 7.245 seconds
+[2022-11-16 15:38:16,846] {processor.py:153} INFO - Started process (PID=1907) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:16,852] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:38:16,859] {logging_mixin.py:115} INFO - [2022-11-16 15:38:16,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:20,417] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:21,245] {logging_mixin.py:115} INFO - [2022-11-16 15:38:21,244] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:38:21,857] {logging_mixin.py:115} INFO - [2022-11-16 15:38:21,857] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:38:22,271] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.432 seconds
+[2022-11-16 15:38:53,206] {processor.py:153} INFO - Started process (PID=1928) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:53,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:38:53,227] {logging_mixin.py:115} INFO - [2022-11-16 15:38:53,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:59,228] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:38:59,353] {logging_mixin.py:115} INFO - [2022-11-16 15:38:59,349] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:38:59,499] {logging_mixin.py:115} INFO - [2022-11-16 15:38:59,498] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:38:59,569] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.439 seconds
+[2022-11-16 15:39:30,645] {processor.py:153} INFO - Started process (PID=1949) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:39:30,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:39:30,650] {logging_mixin.py:115} INFO - [2022-11-16 15:39:30,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:39:36,601] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:39:36,798] {logging_mixin.py:115} INFO - [2022-11-16 15:39:36,795] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:39:36,883] {logging_mixin.py:115} INFO - [2022-11-16 15:39:36,882] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:39:36,938] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 6.324 seconds
+[2022-11-16 15:40:07,453] {processor.py:153} INFO - Started process (PID=1977) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:07,466] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:40:07,472] {logging_mixin.py:115} INFO - [2022-11-16 15:40:07,471] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:09,297] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:09,424] {logging_mixin.py:115} INFO - [2022-11-16 15:40:09,420] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:40:09,504] {logging_mixin.py:115} INFO - [2022-11-16 15:40:09,504] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:40:09,544] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.109 seconds
+[2022-11-16 15:40:39,787] {processor.py:153} INFO - Started process (PID=1997) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:39,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:40:39,810] {logging_mixin.py:115} INFO - [2022-11-16 15:40:39,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:41,032] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:40:41,088] {logging_mixin.py:115} INFO - [2022-11-16 15:40:41,087] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:40:41,134] {logging_mixin.py:115} INFO - [2022-11-16 15:40:41,134] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:40:41,160] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.391 seconds
+[2022-11-16 15:41:11,484] {processor.py:153} INFO - Started process (PID=2017) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:11,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:41:11,491] {logging_mixin.py:115} INFO - [2022-11-16 15:41:11,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:13,074] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:13,128] {logging_mixin.py:115} INFO - [2022-11-16 15:41:13,127] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:41:13,162] {logging_mixin.py:115} INFO - [2022-11-16 15:41:13,162] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:41:13,180] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.700 seconds
+[2022-11-16 15:41:43,321] {processor.py:153} INFO - Started process (PID=2037) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:43,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:41:43,324] {logging_mixin.py:115} INFO - [2022-11-16 15:41:43,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:44,396] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:41:44,456] {logging_mixin.py:115} INFO - [2022-11-16 15:41:44,455] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:41:44,512] {logging_mixin.py:115} INFO - [2022-11-16 15:41:44,512] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:41:44,549] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.234 seconds
+[2022-11-16 15:42:14,799] {processor.py:153} INFO - Started process (PID=2057) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:14,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:42:14,802] {logging_mixin.py:115} INFO - [2022-11-16 15:42:14,802] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:15,575] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:15,608] {logging_mixin.py:115} INFO - [2022-11-16 15:42:15,607] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:42:15,654] {logging_mixin.py:115} INFO - [2022-11-16 15:42:15,654] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:42:15,679] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.886 seconds
+[2022-11-16 15:42:46,327] {processor.py:153} INFO - Started process (PID=2080) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:46,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:42:46,339] {logging_mixin.py:115} INFO - [2022-11-16 15:42:46,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:55,109] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:42:55,270] {logging_mixin.py:115} INFO - [2022-11-16 15:42:55,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:42:55,392] {logging_mixin.py:115} INFO - [2022-11-16 15:42:55,391] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:42:55,499] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 9.205 seconds
+[2022-11-16 15:43:26,206] {processor.py:153} INFO - Started process (PID=2108) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:43:26,212] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 15:43:26,221] {logging_mixin.py:115} INFO - [2022-11-16 15:43:26,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:43:34,429] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 15:43:34,570] {logging_mixin.py:115} INFO - [2022-11-16 15:43:34,561] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 15:43:34,640] {logging_mixin.py:115} INFO - [2022-11-16 15:43:34,640] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 15:43:34,677] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 8.519 seconds
+[2022-11-16 16:01:32,511] {processor.py:153} INFO - Started process (PID=96) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:01:32,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:01:32,543] {logging_mixin.py:115} INFO - [2022-11-16 16:01:32,541] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:02:01,542] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:02:03,110] {logging_mixin.py:115} INFO - [2022-11-16 16:02:03,029] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:02:05,193] {logging_mixin.py:115} INFO - [2022-11-16 16:02:05,192] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:02:06,144] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 33.695 seconds
+[2022-11-16 16:02:43,109] {processor.py:153} INFO - Started process (PID=125) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:02:43,504] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:02:44,057] {logging_mixin.py:115} INFO - [2022-11-16 16:02:43,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:03:32,034] {processor.py:153} INFO - Started process (PID=146) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:03:32,094] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:03:32,222] {logging_mixin.py:115} INFO - [2022-11-16 16:03:32,197] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:04:01,701] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:04:01,905] {logging_mixin.py:115} INFO - [2022-11-16 16:04:01,904] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:04:02,036] {logging_mixin.py:115} INFO - [2022-11-16 16:04:02,036] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:04:02,136] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 32.919 seconds
+[2022-11-16 16:04:32,964] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:04:32,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:04:32,979] {logging_mixin.py:115} INFO - [2022-11-16 16:04:32,978] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:04:34,335] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:04:34,366] {logging_mixin.py:115} INFO - [2022-11-16 16:04:34,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:04:34,398] {logging_mixin.py:115} INFO - [2022-11-16 16:04:34,398] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:04:34,420] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.494 seconds
+[2022-11-16 16:05:04,631] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:04,632] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:05:04,633] {logging_mixin.py:115} INFO - [2022-11-16 16:05:04,633] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:05,281] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:05,315] {logging_mixin.py:115} INFO - [2022-11-16 16:05:05,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:05:05,345] {logging_mixin.py:115} INFO - [2022-11-16 16:05:05,345] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:05:05,366] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.740 seconds
+[2022-11-16 16:05:35,559] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:35,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:05:35,562] {logging_mixin.py:115} INFO - [2022-11-16 16:05:35,562] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:36,065] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:05:36,092] {logging_mixin.py:115} INFO - [2022-11-16 16:05:36,092] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:05:36,116] {logging_mixin.py:115} INFO - [2022-11-16 16:05:36,116] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:05:36,135] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.582 seconds
+[2022-11-16 16:06:06,568] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:06,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:06:06,578] {logging_mixin.py:115} INFO - [2022-11-16 16:06:06,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:10,173] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:10,325] {logging_mixin.py:115} INFO - [2022-11-16 16:06:10,321] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:06:10,430] {logging_mixin.py:115} INFO - [2022-11-16 16:06:10,430] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:06:10,515] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.945 seconds
+[2022-11-16 16:06:41,396] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:41,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:06:41,463] {logging_mixin.py:115} INFO - [2022-11-16 16:06:41,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:49,564] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:06:49,683] {logging_mixin.py:115} INFO - [2022-11-16 16:06:49,682] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:06:49,920] {logging_mixin.py:115} INFO - [2022-11-16 16:06:49,919] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:06:50,041] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 8.695 seconds
+[2022-11-16 16:07:20,536] {processor.py:153} INFO - Started process (PID=295) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:07:20,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:07:20,546] {logging_mixin.py:115} INFO - [2022-11-16 16:07:20,546] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:07:22,409] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:07:22,529] {logging_mixin.py:115} INFO - [2022-11-16 16:07:22,527] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:07:22,656] {logging_mixin.py:115} INFO - [2022-11-16 16:07:22,656] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:07:22,763] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.249 seconds
+[2022-11-16 16:07:54,650] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:07:54,671] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:07:54,701] {logging_mixin.py:115} INFO - [2022-11-16 16:07:54,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:08:06,083] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:08:06,262] {logging_mixin.py:115} INFO - [2022-11-16 16:08:06,261] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:08:06,490] {logging_mixin.py:115} INFO - [2022-11-16 16:08:06,489] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:08:06,558] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 12.437 seconds
+[2022-11-16 16:08:38,212] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:08:38,244] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:08:38,338] {logging_mixin.py:115} INFO - [2022-11-16 16:08:38,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:08:46,592] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:08:46,694] {logging_mixin.py:115} INFO - [2022-11-16 16:08:46,691] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:08:46,801] {logging_mixin.py:115} INFO - [2022-11-16 16:08:46,801] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:08:46,864] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 8.436 seconds
+[2022-11-16 16:09:17,110] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:17,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:09:17,115] {logging_mixin.py:115} INFO - [2022-11-16 16:09:17,115] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:18,560] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:18,628] {logging_mixin.py:115} INFO - [2022-11-16 16:09:18,627] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:09:18,696] {logging_mixin.py:115} INFO - [2022-11-16 16:09:18,696] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:09:18,741] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.640 seconds
+[2022-11-16 16:09:50,057] {processor.py:153} INFO - Started process (PID=375) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:50,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:09:50,083] {logging_mixin.py:115} INFO - [2022-11-16 16:09:50,083] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:55,866] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:09:56,426] {logging_mixin.py:115} INFO - [2022-11-16 16:09:56,415] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:09:56,748] {logging_mixin.py:115} INFO - [2022-11-16 16:09:56,748] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:09:57,061] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 7.076 seconds
+[2022-11-16 16:10:28,360] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:10:28,375] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:10:28,389] {logging_mixin.py:115} INFO - [2022-11-16 16:10:28,389] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:10:33,106] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:10:33,340] {logging_mixin.py:115} INFO - [2022-11-16 16:10:33,328] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:10:33,593] {logging_mixin.py:115} INFO - [2022-11-16 16:10:33,592] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:10:33,731] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.394 seconds
+[2022-11-16 16:11:04,202] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:04,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:11:04,210] {logging_mixin.py:115} INFO - [2022-11-16 16:11:04,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:05,380] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:05,468] {logging_mixin.py:115} INFO - [2022-11-16 16:11:05,466] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:11:05,542] {logging_mixin.py:115} INFO - [2022-11-16 16:11:05,540] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:11:05,568] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.375 seconds
+[2022-11-16 16:11:36,469] {processor.py:153} INFO - Started process (PID=435) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:36,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:11:36,473] {logging_mixin.py:115} INFO - [2022-11-16 16:11:36,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:37,778] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:11:37,860] {logging_mixin.py:115} INFO - [2022-11-16 16:11:37,858] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:11:37,925] {logging_mixin.py:115} INFO - [2022-11-16 16:11:37,924] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:11:37,957] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.498 seconds
+[2022-11-16 16:12:08,267] {processor.py:153} INFO - Started process (PID=455) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:08,270] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:12:08,276] {logging_mixin.py:115} INFO - [2022-11-16 16:12:08,276] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:09,296] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:09,348] {logging_mixin.py:115} INFO - [2022-11-16 16:12:09,347] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:12:09,413] {logging_mixin.py:115} INFO - [2022-11-16 16:12:09,413] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:12:09,445] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.188 seconds
+[2022-11-16 16:12:40,879] {processor.py:153} INFO - Started process (PID=475) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:40,906] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:12:40,943] {logging_mixin.py:115} INFO - [2022-11-16 16:12:40,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:45,030] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:12:45,126] {logging_mixin.py:115} INFO - [2022-11-16 16:12:45,123] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:12:45,204] {logging_mixin.py:115} INFO - [2022-11-16 16:12:45,203] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:12:45,252] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 4.414 seconds
+[2022-11-16 16:13:15,920] {processor.py:153} INFO - Started process (PID=495) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:15,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:13:15,925] {logging_mixin.py:115} INFO - [2022-11-16 16:13:15,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:16,956] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:17,013] {logging_mixin.py:115} INFO - [2022-11-16 16:13:17,011] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:13:17,074] {logging_mixin.py:115} INFO - [2022-11-16 16:13:17,074] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:13:17,125] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.210 seconds
+[2022-11-16 16:13:47,245] {processor.py:153} INFO - Started process (PID=516) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:47,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:13:47,250] {logging_mixin.py:115} INFO - [2022-11-16 16:13:47,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:48,048] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:13:48,083] {logging_mixin.py:115} INFO - [2022-11-16 16:13:48,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:13:48,124] {logging_mixin.py:115} INFO - [2022-11-16 16:13:48,124] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:13:48,142] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.904 seconds
+[2022-11-16 16:14:18,444] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:18,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:14:18,450] {logging_mixin.py:115} INFO - [2022-11-16 16:14:18,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:19,542] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:19,584] {logging_mixin.py:115} INFO - [2022-11-16 16:14:19,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:14:19,630] {logging_mixin.py:115} INFO - [2022-11-16 16:14:19,630] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:14:19,672] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.239 seconds
+[2022-11-16 16:14:50,438] {processor.py:153} INFO - Started process (PID=564) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:50,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:14:50,452] {logging_mixin.py:115} INFO - [2022-11-16 16:14:50,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:56,705] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:14:57,622] {logging_mixin.py:115} INFO - [2022-11-16 16:14:57,610] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:14:57,916] {logging_mixin.py:115} INFO - [2022-11-16 16:14:57,916] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:14:58,168] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 7.764 seconds
+[2022-11-16 16:15:29,157] {processor.py:153} INFO - Started process (PID=579) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:15:29,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:15:29,175] {logging_mixin.py:115} INFO - [2022-11-16 16:15:29,175] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:15:34,100] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:15:34,268] {logging_mixin.py:115} INFO - [2022-11-16 16:15:34,262] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:15:34,441] {logging_mixin.py:115} INFO - [2022-11-16 16:15:34,441] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:15:34,579] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.441 seconds
+[2022-11-16 16:16:05,271] {processor.py:153} INFO - Started process (PID=597) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:05,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:16:05,300] {logging_mixin.py:115} INFO - [2022-11-16 16:16:05,300] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:08,785] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:08,918] {logging_mixin.py:115} INFO - [2022-11-16 16:16:08,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:16:09,121] {logging_mixin.py:115} INFO - [2022-11-16 16:16:09,121] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:16:09,288] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 4.050 seconds
+[2022-11-16 16:16:39,504] {processor.py:153} INFO - Started process (PID=618) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:39,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:16:39,512] {logging_mixin.py:115} INFO - [2022-11-16 16:16:39,512] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:41,414] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:16:41,486] {logging_mixin.py:115} INFO - [2022-11-16 16:16:41,483] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:16:41,565] {logging_mixin.py:115} INFO - [2022-11-16 16:16:41,565] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:16:41,654] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.138 seconds
+[2022-11-16 16:17:11,958] {processor.py:153} INFO - Started process (PID=638) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:11,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:17:11,963] {logging_mixin.py:115} INFO - [2022-11-16 16:17:11,962] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:13,283] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:13,370] {logging_mixin.py:115} INFO - [2022-11-16 16:17:13,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:17:13,536] {logging_mixin.py:115} INFO - [2022-11-16 16:17:13,536] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:17:13,586] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.637 seconds
+[2022-11-16 16:17:43,953] {processor.py:153} INFO - Started process (PID=658) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:43,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:17:43,959] {logging_mixin.py:115} INFO - [2022-11-16 16:17:43,959] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:45,428] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:17:45,521] {logging_mixin.py:115} INFO - [2022-11-16 16:17:45,519] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:17:45,611] {logging_mixin.py:115} INFO - [2022-11-16 16:17:45,608] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:17:45,674] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.733 seconds
+[2022-11-16 16:18:16,096] {processor.py:153} INFO - Started process (PID=679) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:16,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:18:16,103] {logging_mixin.py:115} INFO - [2022-11-16 16:18:16,102] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:17,875] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:17,984] {logging_mixin.py:115} INFO - [2022-11-16 16:18:17,982] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:18:18,085] {logging_mixin.py:115} INFO - [2022-11-16 16:18:18,084] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:18:18,150] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.064 seconds
+[2022-11-16 16:18:48,374] {processor.py:153} INFO - Started process (PID=710) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:48,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:18:48,385] {logging_mixin.py:115} INFO - [2022-11-16 16:18:48,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:50,298] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:18:50,489] {logging_mixin.py:115} INFO - [2022-11-16 16:18:50,488] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:18:50,614] {logging_mixin.py:115} INFO - [2022-11-16 16:18:50,613] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:18:50,686] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.322 seconds
+[2022-11-16 16:19:20,925] {processor.py:153} INFO - Started process (PID=730) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:20,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:19:20,928] {logging_mixin.py:115} INFO - [2022-11-16 16:19:20,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:22,774] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:22,885] {logging_mixin.py:115} INFO - [2022-11-16 16:19:22,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:19:22,983] {logging_mixin.py:115} INFO - [2022-11-16 16:19:22,983] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:19:23,029] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.114 seconds
+[2022-11-16 16:19:53,325] {processor.py:153} INFO - Started process (PID=750) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:53,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:19:53,333] {logging_mixin.py:115} INFO - [2022-11-16 16:19:53,333] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:54,960] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:19:54,993] {logging_mixin.py:115} INFO - [2022-11-16 16:19:54,992] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:19:55,034] {logging_mixin.py:115} INFO - [2022-11-16 16:19:55,034] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:19:55,062] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.744 seconds
+[2022-11-16 16:20:25,318] {processor.py:153} INFO - Started process (PID=770) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:25,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:20:25,324] {logging_mixin.py:115} INFO - [2022-11-16 16:20:25,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:26,030] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:26,077] {logging_mixin.py:115} INFO - [2022-11-16 16:20:26,076] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:20:26,127] {logging_mixin.py:115} INFO - [2022-11-16 16:20:26,127] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:20:26,161] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.851 seconds
+[2022-11-16 16:20:56,385] {processor.py:153} INFO - Started process (PID=790) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:56,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:20:56,388] {logging_mixin.py:115} INFO - [2022-11-16 16:20:56,388] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:57,065] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:20:57,119] {logging_mixin.py:115} INFO - [2022-11-16 16:20:57,118] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:20:57,179] {logging_mixin.py:115} INFO - [2022-11-16 16:20:57,178] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:20:57,222] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.843 seconds
+[2022-11-16 16:21:27,546] {processor.py:153} INFO - Started process (PID=819) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:21:27,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:21:27,557] {logging_mixin.py:115} INFO - [2022-11-16 16:21:27,557] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:21:30,243] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:21:30,344] {logging_mixin.py:115} INFO - [2022-11-16 16:21:30,342] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:21:30,510] {logging_mixin.py:115} INFO - [2022-11-16 16:21:30,507] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:21:30,567] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.033 seconds
+[2022-11-16 16:22:01,357] {processor.py:153} INFO - Started process (PID=839) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:01,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:22:01,414] {logging_mixin.py:115} INFO - [2022-11-16 16:22:01,414] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:04,450] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:04,610] {logging_mixin.py:115} INFO - [2022-11-16 16:22:04,601] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:22:04,715] {logging_mixin.py:115} INFO - [2022-11-16 16:22:04,713] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:22:04,805] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 3.458 seconds
+[2022-11-16 16:22:35,313] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:35,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:22:35,316] {logging_mixin.py:115} INFO - [2022-11-16 16:22:35,316] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:36,771] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:22:36,886] {logging_mixin.py:115} INFO - [2022-11-16 16:22:36,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:22:36,985] {logging_mixin.py:115} INFO - [2022-11-16 16:22:36,984] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:22:37,072] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.768 seconds
+[2022-11-16 16:23:07,498] {processor.py:153} INFO - Started process (PID=880) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:07,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:23:07,503] {logging_mixin.py:115} INFO - [2022-11-16 16:23:07,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:08,521] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:08,595] {logging_mixin.py:115} INFO - [2022-11-16 16:23:08,594] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:23:08,669] {logging_mixin.py:115} INFO - [2022-11-16 16:23:08,669] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:23:08,713] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.221 seconds
+[2022-11-16 16:23:39,499] {processor.py:153} INFO - Started process (PID=900) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:39,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:23:39,590] {logging_mixin.py:115} INFO - [2022-11-16 16:23:39,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:44,539] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:23:44,801] {logging_mixin.py:115} INFO - [2022-11-16 16:23:44,790] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:23:44,944] {logging_mixin.py:115} INFO - [2022-11-16 16:23:44,940] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:23:45,027] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 5.461 seconds
+[2022-11-16 16:24:15,243] {processor.py:153} INFO - Started process (PID=920) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:15,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:24:15,252] {logging_mixin.py:115} INFO - [2022-11-16 16:24:15,251] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:17,009] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:17,173] {logging_mixin.py:115} INFO - [2022-11-16 16:24:17,164] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:24:17,276] {logging_mixin.py:115} INFO - [2022-11-16 16:24:17,275] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:24:17,342] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.116 seconds
+[2022-11-16 16:24:47,542] {processor.py:153} INFO - Started process (PID=940) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:47,545] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:24:47,550] {logging_mixin.py:115} INFO - [2022-11-16 16:24:47,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:48,355] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:24:48,425] {logging_mixin.py:115} INFO - [2022-11-16 16:24:48,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:24:48,531] {logging_mixin.py:115} INFO - [2022-11-16 16:24:48,531] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:24:48,592] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 1.057 seconds
+[2022-11-16 16:25:18,771] {processor.py:153} INFO - Started process (PID=961) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:25:18,773] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 16:25:18,774] {logging_mixin.py:115} INFO - [2022-11-16 16:25:18,774] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:25:19,296] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 16:25:19,325] {logging_mixin.py:115} INFO - [2022-11-16 16:25:19,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 16:25:19,350] {logging_mixin.py:115} INFO - [2022-11-16 16:25:19,350] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 16:25:19,370] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.603 seconds
+[2022-11-16 18:00:26,121] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:00:26,125] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:00:26,131] {logging_mixin.py:115} INFO - [2022-11-16 18:00:26,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:00:28,545] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:00:28,596] {logging_mixin.py:115} INFO - [2022-11-16 18:00:28,595] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:00:28,637] {logging_mixin.py:115} INFO - [2022-11-16 18:00:28,637] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:00:28,656] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.559 seconds
+[2022-11-16 18:00:59,176] {processor.py:153} INFO - Started process (PID=78) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:00:59,183] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:00:59,189] {logging_mixin.py:115} INFO - [2022-11-16 18:00:59,189] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:01:01,413] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:01:01,473] {logging_mixin.py:115} INFO - [2022-11-16 18:01:01,473] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:01:01,517] {logging_mixin.py:115} INFO - [2022-11-16 18:01:01,517] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:01:01,535] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.634 seconds
+[2022-11-16 18:01:31,806] {processor.py:153} INFO - Started process (PID=98) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:01:31,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:01:31,810] {logging_mixin.py:115} INFO - [2022-11-16 18:01:31,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:01:32,626] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:01:32,655] {logging_mixin.py:115} INFO - [2022-11-16 18:01:32,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:01:32,679] {logging_mixin.py:115} INFO - [2022-11-16 18:01:32,679] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:01:32,697] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.908 seconds
+[2022-11-16 18:02:02,848] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:02,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:02:02,851] {logging_mixin.py:115} INFO - [2022-11-16 18:02:02,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:03,279] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:03,377] {logging_mixin.py:115} INFO - [2022-11-16 18:02:03,376] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:02:03,407] {logging_mixin.py:115} INFO - [2022-11-16 18:02:03,407] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:02:03,431] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.592 seconds
+[2022-11-16 18:02:25,736] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:25,740] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:02:25,744] {logging_mixin.py:115} INFO - [2022-11-16 18:02:25,744] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:28,107] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:28,218] {logging_mixin.py:115} INFO - [2022-11-16 18:02:28,216] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:02:28,272] {logging_mixin.py:115} INFO - [2022-11-16 18:02:28,272] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:02:28,558] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 2.845 seconds
+[2022-11-16 18:02:58,751] {processor.py:153} INFO - Started process (PID=168) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:58,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:02:58,758] {logging_mixin.py:115} INFO - [2022-11-16 18:02:58,758] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:59,200] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:02:59,231] {logging_mixin.py:115} INFO - [2022-11-16 18:02:59,231] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:02:59,248] {logging_mixin.py:115} INFO - [2022-11-16 18:02:59,247] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:02:59,261] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.516 seconds
+[2022-11-16 18:03:29,447] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:03:29,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:03:29,450] {logging_mixin.py:115} INFO - [2022-11-16 18:03:29,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:03:30,260] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:03:30,283] {logging_mixin.py:115} INFO - [2022-11-16 18:03:30,283] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:03:30,309] {logging_mixin.py:115} INFO - [2022-11-16 18:03:30,309] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:03:30,432] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.990 seconds
+[2022-11-16 18:04:00,631] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:04:00,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/pythonAirflowMSSQL.py for tasks to queue
+[2022-11-16 18:04:00,640] {logging_mixin.py:115} INFO - [2022-11-16 18:04:00,640] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:04:01,094] {processor.py:651} INFO - DAG(s) dict_keys(['MSSQL_connection']) retrieved from /opt/airflow/dags/pythonAirflowMSSQL.py
+[2022-11-16 18:04:01,113] {logging_mixin.py:115} INFO - [2022-11-16 18:04:01,112] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 18:04:01,131] {logging_mixin.py:115} INFO - [2022-11-16 18:04:01,130] {dag.py:2927} INFO - Setting next_dagrun for MSSQL_connection to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 18:04:01,149] {processor.py:161} INFO - Processing /opt/airflow/dags/pythonAirflowMSSQL.py took 0.521 seconds
