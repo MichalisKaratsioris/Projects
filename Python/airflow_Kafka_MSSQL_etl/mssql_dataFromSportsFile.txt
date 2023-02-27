@@ -1,0 +1,53 @@
+USE live_sports_odds_api
+
+SELECT *
+FROM OPENROWSET (BULK 'C:\Users\GFA Apprentice\Desktop\airflow_projects\elt_pipeline\dags\sports.json', SINGLE_CLOB) AS IMPORT
+
+-- DECLARE @JSON VARCHAR(MAX)
+-- SELECT @JSON=BulkColumn
+-- FROM OPENROWSET (BULK 'C:\Users\GFA Apprentice\Desktop\airflow_projects\elt_pipeline\dags\odds_sql.json', SINGLE_CLOB) IMPORT
+
+-- SELECT *
+-- FROM OPENJSON (@JSON)
+
+DECLARE @JSON VARCHAR(MAX)
+SELECT @JSON=BulkColumn
+FROM OPENROWSET (BULK 'C:\Users\GFA Apprentice\Desktop\airflow_projects\elt_pipeline\dags\sports.json', SINGLE_CLOB) IMPORT
+
+SELECT * INTO sports
+FROM OPENJSON (@JSON)
+WITH (
+     [key] VARCHAR(50),
+     [group] VARCHAR(50),
+     [title] VARCHAR(20),
+     [description] VARCHAR(50),
+     [active] BIT,
+     [has_outrights] BIT
+)
+-- WITH (
+--     id INT,
+--     sport_key VARCHAR(50),
+--     sport_title VARCHAR(20),
+--     commence_time VARCHAR(50),
+--     completed BIT,
+--     home_team VARCHAR(50),
+--     home_team_score INT,
+--     away_team VARCHAR(50),
+--     away_team_score INT,
+--     last_updates VARCHAR(50)
+-- )
+-- WITH(
+--     id INT,
+--     sport_key VARCHAR(50),
+--     sport_title VARCHAR(20),
+--     commence_time VARCHAR(50),
+--     home_team VARCHAR(50),
+--     away_team VARCHAR(50),
+--     bookmaker_key VARCHAR(50),
+--     bookmaker_title VARCHAR(50),
+--     last_update VARCHAR(50),
+--     market_key VARCHAR(50),
+--     market_outcome_label VARCHAR(50),
+--     market_outcome_price INT,
+--     market_outcome_points INT
+-- )

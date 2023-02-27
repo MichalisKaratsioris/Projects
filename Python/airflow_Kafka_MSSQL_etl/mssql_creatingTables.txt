@@ -1,0 +1,47 @@
+USE live_sports_odds_api
+
+-- CREATE TABLE sports(
+--     id INT NOT NULL IDENTITY(1,1),
+--     title VARCHAR(20) NOT NULL PRIMARY KEY,
+--     sport_key VARCHAR(50) NOT NULL,
+--     sport_group VARCHAR(50) NOT NULL,
+--     description VARCHAR(50) NOT NULL,
+--     active BIT NOT NULL,
+--     has_outrights BIT NOT NULL
+-- )
+
+-- CREATE TABLE scores(
+--     id INT NOT NULL,
+--     sport_key VARCHAR(50) NOT NULL,
+--     sport_title VARCHAR(20) NOT NULL,
+--     commence_time VARCHAR(50) NOT NULL,
+--     completed BIT NOT NULL,
+--     home_team VARCHAR(50) NOT NULL,
+--     home_team_score INT NOT NULL,
+--     away_team VARCHAR(50) NOT NULL,
+--     away_team_score INT NOT NULL,
+--     last_updates VARCHAR(50) NOT NULL,
+--     PRIMARY KEY (id, sport_key),
+--     CONSTRAINT FK_Sport_Title FOREIGN KEY (sport_title)
+--     REFERENCES sports(title)
+-- )
+
+-- CREATE TABLE odds(
+--     id INT NOT NULL,
+--     sport_key VARCHAR(50) NOT NULL,
+--     sport_title VARCHAR(20) NOT NULL,
+--     commence_time VARCHAR(50) NOT NULL,
+--     home_team VARCHAR(50) NOT NULL,
+--     away_team VARCHAR(50) NOT NULL,
+--     bookmaker_key VARCHAR(50) NOT NULL,
+--     bookmaker_title VARCHAR(50) NOT NULL,
+--     last_update VARCHAR(50) NOT NULL,
+--     market_key VARCHAR(50) NOT NULL,
+--     market_outcome_label VARCHAR(50) NOT NULL,
+--     market_outcome_price INT NOT NULL,
+--     market_outcome_points INT NOT NULL
+-- )
+
+-- DROP TABLE odds
+-- DROP TABLE scores
+DROP TABLE sports

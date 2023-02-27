@@ -1,0 +1,7 @@
+[ ] Cook
+[ ] Eat
+[ ] Sleep
+[ ] Study
+[ ] Netflix
+[ ] Walk
+[ ] Chess
